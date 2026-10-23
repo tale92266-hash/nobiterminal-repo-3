@@ -2642,6 +2642,20 @@ MD5sum: 1cce2cbdfb1c2ff9f38af71ecf1e3921
 SHA1: 04e8f48309bab3a260b8087d6fc8d8b0ab046913
 SHA256: b6ad64efe7e912e9f970154e0a7aace41cf462b2dcc7c1516927dbd0a5a59e06
 
+Package: libcairomm-1.16
+Architecture: aarch64
+Installed-Size: 596
+Maintainer: @termux
+Version: 1.18.1-1
+Homepage: https://www.cairographics.org/cairomm/
+Depends: libc++, libcairo, libsigc++-3.0
+Description: Provides a C++ interface to cairo
+Filename: ./libcairomm-1.16_1.18.1-1_aarch64.deb
+Size: 95192
+MD5sum: d6acc36285b57a5ceb816a07702dc654
+SHA1: e2176619907006df12e14864a622589382c9f4cc
+SHA256: 17f0f7e00d88a0cd1f86086fcbad8414aa618d8197ff8d0976690b9f945c52bf
+
 Package: libdeflate-static
 Architecture: aarch64
 Installed-Size: 136
@@ -3057,6 +3071,34 @@ Size: 1506720
 MD5sum: 40f2e47748bd9bade8e3564f771ca974
 SHA1: b6534af70fb9e6384fccb5c1e6d58ee8139e3414
 SHA256: a14fa619b6bc31f021ec955ac6beaf0f050836edc9e269949e4ee7fd849e8c08
+
+Package: libglibmm-2.4
+Architecture: aarch64
+Installed-Size: 7348
+Maintainer: @termux
+Version: 2.66.10-1
+Homepage: https://www.gtkmm.org/
+Depends: glib, libc++, libsigc++-2.0
+Description: A C++ API for parts of glib that are useful for C++
+Filename: ./libglibmm-2.4_2.66.10-1_aarch64.deb
+Size: 946356
+MD5sum: 8ae8b690dc28f14966da0a31174474e4
+SHA1: 3a749449768c1ac6291dcee314487c738325c2cd
+SHA256: ddaa8b73560c0fd3235a185f60708c67e92efb834482c81ed360ab13e10fda13
+
+Package: libglibmm-2.68
+Architecture: aarch64
+Installed-Size: 7812
+Maintainer: @termux
+Version: 2.90.0-1
+Homepage: https://www.gtkmm.org/
+Depends: glib, libc++, libsigc++-3.0
+Description: A C++ API for parts of glib that are useful for C++
+Filename: ./libglibmm-2.68_2.90.0-1_aarch64.deb
+Size: 1007208
+MD5sum: 434ce543d97fb618313fdfa711fed171
+SHA1: 325a1bdf04243163b6d4de37fdcb51f057caf51c
+SHA256: 0e3014151b1b3ba56d18b0afe34094f10c083e9a30e84488f7bee9db8467d996
 
 Package: libgnt
 Architecture: aarch64
@@ -4124,6 +4166,76 @@ MD5sum: 906c5467aa4c210f379d2f786d9aeaa5
 SHA1: a9e20d35cfaafe53ff39ecc081635e295ee2b6d1
 SHA256: a0355415a28b4ee417f43e51831140837ddad4a3456c4731e9ddfcf76902f9f0
 
+Package: libp11
+Architecture: aarch64
+Installed-Size: 536
+Maintainer: @termux
+Version: 0.4.21-1
+Homepage: https://github.com/OpenSC/libp11
+Depends: openssl
+Description: PKCS#11 wrapper library
+Filename: ./libp11_0.4.21-1_aarch64.deb
+Size: 85504
+MD5sum: 11a38568e8619f3c3ce5fad2f3c45178
+SHA1: 4d66def0cb4c28e19acbb2cc3f5e50f19df87060
+SHA256: 0d82c19575850ab6f10860da58b31e554a26399df6445d0b7e7d2cb05afc62c7
+
+Package: libpagemaker-static
+Architecture: aarch64
+Installed-Size: 704
+Maintainer: @termux
+Version: 0.0.4-5
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libpagemaker
+Depends: libpagemaker (= 0.0.4-5)
+Description: Static libraries for libpagemaker
+Filename: ./libpagemaker-static_0.0.4-5_aarch64.deb
+Size: 79752
+MD5sum: d4ff69ba3ae61f5b8800ee4b429e2bfd
+SHA1: e3091506c965f62a610078f3c8c0cf2b5a8f2774
+SHA256: 23df094b4b8a420c10bc97a984aeed784ab9aa64f0daa748084de74983f53042
+
+Package: libpagemaker
+Architecture: aarch64
+Installed-Size: 352
+Maintainer: @termux
+Version: 0.0.4-5
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libpagemaker
+Depends: librevenge
+Description: a library that parses the file format of Aldus/Adobe PageMaker documents
+Filename: ./libpagemaker_0.0.4-5_aarch64.deb
+Size: 62772
+MD5sum: 3093245c9ddfda50c988c03e239b8ae2
+SHA1: 34a8b8e61cc5ceda59588c648a507ea302ebcc34
+SHA256: b31d9c13c64a04d5393aadfc96537e733c974013a77730607ce5aea633ec4d12
+
+Package: libpangomm-1.4
+Architecture: aarch64
+Installed-Size: 768
+Maintainer: @termux
+Version: 2.46.5-1
+Homepage: https://www.gtkmm.org/
+Depends: glib, libc++, libcairomm-1.0, libglibmm-2.4, libsigc++-2.0, pango
+Description: A C++ API for Pango
+Filename: ./libpangomm-1.4_2.46.5-1_aarch64.deb
+Size: 97632
+MD5sum: 8f33338e79f8999276a7da49f5d352de
+SHA1: 41fb14ee8325b6ce19d6f5bb9023019f2710c31a
+SHA256: e29a72ff18d39b0bffc3750856e34d4eade15be7c69ffb995fc6e2c4ea92cb51
+
+Package: libpangomm-2.48
+Architecture: aarch64
+Installed-Size: 900
+Maintainer: @termux
+Version: 2.58.0-1
+Homepage: https://www.gtkmm.org/
+Depends: glib, libc++, libcairomm-1.16, libglibmm-2.68, libsigc++-3.0, pango
+Description: A C++ API for Pango
+Filename: ./libpangomm-2.48_2.58.0-1_aarch64.deb
+Size: 119748
+MD5sum: 4fcf9df8e541574b20bb62797ffb48ab
+SHA1: 2bb7620962f973013c919c8e0dea335f3f6a98bc
+SHA256: fef3f3e7e313ba7435bf861af79fcc8ead3fe9cb0f965105cc457eb678094a21
+
 Package: libpano13-static
 Architecture: aarch64
 Installed-Size: 804
@@ -4677,6 +4789,20 @@ Size: 73388
 MD5sum: 89aee1e628e4aff1cc962a9f4ae39331
 SHA1: 48ee55752861ef0ada69ae029f0d3d8ee8cddda2
 SHA256: 432f971516680cf8cf2d333d75e11ae23ce766dabc79c6685cd17cd2ca10a369
+
+Package: libsigc++-3.0
+Architecture: aarch64
+Installed-Size: 472
+Maintainer: @termux
+Version: 3.8.1-1
+Homepage: https://libsigcplusplus.github.io/libsigcplusplus/
+Depends: libc++
+Description: Implements a typesafe callback system for standard C++
+Filename: ./libsigc++-3.0_3.8.1-1_aarch64.deb
+Size: 56940
+MD5sum: c5823110c997f84c795f89f90bc639fe
+SHA1: 00753fde81cd73236ddeabf660cffaee01ee691c
+SHA256: e5f1d9c1600b94a96932fa26c9482c84707f534ce41ddf26a21e5f989cc0238e
 
 Package: libspatialite-static
 Architecture: aarch64
