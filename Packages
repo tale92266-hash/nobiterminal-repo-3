@@ -1659,6 +1659,40 @@ MD5sum: 75a95996999c9bc4d98af6a9e7550187
 SHA1: 7ab2cbf603bc770c07af0cc93c801c88e0fd875b
 SHA256: 67e84fe42803565ce94a45a38b6927abf1bb7bdbd970b3e70f160c416cf386e9
 
+Package: gst-plugins-base
+Architecture: aarch64
+Installed-Size: 12432
+Maintainer: @termux
+Version: 1.28.8-1
+Homepage: https://gstreamer.freedesktop.org/
+Breaks: gst-plugins-base-dev
+Depends: glib, graphene, gstreamer, libandroid-shmem, libjpeg-turbo, libogg, libopus, libpng, libtheora, libvorbis, libx11, libxcb, libxext, libxi, libxv, zlib
+Recommends: opengl
+Replaces: gst-plugins-base-dev
+Description: GStreamer base plug-ins
+Filename: ./gst-plugins-base_1.28.8-1_aarch64.deb
+Size: 1995584
+MD5sum: ebfcdafb0ca669dcf5119157dc91e3ef
+SHA1: d34cdf35af83a5822ec8dca001c1c6dca4f20646
+SHA256: 8a7b1b6adae1131de9fce1e4fac9ee362bf132dcaad5e77a4ada99d63dfdd381
+
+Package: gstreamer
+Architecture: aarch64
+Installed-Size: 9576
+Maintainer: @termux
+Version: 1.28.8-1
+Homepage: https://gstreamer.freedesktop.org/
+Breaks: gstreamer-dev
+Depends: glib
+Replaces: gstreamer-dev
+Suggests: gst-plugins-base, gst-plugins-libav, gst-plugins-good, gst-plugins-bad, gst-plugins-ugly
+Description: Open source multimedia framework
+Filename: ./gstreamer_1.28.8-1_aarch64.deb
+Size: 1345556
+MD5sum: 0cb0844cc688e5d75ca179baaa52db94
+SHA1: 2672db1d94a8da82e10bb604a3dd9127502fda72
+SHA256: df6e634c364730c1f86d717d0a8390e7c0864804c9e56d63225c6f66e94ec1aa
+
 Package: harfbuzz-icu
 Architecture: aarch64
 Installed-Size: 60
@@ -2447,6 +2481,36 @@ MD5sum: b407fd3fb04ba12ab90fc6a080c0a5ff
 SHA1: 659d81583328e0955e253e05634a5d14563b6f57
 SHA256: 90603152aeea03145d2d7fb76c8725a80cf57801eedd688451d9d0db12ac94ba
 
+Package: libass-static
+Architecture: aarch64
+Installed-Size: 340
+Maintainer: @termux
+Version: 0.17.5-1
+Homepage: https://github.com/libass/libass
+Depends: libass (= 0.17.5-1)
+Description: Static libraries for libass
+Filename: ./libass-static_0.17.5-1_aarch64.deb
+Size: 86704
+MD5sum: ee59be54754c2fd6f1dc03cc212aa6b6
+SHA1: b5f10d967ba7c78cd02aee6449100c7b77561c85
+SHA256: 8521dce6a403afc5554f10993a6832885e2ca7b9b7b98e297429df795e307834
+
+Package: libass
+Architecture: aarch64
+Installed-Size: 280
+Maintainer: @termux
+Version: 0.17.5-1
+Homepage: https://github.com/libass/libass
+Breaks: libass-dev
+Depends: fontconfig, fribidi, glib, harfbuzz
+Replaces: libass-dev
+Description: A portable library for SSA/ASS subtitles rendering
+Filename: ./libass_0.17.5-1_aarch64.deb
+Size: 85420
+MD5sum: d2014778d56d973dbfc0945127ad58c1
+SHA1: 012a6349595a21d12fe74341308809d51954ce35
+SHA256: 5d296bfb4180783d849d4284012ecb5de07c37ace04d25c1810d26451e96a2b4
+
 Package: libatomic-ops-static
 Architecture: aarch64
 Installed-Size: 48
@@ -2542,6 +2606,48 @@ Size: 25080
 MD5sum: 36d9081da5a0b06fc5874e387b06cdf2
 SHA1: 43e594481e5ab5550afe59fc7fbdfcfe226df082
 SHA256: 03572cb80a523da1d1df4d657f667688e5fa1d8a0f001a14e9bef0f25fd0fbac
+
+Package: libbluray-static
+Architecture: aarch64
+Installed-Size: 548
+Maintainer: @termux
+Version: 1.5.1-1
+Homepage: https://code.videolan.org/videolan/libbluray/
+Depends: libbluray (= 1.5.1-1)
+Description: Static libraries for libbluray
+Filename: ./libbluray-static_1.5.1-1_aarch64.deb
+Size: 119884
+MD5sum: 02691842502fda007d2939cc7930f72b
+SHA1: 3d03006ffcf037756d6812ccd6aa33ceab611ff8
+SHA256: 212436c8c6e8714bdcd4b8e971c32143134563023bb50aaccf030f46f55f3f82
+
+Package: libbluray-utils
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: @termux
+Version: 1.5.1-1
+Homepage: https://code.videolan.org/videolan/libbluray/
+Depends: libbluray (= 1.5.1-1)
+Description: Example utilities for libbluray
+Filename: ./libbluray-utils_1.5.1-1_aarch64.deb
+Size: 7124
+MD5sum: 6201a517db49dff71c8cf1a5ce6e2bab
+SHA1: eed8d47d1867b14c73d73c215fb26fc0bc760c38
+SHA256: b5798d554f26d0a5ee2a9239b5cc306a4e1573400001c1af048590e98949c20f
+
+Package: libbluray
+Architecture: aarch64
+Installed-Size: 392
+Maintainer: @termux
+Version: 1.5.1-1
+Homepage: https://code.videolan.org/videolan/libbluray/
+Depends: fontconfig, freetype, libudfread, libxml2
+Description: An open-source library designed for Blu-Ray Discs playback for media players
+Filename: ./libbluray_1.5.1-1_aarch64.deb
+Size: 110900
+MD5sum: 36b330e1da7f4c42696d89ff4604804d
+SHA1: 2a50eeac8d706293221dd1c6c0be12cc5e7263c9
+SHA256: f93d6a6a6ff896afab191878614c73fdaa605de1fe1deeaf1aca874c8c7bfb22
 
 Package: libbullet
 Architecture: aarch64
@@ -4054,6 +4160,35 @@ MD5sum: 122fde7dccd961e5129177c646b08d0e
 SHA1: 2f1899514f1850730d682ffe43f8b7065e79e219
 SHA256: 7d8fca0da0fd0f0db33fee32a74964b0d08c36ffbcdb2d682818652ee7367951
 
+Package: libopencore-amr-static
+Architecture: aarch64
+Installed-Size: 544
+Maintainer: @termux
+Version: 0.1.6-2
+Homepage: https://sourceforge.net/projects/opencore-amr/
+Depends: libopencore-amr (= 0.1.6-2)
+Description: Static libraries for libopencore-amr
+Filename: ./libopencore-amr-static_0.1.6-2_aarch64.deb
+Size: 133980
+MD5sum: 84732cc1d5cc3616a3a893207f1742c8
+SHA1: 3f6469e4a868b56d86c210ee8163b5c878bf3fbf
+SHA256: 14eaa6c806962bd4d2b651fd9724d333e36a270ba086bae521661da6b80d7ecd
+
+Package: libopencore-amr
+Architecture: aarch64
+Installed-Size: 284
+Maintainer: @termux
+Version: 0.1.6-2
+Homepage: https://sourceforge.net/projects/opencore-amr/
+Breaks: libopencore-amr-dev
+Replaces: libopencore-amr-dev
+Description: Open source implementation of the Adaptive Multi Rate (AMR) speech codec
+Filename: ./libopencore-amr_0.1.6-2_aarch64.deb
+Size: 108076
+MD5sum: 424d7560619ff821b8293430f4bbdef5
+SHA1: a6664ba944df3dc8e20c303eaaf12e7a9c71b8f3
+SHA256: bd6956aef5c5c4f7c7b3cc974fc5cba7be842b63444344c74a4143ee105ed5d3
+
 Package: liborcus-static
 Architecture: aarch64
 Installed-Size: 6964
@@ -4377,6 +4512,20 @@ Size: 36528
 MD5sum: 818b01bb8b7a6919b45a65f2e9241ca5
 SHA1: 6e26ed6938de71aa73eb42a2d93ecf08bbcf56e3
 SHA256: 83c8d4ab4ceb158a0b32756be8d41b34394257841826c1d560b69dbd4913acba
+
+Package: libplacebo
+Architecture: aarch64
+Installed-Size: 1540
+Maintainer: @termux
+Version: 7.360.1-1
+Homepage: http://libplacebo.org/
+Depends: littlecms, glslang, python, vulkan-icd
+Description: Reusable library for GPU-accelerated video/image rendering
+Filename: ./libplacebo_7.360.1-1_aarch64.deb
+Size: 417264
+MD5sum: 643b009cea9268758480b79b41ce1029
+SHA1: 6a041b43afcbefa054d36438e942f8263d39cb5c
+SHA256: b000ab141bd0bd214c401c68eb410ec53efd64e7a368f3e9f7ce55c349c8104c
 
 Package: libplist-static
 Architecture: aarch64
@@ -4748,6 +4897,75 @@ MD5sum: 7a54f16870643995f8100598123d917a
 SHA1: 10c228b2d46e11e58030f70484c38eb5cc60044a
 SHA256: 8abd48f088c2ccf2605daef45f5384f58b7cabad02cb00c7d5a70d906f170bae
 
+Package: libsamplerate
+Architecture: aarch64
+Installed-Size: 1644
+Maintainer: @termux
+Version: 0.2.2-5
+Homepage: https://libsndfile.github.io/libsamplerate/
+Description: A library for performing sample rate conversion of audio data
+Filename: ./libsamplerate_0.2.2-5_aarch64.deb
+Size: 972140
+MD5sum: fbd316d9b100b2d77e64dff13b877abb
+SHA1: ad5ef3d8062f7805c2126555ae6fda1bb208199a
+SHA256: 70fde4bd4e8c621b9812131f4046d5864149f514f27a6fe191c8fdd610c0cfde
+
+Package: libseccomp-static
+Architecture: aarch64
+Installed-Size: 300
+Maintainer: @termux
+Version: 2.6.1-1
+Homepage: https://github.com/seccomp/libseccomp
+Depends: libseccomp (= 2.6.1-1)
+Description: Static libraries for libseccomp
+Filename: ./libseccomp-static_2.6.1-1_aarch64.deb
+Size: 45164
+MD5sum: 4080bf2594c1436b6e5dd36ddce4b85c
+SHA1: bdd862e7d63eb7b971609134778edc10adeb38db
+SHA256: 0160c5bba06cea08b4903e23690c71e81dc852fd68a06d4af938108d9e809f6a
+
+Package: libseccomp
+Architecture: aarch64
+Installed-Size: 452
+Maintainer: @termux
+Version: 2.6.1-1
+Homepage: https://github.com/seccomp/libseccomp
+Breaks: libseccomp-dev
+Replaces: libseccomp-dev
+Description: Enhanced seccomp library
+Filename: ./libseccomp_2.6.1-1_aarch64.deb
+Size: 77652
+MD5sum: 6d546dca875aed4291fe984149d570fa
+SHA1: c68549e5ecc0c2d95557bab1c79ec9f3a6f59b3e
+SHA256: c665017f44cae5cbb781b2d2fb2f2216ec4211a3dda170c6b4e9643100719bb7
+
+Package: libsecret
+Architecture: aarch64
+Installed-Size: 1184
+Maintainer: @suhan-paradkar
+Version: 0.21.8.2-1
+Homepage: https://gitlab.gnome.org/GNOME/libsecret
+Depends: glib, libgcrypt
+Description: A GObject-based library for accessing the Secret Service API
+Filename: ./libsecret_0.21.8.2-1_aarch64.deb
+Size: 142196
+MD5sum: 6249ceff442ebd40ef7e87c15daa46ed
+SHA1: 08a048eb562210c86461d8bd5175cb404cef6826
+SHA256: dea20f66c008604b01dd3074c3c6dc36d54dc7c87f7eeb7b1d75a0e2889f6205
+
+Package: libsfdo
+Architecture: aarch64
+Installed-Size: 196
+Maintainer: @termux
+Version: 0.1.4-2
+Homepage: https://gitlab.freedesktop.org/vyivel/libsfdo
+Description: A collection of libraries which implement some of the freedesktop.org specifications.
+Filename: ./libsfdo_0.1.4-2_aarch64.deb
+Size: 31272
+MD5sum: 2eacf30874e5124f5a8db98c7ead1e9e
+SHA1: 36faafb525e623fb40017626b2efe918b2281e52
+SHA256: 952573b3008a16e9d1b8d21383229526767b1aea686a1ead748fae032cdc9cfa
+
 Package: libshout-static
 Architecture: aarch64
 Installed-Size: 208
@@ -4803,6 +5021,117 @@ Size: 56940
 MD5sum: c5823110c997f84c795f89f90bc639fe
 SHA1: 00753fde81cd73236ddeabf660cffaee01ee691c
 SHA256: e5f1d9c1600b94a96932fa26c9482c84707f534ce41ddf26a21e5f989cc0238e
+
+Package: libsignal-protocol-c
+Architecture: aarch64
+Installed-Size: 512
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 2.3.3-4
+Homepage: https://github.com/signalapp/libsignal-protocol-c
+Depends: openssl
+Description: Signal Protocol C Library
+Filename: ./libsignal-protocol-c_2.3.3-4_aarch64.deb
+Size: 135580
+MD5sum: 2aea7d1b2f52aa93ca033e485255482c
+SHA1: 55dcfcaeac386b20afa7a550c78e932f5cce6fbb
+SHA256: 970163078ea6276a24795dbc44996e9fc391f251c59d1e66ed394f35633e8d38
+
+Package: libsigsegv-static
+Architecture: aarch64
+Installed-Size: 44
+Maintainer: @termux
+Version: 2.15-1
+Homepage: https://www.gnu.org/software/libsigsegv/
+Depends: libsigsegv (= 2.15-1)
+Description: Static libraries for libsigsegv
+Filename: ./libsigsegv-static_2.15-1_aarch64.deb
+Size: 4716
+MD5sum: c0c853f5d5f4f003adcf35ba89693ec2
+SHA1: 2e48fb90592c5c908d108c81c91daae0ecbbc91d
+SHA256: 757f493e24ea76d0b39997e67f5f97910cda1073bd3e99924498541167d545b9
+
+Package: libsigsegv
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: @termux
+Version: 2.15-1
+Homepage: https://www.gnu.org/software/libsigsegv/
+Breaks: libsigsegv-dev
+Replaces: libsigsegv-dev
+Description: GNU libsigsegv is a library for handling page faults in user mode
+Filename: ./libsigsegv_2.15-1_aarch64.deb
+Size: 7708
+MD5sum: 541fb878518d5f64189252b982b241f7
+SHA1: e99c7578aebc33276ffead21e63c792e659afa78
+SHA256: 72777cf49acc5f56f436a1809c553325d6504a766615f0bf7bfef63cebe00b9b
+
+Package: libsimdutf
+Architecture: aarch64
+Installed-Size: 1164
+Maintainer: @termux
+Version: 9.3.2-1
+Homepage: https://simdutf.github.io/simdutf/
+Description: Unicode validation and transcoding at billions of characters per second
+Filename: ./libsimdutf_9.3.2-1_aarch64.deb
+Size: 133484
+MD5sum: b27bed246360b6f69f69ffabe0f2bdd1
+SHA1: a3a487831749104e7d6fdfa2dfceb12ac7fde97f
+SHA256: 9fee078ed0f826818538a4aa8d048581e36c28ec2baf2aa6d889dd5adc4900a5
+
+Package: libslirp
+Architecture: aarch64
+Installed-Size: 208
+Maintainer: @termux
+Version: 4.9.5-1
+Homepage: https://gitlab.freedesktop.org/slirp/libslirp
+Depends: glib
+Description: A general purpose TCP-IP emulator
+Filename: ./libslirp_4.9.5-1_aarch64.deb
+Size: 54920
+MD5sum: 13c08664ff12c2c22a78ce868219c044
+SHA1: 0dde747746484ea8326ec74b8547df5b66eb13b2
+SHA256: b7224b4fcc4680116e310aa2475438ff0d99fe8e594244cd1ff7083acb101582
+
+Package: libsm
+Architecture: aarch64
+Installed-Size: 336
+Maintainer: @termux
+Version: 1.2.6-2
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libuuid
+Description: X11 Session Management library
+Filename: ./libsm_1.2.6-2_aarch64.deb
+Size: 41252
+MD5sum: d6bc5d1223478b431f963ee9bb8d8f26
+SHA1: db0a4dd28ba306d0a8863aa091654cfc477c2f4e
+SHA256: 459139f5c346e60248cf408a9215a9cb028b8c3faca5c02ac44f93f96d6c9f4f
+
+Package: libsophia-static
+Architecture: aarch64
+Installed-Size: 2128
+Maintainer: @termux
+Version: 2.2-2
+Homepage: http://sophia.systems/
+Depends: libsophia (= 2.2-2)
+Description: Static libraries for libsophia
+Filename: ./libsophia-static_2.2-2_aarch64.deb
+Size: 374776
+MD5sum: 8f1276b772afbec605b731147e475729
+SHA1: 9bdac1a166693606cc252682e1e1e001ed729824
+SHA256: 04763edfe24c9da56ff83f3302a853024666d0067af7c92e88a9e31babaa7283
+
+Package: libsophia
+Architecture: aarch64
+Installed-Size: 268
+Maintainer: @termux
+Version: 2.2-2
+Homepage: http://sophia.systems/
+Description: Advanced transactional MVCC key-value/row storage library
+Filename: ./libsophia_2.2-2_aarch64.deb
+Size: 99536
+MD5sum: 9c9f187def391114593819d27a1d7443
+SHA1: f9448d203c18db2e55198acbc84f78db0fdbeb8f
+SHA256: 22eefa6d4589981e4eaa95a09595136988e380de2bcbc0808c21bc757480bc33
 
 Package: libspatialite-static
 Architecture: aarch64
