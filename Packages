@@ -1,3 +1,140 @@
+Package: freecell-solver
+Architecture: aarch64
+Installed-Size: 844
+Maintainer: 3ls-it <3ls-it@pm.me>
+Version: 6.16.0-3
+Homepage: https://fc-solve.shlomifish.org/
+Description: Freecell Solver is an open source library for automatically solving several variants of Solitaire/Patience card games, including Freecell.
+Filename: ./freecell-solver_6.16.0-3_aarch64.deb
+Size: 173648
+MD5sum: 69485742795f479cabb8c9a42a592b8d
+SHA1: b55fc76d51f3e5b7cdc39d95e9c66e22db1925a2
+SHA256: 11d88ee04f74d8cd8053c3f2e49094bb854f7ccac6ce5c2efb87a30845a7de0d
+
+Package: freecolor
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: @termux
+Version: 0.9.3-2
+Homepage: http://rkeene.org/oss/freecolor/
+Description: Freecolor is a replacement for Linux that displays free memory graphically
+Filename: ./freecolor_0.9.3-2_aarch64.deb
+Size: 5680
+MD5sum: 318d83dfb03d9d908362c9b18aaa382e
+SHA1: 5434ef0fc049229a7896ad4dba01742f43a60880
+SHA256: 88e7c89e232d66facba9cf07d48fca72e1f9c7e823385725a0e10175b091f3f6
+
+Package: freeimage-static
+Architecture: aarch64
+Installed-Size: 11688
+Maintainer: @termux
+Version: 3.18.0-8
+Homepage: https://freeimage.sourceforge.io
+Depends: freeimage (= 3.18.0-8)
+Description: Static libraries for freeimage
+Filename: ./freeimage-static_3.18.0-8_aarch64.deb
+Size: 2182472
+MD5sum: 7a9f75199108712da65bdabe4e7b9f37
+SHA1: 5093a7036aefb25027e6290f51847e8f3c2b5c6c
+SHA256: 845f11ef8bc2e71e9c7f1c7985871089c9b129412404ad530fe3a58a717945ac
+
+Package: freeimage
+Architecture: aarch64
+Installed-Size: 7084
+Maintainer: @termux
+Version: 3.18.0-8
+Homepage: https://freeimage.sourceforge.io
+Depends: libc++
+Description: The library project for developers who would like to support popular graphics image formats
+Filename: ./freeimage_3.18.0-8_aarch64.deb
+Size: 1847416
+MD5sum: 50af476a8fd46db9fae640e97a2242b6
+SHA1: 7960cbd44acbcbc9922c1a04ae029acba7fe15bb
+SHA256: 95493d5b3e1fa298f5844f4a9e80cd21a0564626f301d5d4abfbc8b4bbb97eac
+
+Package: frei0r-plugins
+Architecture: aarch64
+Installed-Size: 4164
+Maintainer: @termux
+Version: 3.6.0-1
+Homepage: https://www.dyne.org/software/frei0r/
+Depends: libc++, libcairo
+Description: Minimalistic plugin API for video effects
+Filename: ./frei0r-plugins_3.6.0-1_aarch64.deb
+Size: 539324
+MD5sum: faf5a7104a2000b22e91d85ccf2cb282
+SHA1: e7f798280bba27a911c36842ba05843709ab694a
+SHA256: 5e4d184c7c7b6e79cbc8baeda982e048636f41b833327f18ec7b2db610e10f6f
+
+Package: fresh-editor
+Architecture: aarch64
+Installed-Size: 47776
+Maintainer: @termux
+Version: 0.5.4-1
+Homepage: https://getfresh.dev/
+Description: Text editor for your terminal: easy, powerful and fast
+Filename: ./fresh-editor_0.5.4-1_aarch64.deb
+Size: 12133916
+MD5sum: 52e35655ee92cd9971093762b9749771
+SHA1: 68f4142d5b0c3849d6affde397368048aa09cd06
+SHA256: 3c5b4f687d7e0edc3b0276c416a7c2fdefec742b770705195c8f1d911b2a3249
+
+Package: frobtads
+Architecture: aarch64
+Installed-Size: 11172
+Maintainer: @termux
+Version: 2.0-6
+Homepage: http://www.tads.org/frobtads.htm
+Depends: libc++, ncurses, libcurl
+Description: TADS is a free authoring system for writing your own Interactive Fiction
+Filename: ./frobtads_2.0-6_aarch64.deb
+Size: 2057204
+MD5sum: b425474378aec726e67f75ebc1ed8d7d
+SHA1: 15206c8af4aec0efce601bde5b0f24ca9c50fbbf
+SHA256: 225aa2b89343a85a0a1a30fffb11abd5704ff794ed138c9d2d3e094cf897cfcd
+
+Package: frp
+Architecture: aarch64
+Installed-Size: 37776
+Maintainer: 2096779623 <admin@utermux.dev>
+Version: 0.71.1-2
+Homepage: https://github.com/fatedier/frp
+Breaks: frpc, frps
+Replaces: frpc, frps
+Description: A fast reverse proxy to expose a local server behind a NAT or firewall to the internet
+Filename: ./frp_0.71.1-2_aarch64.deb
+Size: 9812732
+MD5sum: c3505884a7369ce53f1c51003a4d95c6
+SHA1: 4063182af8395645b1ffd35001feac202d762ccc
+SHA256: 3de43071eb547fb6ffdad087efc07c94b19c681bba42f2635e408551ad1f03e5
+
+Package: fselect
+Architecture: aarch64
+Installed-Size: 5704
+Maintainer: @termux
+Version: 0.10.3-1
+Homepage: https://fselect.rocks/
+Depends: zlib
+Description: Find files with SQL-like queries
+Filename: ./fselect_0.10.3-1_aarch64.deb
+Size: 1962792
+MD5sum: 890024e6bf548279faa6b954fa75b826
+SHA1: b39151c241db6da31d54d7ce36116a3c97a7f8e2
+SHA256: f9ca2a7d220bc00cb00774d08682e14c188acf67aa4dcb172f24632869548df0
+
+Package: fsmon
+Architecture: aarch64
+Installed-Size: 84
+Maintainer: @termux
+Version: 1.8.8-2
+Homepage: https://github.com/nowsecure/fsmon
+Description: Filesystem monitor with fanotify and inotify backends
+Filename: ./fsmon_1.8.8-2_aarch64.deb
+Size: 10228
+MD5sum: ece96346f9a768d03cfed99e5965834b
+SHA1: daecf2ff1f4e220c178d6b3534a636107e72e406
+SHA256: 8a2d741c2b25caf6222673d76c8e8a3de0e6525d5c59baaccb7cd4f802998fb5
+
 Package: gdu
 Architecture: aarch64
 Installed-Size: 22808
