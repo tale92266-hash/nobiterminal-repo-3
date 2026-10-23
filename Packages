@@ -1,3 +1,17 @@
+Package: a52dec
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: @termux
+Version: 0.8.0-4
+Homepage: http://liba52.sourceforge.net/
+Depends: liba52 (= 0.8.0-4)
+Description: A test program for liba52
+Filename: ./a52dec_0.8.0-4_aarch64.deb
+Size: 14376
+MD5sum: b8612c010f9d38a11bf0c988020128d7
+SHA1: 08ba534a83804aed4a7bcb55ab667a5fbb2b3e65
+SHA256: 1bbc5d905ef9f46f8feb1157d73aba5794ca9e5923454a797d812573855c7f97
+
 Package: freecell-solver
 Architecture: aarch64
 Installed-Size: 844
@@ -134,6 +148,36 @@ Size: 10228
 MD5sum: ece96346f9a768d03cfed99e5965834b
 SHA1: daecf2ff1f4e220c178d6b3534a636107e72e406
 SHA256: 8a2d741c2b25caf6222673d76c8e8a3de0e6525d5c59baaccb7cd4f802998fb5
+
+Package: fwknop-static
+Architecture: aarch64
+Installed-Size: 172
+Maintainer: @termux
+Version: 2.6.11-3
+Homepage: https://www.cipherdyne.org/fwknop/
+Depends: fwknop (= 2.6.11-3)
+Description: Static libraries for fwknop
+Filename: ./fwknop-static_2.6.11-3_aarch64.deb
+Size: 35172
+MD5sum: c81c4f6084c5f81b9b255808abdc0edb
+SHA1: 9a982737bf7304230a34198017ce86cd164b40d9
+SHA256: f11ed80bb68b2ac68dcd6a88bc3dfd19c97ff85d731f13883944d9451a090f70
+
+Package: fwknop
+Architecture: aarch64
+Installed-Size: 396
+Maintainer: @termux
+Version: 2.6.11-3
+Homepage: https://www.cipherdyne.org/fwknop/
+Breaks: fwknop-dev
+Depends: gpgme
+Replaces: fwknop-dev
+Description: fwknop: Single Packet Authorization > Port Knocking
+Filename: ./fwknop_2.6.11-3_aarch64.deb
+Size: 99196
+MD5sum: cff4673f2c916b5c634d0c991146d325
+SHA1: 6dd4cdbddfe822e1e45cb498459893b9912ede92
+SHA256: 29b1619cb55585f661719e9b167d60fd3c5e65762a50d4b8927e5bd206909efa
 
 Package: gdu
 Architecture: aarch64
@@ -369,6 +413,63 @@ MD5sum: ed01023f10705c335f778f6631a25743
 SHA1: e892bc130cc0570060de4a80c966f67c9c2c9d2c
 SHA256: bd519ead3a89f798922c101632a3c844d423e50c452312d09ec2f6a1eb768136
 
+Package: git-credential-manager
+Architecture: aarch64
+Installed-Size: 23268
+Maintainer: @termux
+Version: 3.0.1-1
+Homepage: https://aka.ms/gcm
+Depends: dotnet-host, dotnet-runtime-10.0
+Description: Cross-platform Git credential storage for multiple hosting providers
+Filename: ./git-credential-manager_3.0.1-1_aarch64.deb
+Size: 6793788
+MD5sum: 4ad6575de33ad69c4b76985580b80176
+SHA1: b6ff275bd6bf4098efd9fc48f2155437fe98d0d6
+SHA256: 5f70b3fbe0613f71bcbc6203ad71e7960b5ab40752a65ca1d8ec916b4c099adb
+
+Package: git-crypt
+Architecture: aarch64
+Installed-Size: 220
+Maintainer: @termux
+Version: 0.8.0-1
+Homepage: https://www.agwa.name/projects/git-crypt/
+Depends: git, libc++, openssl
+Description: Enables transparent encryption and decryption of files for a git repository
+Filename: ./git-crypt_0.8.0-1_aarch64.deb
+Size: 59656
+MD5sum: 4888d2b8f52ed5668e42d03aff7660e3
+SHA1: 62a2b733e885b2f45c5cf99ffc9bd427c00170f8
+SHA256: 80b1f8f06efedacf7f0f79c4847ded094e2fa73294b4d5b81830f872450278f0
+
+Package: git-delta
+Architecture: aarch64
+Installed-Size: 5500
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.20.1-1
+Homepage: https://dandavison.github.io/delta/
+Depends: git, libgit2, oniguruma
+Description: A syntax-highlighter for git and diff output
+Filename: ./git-delta_0.20.1-1_aarch64.deb
+Size: 2141684
+MD5sum: 096bf6b8c0ba0e9e56db6c54e015d15d
+SHA1: 0e52a95004f11140f9d1027c08f87d01d6b03291
+SHA256: dd3c2f7e867d0b447e066bf73b8df4a5d95259444405657d391ada7356f7a3a5
+
+Package: git-extras
+Architecture: aarch64
+Installed-Size: 792
+Maintainer: @termux
+Version: 7.5.0-1
+Homepage: https://github.com/tj/git-extras
+Depends: bash, git, util-linux, gawk, findutils, ncurses-utils
+Recommends: curl, procps, rsync
+Description: Little git extras.
+Filename: ./git-extras_7.5.0-1_aarch64.deb
+Size: 106024
+MD5sum: cba0d69c134e9bc114a2df05cd665a78
+SHA1: 8067454cf8ff2d4480822ecd61e378b84a835ae9
+SHA256: 0d7671d6dc41d4d34eb0a75137d98bcbc14cc63973567217e72b7d1ce2a850eb
+
 Package: gpgme-static
 Architecture: aarch64
 Installed-Size: 704
@@ -429,6 +530,191 @@ MD5sum: 1511ef07e8117a17026c8e7a4b9db254
 SHA1: 41a84cf566c166c67e412ba6198755cafdf0fc2d
 SHA256: a779c78dd3830610a1642229c52076cc34f22675c71aa4d5bece4f65541a7aef
 
+Package: liba52-static
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: @termux
+Version: 0.8.0-4
+Homepage: http://liba52.sourceforge.net/
+Depends: liba52 (= 0.8.0-4)
+Description: Static libraries for liba52
+Filename: ./liba52-static_0.8.0-4_aarch64.deb
+Size: 15532
+MD5sum: a7cc73852fcef4c9825cce55eceaba21
+SHA1: 6f9af9f951b2ffbabe64f7f6ed5bd9db4876c294
+SHA256: 6ff7e7556f878d4811d75882e6d07e6d07c35e82b6e00910ecc1ea017599a65b
+
+Package: liba52
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: @termux
+Version: 0.8.0-4
+Homepage: http://liba52.sourceforge.net/
+Description: A free library for decoding ATSC A/52 streams
+Filename: ./liba52_0.8.0-4_aarch64.deb
+Size: 15488
+MD5sum: 8fd87180f8e1df28db7535dd21233e8f
+SHA1: 5bd49839c44c512f3e108c51ce77b5e0c6c12949
+SHA256: 79fec1c4d9d1dbbb958609b603b7d50771cc7f0faf1690065ce869e2f7f6b321
+
+Package: libfreexl-static
+Architecture: aarch64
+Installed-Size: 100
+Maintainer: @termux
+Version: 2.0.0-2
+Homepage: https://www.gaia-gis.it/fossil/freexl
+Depends: libfreexl (= 2.0.0-2)
+Description: Static libraries for libfreexl
+Filename: ./libfreexl-static_2.0.0-2_aarch64.deb
+Size: 21396
+MD5sum: f6adbc8075c267d0f45f645e9637299a
+SHA1: e40b747bd13309371d1a2013007f6b39efd03cff
+SHA256: c0a2568e4063861485b0d40154aac5e8cbc9b7d9a5901c6a760586bab160f4ac
+
+Package: libfreexl
+Architecture: aarch64
+Installed-Size: 128
+Maintainer: @termux
+Version: 2.0.0-2
+Homepage: https://www.gaia-gis.it/fossil/freexl
+Depends: libiconv, libminizip, libexpat
+Description: Library to extract valid data from within an Excel (.xls) spreadsheet
+Filename: ./libfreexl_2.0.0-2_aarch64.deb
+Size: 25464
+MD5sum: 29cb9fac94d66386532d46d625890674
+SHA1: dd5ffad12b07ae90e27d2af52e43e66088982e97
+SHA256: f1b2da854099338ff3a2150aaa648c2b4a8dda0daee3f88322e375c91399a0f5
+
+Package: libgeos
+Architecture: aarch64
+Installed-Size: 9720
+Maintainer: Henrik Grimler @Grimler91
+Version: 3.15.0-1
+Homepage: https://geos.osgeo.org/
+Breaks: libgeos-dev
+Depends: libc++
+Replaces: libgeos-dev
+Description: Geometry Engine, C++ port of the Java Topology Suite
+Filename: ./libgeos_3.15.0-1_aarch64.deb
+Size: 1506720
+MD5sum: 40f2e47748bd9bade8e3564f771ca974
+SHA1: b6534af70fb9e6384fccb5c1e6d58ee8139e3414
+SHA256: a14fa619b6bc31f021ec955ac6beaf0f050836edc9e269949e4ee7fd849e8c08
+
+Package: libminizip-static
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: @termux
+Version: 1.3.2-2
+Homepage: https://www.winimage.com/zLibDll/minizip.html
+Depends: libminizip (= 1.3.2-2)
+Description: Static libraries for libminizip
+Filename: ./libminizip-static_1.3.2-2_aarch64.deb
+Size: 18552
+MD5sum: 262fbc6566236b0df151f8c7c70f29dc
+SHA1: 471d24abe0ad109cb23410233f99c28cb7641ed7
+SHA256: 0cdfaa76d7e814144eebcc6bb2a0cd8e27f0fae2f9cb01ab00d226b4a2749af4
+
+Package: libminizip
+Architecture: aarch64
+Installed-Size: 160
+Maintainer: @termux
+Version: 1.3.2-2
+Homepage: https://www.winimage.com/zLibDll/minizip.html
+Depends: zlib
+Description: Mini zip and unzip based on zlib
+Filename: ./libminizip_1.3.2-2_aarch64.deb
+Size: 27240
+MD5sum: 7a8b14bd0886c5de20242ff695c0b0f4
+SHA1: 29c4d7449728c46a3934c1cdf0ffef145371f762
+SHA256: c5f59c40821c71c4a86d25eb32d880717be080d31583278af12717e1e6f5860e
+
+Package: libprotobuf-c-static
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: Henrik Grimler @Grimler91
+Version: 1.5.2-7
+Homepage: https://github.com/protobuf-c/protobuf-c
+Depends: libprotobuf-c (= 1.5.2-7)
+Description: Static libraries for libprotobuf-c
+Filename: ./libprotobuf-c-static_1.5.2-7_aarch64.deb
+Size: 11936
+MD5sum: 74e9f4f9b0dd0ad65820cdfc8bbde330
+SHA1: 005c094646f19e84754b1ced8095fe8fb67637a6
+SHA256: 1612d3f455fc4632a470a4ef5f3a61ff37b79bdff0882cd4eb053e7311f3273d
+
+Package: libprotobuf-c
+Architecture: aarch64
+Installed-Size: 352
+Maintainer: Henrik Grimler @Grimler91
+Version: 1.5.2-7
+Homepage: https://github.com/protobuf-c/protobuf-c
+Breaks: libprotobuf-c-dev
+Depends: abseil-cpp, libc++, libprotobuf, protobuf
+Replaces: libprotobuf-c-dev
+Description: Protocol buffers C library
+Filename: ./libprotobuf-c_1.5.2-7_aarch64.deb
+Size: 84148
+MD5sum: 4a49d6ee13e700913bf8f2f6236a66a3
+SHA1: b3a30d70763c80d3647d566c36bb6ae80b0eb614
+SHA256: 777868f1832f702c885d6d91ac92e0c6906c7462971b4a91a182fd8ca39b7c2c
+
+Package: librttopo-static
+Architecture: aarch64
+Installed-Size: 768
+Maintainer: @termux
+Version: 1.1.0-6
+Homepage: https://git.osgeo.org/gitea/rttopo/librttopo
+Depends: librttopo (= 1.1.0-6)
+Description: Static libraries for librttopo
+Filename: ./librttopo-static_1.1.0-6_aarch64.deb
+Size: 161036
+MD5sum: 2b8f539b6799c4ecfc1f5f6b8e236850
+SHA1: 18316657f722090d56495ce8c844daa1faff4a0c
+SHA256: 1284a98ae9322f5ad1bf732c67811fa5b5bbf137ada8dee569e3700de1831fa4
+
+Package: librttopo
+Architecture: aarch64
+Installed-Size: 576
+Maintainer: @termux
+Version: 1.1.0-6
+Homepage: https://git.osgeo.org/gitea/rttopo/librttopo
+Depends: libgeos, proj
+Description: The RT Topology Library exposes an API to create and manage standard topologies
+Filename: ./librttopo_1.1.0-6_aarch64.deb
+Size: 157512
+MD5sum: 7a54f16870643995f8100598123d917a
+SHA1: 10c228b2d46e11e58030f70484c38eb5cc60044a
+SHA256: 8abd48f088c2ccf2605daef45f5384f58b7cabad02cb00c7d5a70d906f170bae
+
+Package: libspatialite-static
+Architecture: aarch64
+Installed-Size: 15352
+Maintainer: @termux
+Version: 5.1.0-4
+Homepage: https://www.gaia-gis.it/fossil/libspatialite
+Depends: libspatialite (= 5.1.0-4)
+Description: Static libraries for libspatialite
+Filename: ./libspatialite-static_5.1.0-4_aarch64.deb
+Size: 2049176
+MD5sum: bf6894de6fbf947d1379310e5f410fd3
+SHA1: a353f021faf332d5709e48d85955b98301b10eff
+SHA256: 7aa8b12e3cc2ecd815911be0e38491006cf655bb90abefd9c5ae62293e1f7675
+
+Package: libspatialite
+Architecture: aarch64
+Installed-Size: 13996
+Maintainer: @termux
+Version: 5.1.0-4
+Homepage: https://www.gaia-gis.it/fossil/libspatialite
+Depends: libgeos, proj, libfreexl, libsqlite, libxml2, librttopo
+Description: SQLite extension to support spatial data types and operations
+Filename: ./libspatialite_5.1.0-4_aarch64.deb
+Size: 2744440
+MD5sum: 8da970181af89e35d282e3a1737f83ca
+SHA1: a4fce1cbe6a856451d9723ce18226b1f7bb2a38b
+SHA256: 9467299a42e50f0bf82a523f4e86e00ce2ff23ab1a6cd9c3f344a271ed4a76f2
+
 Package: poppler
 Architecture: aarch64
 Installed-Size: 8004
@@ -444,6 +730,36 @@ Size: 1323932
 MD5sum: 3e2ad7c60ad817f882be2668602aede9
 SHA1: 747918254c54b5927d1d7d0af633e04807b29936
 SHA256: 4b9bb97625d0a3bff7a6361eb2b13336272b504ba2640e6e4f0c1212ca8f2ec3
+
+Package: proj
+Architecture: aarch64
+Installed-Size: 15884
+Maintainer: Henrik Grimler @Grimler91
+Version: 9.9.0-1
+Homepage: https://proj.org
+Breaks: proj-dev
+Depends: libc++, libsqlite, sqlite, libtiff, libcurl
+Replaces: proj-dev
+Description: Generic coordinate transformation software
+Filename: ./proj_9.9.0-1_aarch64.deb
+Size: 2490332
+MD5sum: 988d06abe4707c348f1b47d3df884790
+SHA1: 5f2b44e9d2247976990c40ba4ba4bec0ead1c592
+SHA256: 16068c4ad99543761ee5c0b2c7070e40d29181f0bbda32ffa73569a917c214a5
+
+Package: rsync
+Architecture: aarch64
+Installed-Size: 664
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 3.5.1-1
+Homepage: https://rsync.samba.org/
+Depends: libiconv, libidn2, liblz4, libpopt, openssh | dropbear, openssl, openssl-tool, xxhash, zlib, zstd
+Description: Fast incremental file transfer utility
+Filename: ./rsync_3.5.1-1_aarch64.deb
+Size: 308568
+MD5sum: 575ec0d5ab11fd49dd7a023e88114aca
+SHA1: 6e505b7f91463ecfa676418ff91bc1f33001fb7d
+SHA256: 27a7d818f5a81aa3258ac7f2e01a9d13393c11a7eff359e562b8cc0086976f60
 
 Package: xerces-c-static
 Architecture: aarch64
