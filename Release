@@ -2,16 +2,16 @@ Origin: NobiTerminal
 Label: NobiTerminal
 Suite: stable
 Codename: stable
-Date: Fri, 23 Oct 2026 15:08:17 GMT
+Date: Fri, 23 Oct 2026 16:05:45 GMT
 Architectures: aarch64 all
 Components: main
 Description: NobiTerminal custom-built packages for the com.nobiterminal prefix
 MD5Sum:
- 897041fdba06990f47f67b701301cf03           157612 Packages
- 3bc20281c6cbf657c8a8ef5ff48ae556            55391 Packages.gz
+ 07bc04154f6d37272d4867cf491acf10           179541 Packages
+ c688afb49d14946ab866f1e3a1e5505f            62854 Packages.gz
 SHA1:
- d7a7450e14d5a1fb24afd3387f5815b593d2ae63           157612 Packages
- e5a46f9457f0c277ca6f398b77c4dbcc6edd4b8e            55391 Packages.gz
+ a9ebd4916bee97547f29e46c3219ab5a7dddd859           179541 Packages
+ e2c5892bc7bdace6149d50264bb380ea7f7efa48            62854 Packages.gz
 SHA256:
- 087df7e0ea63c6786a10bcfb74b327ad90de43d29b5fab42b3b2635ec01ee07d           157612 Packages
- d9a4d07ff9760f29868588f7dd8492d0cc2e1ffc94b7119e5442d71401350f4c            55391 Packages.gz
+ 0fbeff13a1d9aa7820d5ef41de3eb0f3cb7de938028df8c4fce4559af9290945           179541 Packages
+ 5086c68199cde3b2797300876d49cd5035386aa7cd08d26f914b9ab6c6f7cbd7            62854 Packages.gz
