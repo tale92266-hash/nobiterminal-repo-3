@@ -12,6 +12,62 @@ MD5sum: b8612c010f9d38a11bf0c988020128d7
 SHA1: 08ba534a83804aed4a7bcb55ab667a5fbb2b3e65
 SHA256: 1bbc5d905ef9f46f8feb1157d73aba5794ca9e5923454a797d812573855c7f97
 
+Package: cmatrix
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: @termux
+Version: 2.0-2
+Homepage: https://github.com/abishekvashok/cmatrix
+Depends: ncurses
+Description: Command producing a Matrix-style animation
+Filename: ./cmatrix_2.0-2_aarch64.deb
+Size: 7712
+MD5sum: ac4df1957df3c3e7e5527f188c827430
+SHA1: b9b08244bf92177225bac425f2e46a82a8f660ac
+SHA256: ece264549d74957dbf6e0d54887474155cd23fdc616a23a90b22ae96d5950482
+
+Package: crystal
+Architecture: aarch64
+Installed-Size: 29412
+Maintainer: @HertzDevil
+Version: 1.22.1-1
+Homepage: https://crystal-lang.org
+Depends: libc++, libevent, libgc, libgmp, libiconv, libllvm (<< 22), libxml2, libyaml, openssl, pcre2, zlib
+Recommends: clang, libffi, make, pkg-config
+Description: Fast and statically typed, compiled language with Ruby-like syntax
+Filename: ./crystal_1.22.1-1_aarch64.deb
+Size: 4507632
+MD5sum: 3211c237413fb74e62359add54d83d83
+SHA1: 1341941c849d4360bd56a9902981159c54b53044
+SHA256: 43ce0c3e6b6c3e826840e4bd356a9c2be7c474a5e8a43a7ebd9e3241a989e1d1
+
+Package: duckdb
+Architecture: aarch64
+Installed-Size: 51840
+Maintainer: @termux
+Version: 2.0.0-1
+Homepage: https://duckdb.org/
+Depends: libduckdb (= 2.0.0-1)
+Description: DuckDB Command Line Interface (CLI) shell
+Filename: ./duckdb_2.0.0-1_aarch64.deb
+Size: 10957356
+MD5sum: e86a9bb2decc099f2bb516d3046ad362
+SHA1: 494e37482bb37ad41310a1fc49f0f82fa149d424
+SHA256: 61d0d1a6314bd74fd1073a0e29cd06f59147d509802c37066a27fbbb4ebab747
+
+Package: duktape
+Architecture: aarch64
+Installed-Size: 348
+Maintainer: @termux
+Version: 2.7.0-3
+Homepage: https://www.duktape.org/
+Description: Simple REPL for Duktape
+Filename: ./duktape_2.7.0-3_aarch64.deb
+Size: 129980
+MD5sum: 0fce14e6b096dfd88e61270853279ef1
+SHA1: b9c26f719b1a87fc979d014cf41779a499601f94
+SHA256: 334e7862ca56cf40d08ae997a0fed9c1dd003f5da0b81051f37c8aa780987911
+
 Package: freecell-solver
 Architecture: aarch64
 Installed-Size: 844
@@ -178,6 +234,19 @@ Size: 99196
 MD5sum: cff4673f2c916b5c634d0c991146d325
 SHA1: 6dd4cdbddfe822e1e45cb498459893b9912ede92
 SHA256: 29b1619cb55585f661719e9b167d60fd3c5e65762a50d4b8927e5bd206909efa
+
+Package: fx
+Architecture: aarch64
+Installed-Size: 15908
+Maintainer: @flosnvjx
+Version: 40.0.1-1
+Homepage: https://github.com/antonmedv/fx
+Description: Interactive JSON viewer on your terminal
+Filename: ./fx_40.0.1-1_aarch64.deb
+Size: 3837784
+MD5sum: ffaed675a2af7a55bc1c04a19806b482
+SHA1: 4c5e55e9fd15b46965444cfff00f83b1f2f13190
+SHA256: 5a20fcac581884270f85466162cdcd00406e21ba4515547be623e076ee635ace
 
 Package: gdu
 Architecture: aarch64
@@ -469,6 +538,102 @@ Size: 106024
 MD5sum: cba0d69c134e9bc114a2df05cd665a78
 SHA1: 8067454cf8ff2d4480822ecd61e378b84a835ae9
 SHA256: 0d7671d6dc41d4d34eb0a75137d98bcbc14cc63973567217e72b7d1ce2a850eb
+
+Package: git-sizer
+Architecture: aarch64
+Installed-Size: 3984
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 1.5.0-7
+Homepage: https://github.com/github/git-sizer
+Depends: git
+Description: Compute various size metrics for a Git repository
+Filename: ./git-sizer_1.5.0-7_aarch64.deb
+Size: 1154500
+MD5sum: f3fc3c23d25f35d9f25f69852702d604
+SHA1: 90335fc25fd30c79b3045673018c48c84add6f48
+SHA256: a4f8435c7aa1ec2858428058404254aa92483e8a7a189902f8f1365dd0ab0cc6
+
+Package: git-town
+Architecture: aarch64
+Installed-Size: 25624
+Maintainer: @termux
+Version: 24.1.0-2
+Homepage: https://www.git-town.com
+Description: Git branches made easy
+Filename: ./git-town_24.1.0-2_aarch64.deb
+Size: 5057748
+MD5sum: cfbc1765b0f5fb0d01a3e09fd00f6e23
+SHA1: ff41a3ee3869b883d7cac83c37642d0b0b0ee933
+SHA256: 1e7d5cd50ca0d27cfa6a446e337d602219147a99bddebb1c3d156663896983b3
+
+Package: gitea
+Architecture: aarch64
+Installed-Size: 126548
+Maintainer: @termux
+Version: 28.2.0-2
+Homepage: https://gitea.io
+Depends: dash, git
+Description: Git with a cup of tea, painless self-hosted git service
+Filename: ./gitea_28.2.0-2_aarch64.deb
+Size: 33385312
+MD5sum: ca6803c6788074cabba5358bf23041fd
+SHA1: 35ec2f130ccae58ec3d0fce4465870827cee9460
+SHA256: 291c8395f1e27456f6bee1bb9cf549774873442dcba9cbd58b5881f40fcf52a4
+
+Package: gitflow-avh
+Architecture: all
+Installed-Size: 448
+Maintainer: @termux
+Version: 1.12.3-10
+Homepage: https://github.com/petervanderdoes/gitflow/
+Depends: dash, git
+Description: Extend git with Vincent Driessen's branching model. The AVH Edition adds more functionality.
+Filename: ./gitflow-avh_1.12.3-10_all.deb
+Size: 31488
+MD5sum: c792da8722c58eb9931164312b766f9e
+SHA1: 587013790c1c42314e2f1d4ae45a237d15f33d8c
+SHA256: c4af2bbb511360abd5331e735d6eb574ebcb5b5b0806f03f9591dff869194e2e
+
+Package: gitleaks
+Architecture: aarch64
+Installed-Size: 16760
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 8.30.1-3
+Homepage: https://github.com/gitleaks/gitleaks
+Description: Detect secrets like passwords, API keys, and tokens in git repos and files
+Filename: ./gitleaks_8.30.1-3_aarch64.deb
+Size: 4596584
+MD5sum: c4cf72928c9d8da2d2762fb4a0354820
+SHA1: 234d50da84ab418cb3b69f35c8dffa849398aaec
+SHA256: ea64a92350864eb8e7ae52bd95b70a18d7399c1ae520b9c1577e50c1f1d02312
+
+Package: gitoxide
+Architecture: aarch64
+Installed-Size: 32176
+Maintainer: @termux
+Version: 0.60.0-1
+Homepage: https://github.com/GitoxideLabs/gitoxide
+Depends: resolv-conf
+Description: Rust implementation of Git
+Filename: ./gitoxide_0.60.0-1_aarch64.deb
+Size: 8665512
+MD5sum: da96c95c1c8eaa18cc883406220e41b4
+SHA1: cf92a99219a9f7a10718a2bc00430637f2544d76
+SHA256: 0348f69f585ae7878344fc3c9c82f105cb3c44752b6d653c9af3568bc06768f9
+
+Package: gitui
+Architecture: aarch64
+Installed-Size: 7604
+Maintainer: @termux
+Version: 0.28.1-1
+Homepage: https://github.com/gitui-org/gitui
+Depends: libgit2, libssh2, openssl, zlib
+Description: Blazing fast terminal-ui for git written in rust
+Filename: ./gitui_0.28.1-1_aarch64.deb
+Size: 3300956
+MD5sum: 62a3cc0d5f2fdceabfcb19f8aed47768
+SHA1: 7b59cb17081daa45953458f0e2a1644930470daf
+SHA256: 90a332d025958353946bf4a63d982820ad95ae903659afeea669d019d26c2e62
 
 Package: gkermit
 Architecture: aarch64
@@ -1183,6 +1348,190 @@ MD5sum: b1ebd6dbd85a93347e1b0190f9f74e1a
 SHA1: 45712402a34a9c55afd2a8312dbc8bf589d110af
 SHA256: 0950207941e7bc8fefbb5221afda2865d464142683861b15952009be385677d9
 
+Package: hollywood
+Architecture: all
+Installed-Size: 2468
+Maintainer: @termux
+Version: 1.25-1
+Homepage: https://launchpad.net/hollywood
+Depends: bmon, byobu, cmatrix, coreutils, dash, gawk, htop, mandoc, tree, util-linux
+Recommends: apg
+Description: Fill your console with Hollywood melodrama technobabble
+Filename: ./hollywood_1.25-1_all.deb
+Size: 2280484
+MD5sum: 36a691a308a448032fcf030403250cb4
+SHA1: 37cf21f0514fa9518745763d8eb1a5f18b657846
+SHA256: 2e467990cbb0c3015159228f0e80e9a6554717bfe3e1ba91276c8224c2cc1ca8
+
+Package: hors
+Architecture: aarch64
+Installed-Size: 7736
+Maintainer: Krishna Kanhaiya @kcubeterm
+Version: 0.8.2-4
+Homepage: https://github.com/WindSoilder/hors
+Description: Instant coding answers via the command line (howdoi in rust)
+Filename: ./hors_0.8.2-4_aarch64.deb
+Size: 2410544
+MD5sum: 5f9ace6dda5b80e7095d04ff0be6d16b
+SHA1: 04f2e2226938c56763d14d7d52ddaa80412fdfd9
+SHA256: 9a0923508f73fdaeb4bc01368d2d2dd05ed9d25089566ee9b620610f7d57b44e
+
+Package: hstr
+Architecture: aarch64
+Installed-Size: 160
+Maintainer: @termux
+Version: 3.2-1
+Homepage: https://github.com/dvorka/hstr
+Depends: ncurses, readline
+Description: Shell history suggest box for bash and zsh
+Filename: ./hstr_3.2-1_aarch64.deb
+Size: 22448
+MD5sum: 0c3ba339b6a65d5979a62a14a0b34d9c
+SHA1: 9077750087d5a0d1abbb8ebff5723b7716a1df9d
+SHA256: c3f0c5f114af3edaf8bb5206f891bf5af04e520398428fb6f7abda1433902186
+
+Package: html-xml-utils
+Architecture: aarch64
+Installed-Size: 4280
+Maintainer: @termux
+Version: 8.8-1
+Homepage: https://www.w3.org/Tools/HTML-XML-utils/
+Depends: libcurl, libiconv, libidn2
+Description: A number of simple utilities for manipulating HTML and XML files
+Filename: ./html-xml-utils_8.8-1_aarch64.deb
+Size: 295036
+MD5sum: f9da027c999b9929409a2acc74b3e423
+SHA1: ecf048139b03dcf08d0c4fe4b0149106c452839b
+SHA256: 53c5566313e803c22524c0a938a70bbd4f06c98abb6961a15e243c30b928aa7a
+
+Package: html2text
+Architecture: aarch64
+Installed-Size: 280
+Maintainer: @termux
+Version: 1:2.4.0-1
+Homepage: http://www.mbayer.de/html2text/
+Depends: libc++, libiconv
+Description: Utility that converts HTML documents into plain text
+Filename: ./html2text_1:2.4.0-1_aarch64.deb
+Size: 75944
+MD5sum: 86e76bfa50247434f1d8f5ef81a42bcc
+SHA1: 41dc85a2cac0267230d19bd91a8c3c4d9825d036
+SHA256: d5709161f8249d60af06752b1fcb99a9955e9f152ea107605a747457c1320644
+
+Package: htslib-static
+Architecture: aarch64
+Installed-Size: 1380
+Maintainer: @termux
+Version: 1.24-1
+Homepage: https://github.com/samtools/htslib
+Depends: htslib (= 1.24-1)
+Description: Static libraries for htslib
+Filename: ./htslib-static_1.24-1_aarch64.deb
+Size: 372704
+MD5sum: 334d3e0eb72ee5cb9b68fb1bfbcc612b
+SHA1: 09215cf44f87bf7db5265fe538ef0958c969155c
+SHA256: 68fcf1d4215087d939e286ba692a5bf3c03461fcb3070d1998109eeda48871b2
+
+Package: htslib
+Architecture: aarch64
+Installed-Size: 3996
+Maintainer: @termux
+Version: 1.24-1
+Homepage: https://github.com/samtools/htslib
+Depends: libbz2, liblzma, zlib, libdeflate, libcurl
+Description: C library for high-throughput sequencing data formats
+Filename: ./htslib_1.24-1_aarch64.deb
+Size: 651388
+MD5sum: b017d86d68732744df8dfcb5a34d0a37
+SHA1: a4523303cd7aceaacbfdd5969b83e52b6f255fb9
+SHA256: 1904e0b455c89480e5f27d2cf51512a28c07ff70c8028f9b1ae5a6c54da152e4
+
+Package: httpie
+Architecture: aarch64
+Installed-Size: 684
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.2.4-2
+Homepage: https://httpie.io
+Depends: python, python-pip
+Description: Modern, user-friendly command-line HTTP client for the API era
+Filename: ./httpie_3.2.4-2_aarch64.deb
+Size: 93104
+MD5sum: 1e55d53fd61b98249c7be8541b181a0c
+SHA1: c96b302b7130de827148f306d8d79a95a39c7188
+SHA256: 67958c8346d33f1b59aac77801b61686b389d46cbdca4c34e20f19b077c21697
+
+Package: httping
+Architecture: aarch64
+Installed-Size: 152
+Maintainer: @termux
+Version: 4.4.0-2
+Homepage: https://github.com/folkertvanheusden/HTTPing
+Depends: fftw, libandroid-support, ncurses, openssl
+Description: ping-like program for http-requests
+Filename: ./httping_4.4.0-2_aarch64.deb
+Size: 40140
+MD5sum: 38f0ef90327a973f443bac7d38c94c0f
+SHA1: ad001c544395da2fb74b19fd15f66a8719c9981c
+SHA256: fd923a81b0fb578b376256699cabc7aa211d16bc30bdd61f709e30b4786863d8
+
+Package: httrack-data
+Architecture: all
+Installed-Size: 5052
+Maintainer: @termux
+Version: 3.50.5-1
+Homepage: http://www.httrack.com
+Breaks: httrack (<< 3.49.3)
+Replaces: httrack (<< 3.49.3)
+Description: Platform-independent data for httrack
+Filename: ./httrack-data_3.50.5-1_all.deb
+Size: 2717244
+MD5sum: 18012501366f429489ab97d86af0b460
+SHA1: e58cd7d25492cbe4e62c58d4d0e89a8f56b0e1f8
+SHA256: 0577bc0b3193d32e41ace5ac3b06e1221f39ca91895f4845c4119822eba509de
+
+Package: httrack-static
+Architecture: aarch64
+Installed-Size: 2752
+Maintainer: @termux
+Version: 3.50.5-1
+Homepage: http://www.httrack.com
+Depends: httrack (= 3.50.5-1)
+Description: Static libraries for httrack
+Filename: ./httrack-static_3.50.5-1_aarch64.deb
+Size: 567412
+MD5sum: 01a37a8aabacd85d69922a0b3ab017f4
+SHA1: 741ed2dfced97fcd617e0c6b3cde7e963c7a28dc
+SHA256: c5596fffa217a8c31e806e0468de2d2245d484d44cf3bfe86a8635804b683be4
+
+Package: httrack
+Architecture: aarch64
+Installed-Size: 2188
+Maintainer: @termux
+Version: 3.50.5-1
+Homepage: http://www.httrack.com
+Breaks: httrack-dev
+Depends: httrack-data, libandroid-execinfo, libiconv, openssl, zlib
+Replaces: httrack-dev
+Description: It allows you to download a World Wide Web site from the Internet
+Filename: ./httrack_3.50.5-1_aarch64.deb
+Size: 626172
+MD5sum: 634936ddcda74d9369c1d7a44b68141a
+SHA1: 227594797385fed5b9e41cc2fbb41afd7d0afb74
+SHA256: 33f66a5ea2300a8cc8843def1df197d1fdb27fdc216af9c86e80fb8bf1fde621
+
+Package: hwdata
+Architecture: aarch64
+Installed-Size: 10380
+Maintainer: @termux
+Version: 0.412-1
+Homepage: https://github.com/vcrhonek/hwdata
+Description: Database of hardware identification and configuration data
+Filename: ./hwdata_0.412-1_aarch64.deb
+Size: 1699948
+MD5sum: a9f7a47b5df12815f3ccb12f814cf703
+SHA1: 1da8f02940f4aeb3a961abd3c57094b7c5176642
+SHA256: 719ac85d8e57109320e67cc24f4389604c724eda38542b97f654c5a2d33ddfb8
+
 Package: json-glib
 Architecture: aarch64
 Installed-Size: 772
@@ -1241,6 +1590,226 @@ MD5sum: 8fd87180f8e1df28db7535dd21233e8f
 SHA1: 5bd49839c44c512f3e108c51ce77b5e0c6c12949
 SHA256: 79fec1c4d9d1dbbb958609b603b7d50771cc7f0faf1690065ce869e2f7f6b321
 
+Package: libblocksruntime
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: @finagolfin
+Version: 1:6.4.0-1
+Homepage: https://github.com/swiftlang/swift-corelibs-libdispatch
+Description: LLVM Blocks runtime library
+Filename: ./libblocksruntime_1:6.4.0-1_aarch64.deb
+Size: 5424
+MD5sum: f1814262042e5f74d222f45895218021
+SHA1: 461722f6cd8fca448ab9e916ca4b00844b739992
+SHA256: 9d566c87d7ecfc86e1933b94ad05ac3dc1e5455e6ebddbcb862b4b2b2dc0fcd4
+
+Package: libdeflate-static
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: @termux
+Version: 1.26-1
+Homepage: https://github.com/ebiggers/libdeflate
+Depends: libdeflate (= 1.26-1)
+Description: Static libraries for libdeflate
+Filename: ./libdeflate-static_1.26-1_aarch64.deb
+Size: 45472
+MD5sum: ba0a991db53e834d5a96c51084be4ce9
+SHA1: 7288b74ca4ab71d40a165c59d3dfd79759dc1c01
+SHA256: dcfc23a28e039e1a71dfe246bbf51e65574acc952bb249cae0f8f5dec5120cd9
+
+Package: libdeflate
+Architecture: aarch64
+Installed-Size: 364
+Maintainer: @termux
+Version: 1.26-1
+Homepage: https://github.com/ebiggers/libdeflate
+Description: C library for fast compression and decompression
+Filename: ./libdeflate_1.26-1_aarch64.deb
+Size: 57880
+MD5sum: 97e32533c3d60855cd0c812a857b5006
+SHA1: 653be17e9e44b24fb3432fafdb2eecd1ea08f980
+SHA256: ad6c784b653dcd521d0e2067f3d52538c52c0781284ca0eb650d518ba539f57b
+
+Package: libdevil
+Architecture: aarch64
+Installed-Size: 808
+Maintainer: @termux
+Version: 1.8.0-8
+Homepage: https://openil.sourceforge.net/
+Depends: libc++, libjasper, libjpeg-turbo, libpng, libtiff, littlecms
+Description: A cross-platform image library utilizing a simple syntax
+Filename: ./libdevil_1.8.0-8_aarch64.deb
+Size: 233588
+MD5sum: b03951b278d828141e455e4c4ca72054
+SHA1: e6e01dc330a5e980013271a40e74e474cb9a3b21
+SHA256: 2589c35ce2e20773d472f170d5e57853fba6e32dc69021ae698adaa7f7a17ae6
+
+Package: libdispatch
+Architecture: aarch64
+Installed-Size: 736
+Maintainer: @finagolfin
+Version: 1:6.4.0-1
+Homepage: https://github.com/swiftlang/swift-corelibs-libdispatch
+Depends: libc++, libblocksruntime
+Description: The libdispatch project, for concurrency on multicore hardware
+Filename: ./libdispatch_1:6.4.0-1_aarch64.deb
+Size: 138900
+MD5sum: 5925e38ca7871718ef09b1321048abb3
+SHA1: 8f64d504be3183e4d705373366ef5a5c92d784a1
+SHA256: 4c25eecc1b9e1b8fe523eba59bad6f987025cd556065ad663e3529c000a56f41
+
+Package: libdisplay-info
+Architecture: aarch64
+Installed-Size: 440
+Maintainer: @termux
+Version: 0.4.0-1
+Homepage: https://emersion.pages.freedesktop.org/libdisplay-info/
+Description: EDID and DisplayID library
+Filename: ./libdisplay-info_0.4.0-1_aarch64.deb
+Size: 107280
+MD5sum: 5a739e1ca5e48bb141afca6a849706d5
+SHA1: c047575c5ce2857e513f7ba9faad34a9d251480c
+SHA256: 42f307a64c698d6b8b89a18de9e6d1db8af4f3eb77bd38f5ef06f5ad49df36e3
+
+Package: libdjinterop
+Architecture: aarch64
+Installed-Size: 2180
+Maintainer: @termux
+Version: 0.27.1-1
+Homepage: https://github.com/xsco/libdjinterop
+Depends: libc++, libsqlite, zlib
+Description: C++ library for access to DJ record libraries
+Filename: ./libdjinterop_0.27.1-1_aarch64.deb
+Size: 375364
+MD5sum: 5aa74f916204464e5c37286ce0ae2430
+SHA1: 241142ea17aa1adb102b25276f948ab34f40b9f2
+SHA256: 43ecb06867f17e4e366019f91a641b8bb0c9fcfa733878964873d25820cc1907
+
+Package: libduckdb-static
+Architecture: aarch64
+Installed-Size: 179836
+Maintainer: @termux
+Version: 2.0.0-1
+Homepage: https://duckdb.org/
+Depends: libduckdb (= 2.0.0-1)
+Description: Static libraries for libduckdb
+Filename: ./libduckdb-static_2.0.0-1_aarch64.deb
+Size: 18007420
+MD5sum: 73df710c8e73fdb8327a2358a258fded
+SHA1: e155558c1b1a575688b589fbacbe9c7eaa71b45d
+SHA256: 13b2fb51b53e04a82ab7a587fa1bc24b4a08736dc755e5106f6a86bdb3dc0f6a
+
+Package: libduckdb
+Architecture: aarch64
+Installed-Size: 77000
+Maintainer: @termux
+Version: 2.0.0-1
+Homepage: https://duckdb.org/
+Depends: libc++, openssl
+Description: An in-process SQL OLAP database management system
+Filename: ./libduckdb_2.0.0-1_aarch64.deb
+Size: 13654124
+MD5sum: e2a5ab6a0cf4af13832444d73979df97
+SHA1: 6128bd7dfcb334ecb16ab24218bff59b4780b7a9
+SHA256: 901573345420609ff98cb7bce23943e6e61422d1ad90e070816134fe4921a6fd
+
+Package: libduktape
+Architecture: aarch64
+Installed-Size: 932
+Maintainer: @termux
+Version: 2.7.0-3
+Homepage: https://www.duktape.org/
+Breaks: duktape (<< 2.3.0-1), libduktape-dev
+Replaces: duktape (<< 2.3.0-1), libduktape-dev
+Description: An embeddable Javascript engine with a focus on portability and compact footprint
+Filename: ./libduktape_2.7.0-3_aarch64.deb
+Size: 164956
+MD5sum: 6500da733ee6a150eea0d662d1a20544
+SHA1: da9f22d7b142c0deb97f50e1a86739c43095a80d
+SHA256: 57db87a8bf3f039830d0e273d3d34d63e222d433fc8753427e06c1d128330daa
+
+Package: libdvbcsa-static
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: Aditya Alok <alok@termux.dev>
+Version: 1.1.0-5
+Homepage: https://www.videolan.org/developers/libdvbcsa.html
+Depends: libdvbcsa (= 1.1.0-5)
+Description: Static libraries for libdvbcsa
+Filename: ./libdvbcsa-static_1.1.0-5_aarch64.deb
+Size: 19580
+MD5sum: abcd7cab3ee45289e190cb962e23fc71
+SHA1: 55b99d743e29a2a859666319f4a7ad06b7607a20
+SHA256: 5b199d453232b70a221ab96f3952f44d38b8a9e74dcf87f6a3ec239b2021b6d0
+
+Package: libdvbcsa
+Architecture: aarch64
+Installed-Size: 100
+Maintainer: Aditya Alok <alok@termux.dev>
+Version: 1.1.0-5
+Homepage: https://www.videolan.org/developers/libdvbcsa.html
+Description: An implementation of the DVB Common Scrambling Algorithm - DVB/CSA - with encryption and decryption capabilities
+Filename: ./libdvbcsa_1.1.0-5_aarch64.deb
+Size: 19624
+MD5sum: 22cb9ccd9542a8c4363dd73ce42bfb87
+SHA1: 4292372613ac4667c2bf6e0e18bf8138e62bf0c0
+SHA256: 4d34e879072fac9c743a6bee4fc65ccf9e01cadfcc04ef2f5612b4ab130bd805
+
+Package: libdvbpsi-static
+Architecture: aarch64
+Installed-Size: 328
+Maintainer: @termux
+Version: 1.3.3-2
+Homepage: https://code.videolan.org/videolan/libdvbpsi/
+Depends: libdvbpsi (= 1.3.3-2)
+Description: Static libraries for libdvbpsi
+Filename: ./libdvbpsi-static_1.3.3-2_aarch64.deb
+Size: 41268
+MD5sum: fe9898d24807320f5c20243ddd8fd233
+SHA1: 86211e70134a70654bddd101bf0735a0995e8c7c
+SHA256: 23341457624379f8c8ac4851ff4e0e5f13cf1dc833fd1fd6e6515745719057a1
+
+Package: libdvbpsi
+Architecture: aarch64
+Installed-Size: 708
+Maintainer: @termux
+Version: 1.3.3-2
+Homepage: https://code.videolan.org/videolan/libdvbpsi/
+Description: Simple MPEG TS PSI parser library supporting various standards
+Filename: ./libdvbpsi_1.3.3-2_aarch64.deb
+Size: 71620
+MD5sum: 277dda2ea00a9711186bec7d93cf4030
+SHA1: c0438b81b5e5f2aaadfa70020f83cad2ad405ad0
+SHA256: 7a6bff23d7af631fe28b7e499b0a9425c3859b8fc8b8f0d2b82ba92b0c590792
+
+Package: libe-book-static
+Architecture: aarch64
+Installed-Size: 3480
+Maintainer: @termux
+Version: 0.1.4-1
+Homepage: https://sourceforge.net/projects/libebook/
+Depends: libe-book (= 0.1.4-1)
+Description: Static libraries for libe-book
+Filename: ./libe-book-static_0.1.4-1_aarch64.deb
+Size: 300440
+MD5sum: f3b26c42d78c87ca92bc471420920614
+SHA1: 84799c8013f4dd028f9853df02128ef27b3accf5
+SHA256: 54fc79fc1455d2ae82c125532869eaa2035f9c2c23ae47bbe75779eb6107581d
+
+Package: libe-book
+Architecture: aarch64
+Installed-Size: 844
+Maintainer: @termux
+Version: 0.1.4-1
+Homepage: https://sourceforge.net/projects/libebook/
+Depends: libicu, liblangtag, librevenge, libxml2, zlib
+Description: Library for import of reflowable e-book formats.
+Filename: ./libe-book_0.1.4-1_aarch64.deb
+Size: 144476
+MD5sum: 7c1fdbf68d8e83bef00bce44f47199c2
+SHA1: d6e98703eeea9ec0e89112d14cd0f7f7c223bb26
+SHA256: ae2dfcbcf36be6320a838685acc0cc6591ed664355cfafdf6e731e3924fd8dc3
+
 Package: libfreexl-static
 Architecture: aarch64
 Installed-Size: 100
@@ -1284,6 +1853,34 @@ Size: 1506720
 MD5sum: 40f2e47748bd9bade8e3564f771ca974
 SHA1: b6534af70fb9e6384fccb5c1e6d58ee8139e3414
 SHA256: a14fa619b6bc31f021ec955ac6beaf0f050836edc9e269949e4ee7fd849e8c08
+
+Package: liblangtag-static
+Architecture: aarch64
+Installed-Size: 380
+Maintainer: @termux
+Version: 0.6.8-1
+Homepage: https://gitlab.com/tagoh/liblangtag
+Depends: liblangtag (= 0.6.8-1)
+Description: Static libraries for liblangtag
+Filename: ./liblangtag-static_0.6.8-1_aarch64.deb
+Size: 52192
+MD5sum: 7b33656805e64f6024f4f75c83b0dd8f
+SHA1: e60b5e86f34ec5fa117ce42c4bbc007b178bbcd4
+SHA256: 7d5dee0e33526ddb69dd4979e15fba0ecb0189f76b4817bc0414d9862e0b1da7
+
+Package: liblangtag
+Architecture: aarch64
+Installed-Size: 2612
+Maintainer: @termux
+Version: 0.6.8-1
+Homepage: https://gitlab.com/tagoh/liblangtag
+Depends: libxml2
+Description: interface library to access/deal with tags for identifying languages
+Filename: ./liblangtag_0.6.8-1_aarch64.deb
+Size: 251968
+MD5sum: 35e4aade3cd0245351639dbdb502e88e
+SHA1: 96da85316221e82836b2d12ba7e565c24d359497
+SHA256: 0c72f4bda2abca3fb82a7799f00c4001787160f8b0da9bcbb4097ea9afd7de3e
 
 Package: libminizip-static
 Architecture: aarch64
@@ -1357,6 +1954,34 @@ Size: 84148
 MD5sum: 4a49d6ee13e700913bf8f2f6236a66a3
 SHA1: b3a30d70763c80d3647d566c36bb6ae80b0eb614
 SHA256: 777868f1832f702c885d6d91ac92e0c6906c7462971b4a91a182fd8ca39b7c2c
+
+Package: librevenge-static
+Architecture: aarch64
+Installed-Size: 2168
+Maintainer: @termux
+Version: 0.0.6-1
+Homepage: https://sf.net/p/libwpd/librevenge/
+Depends: librevenge (= 0.0.6-1)
+Description: Static libraries for librevenge
+Filename: ./librevenge-static_0.0.6-1_aarch64.deb
+Size: 238744
+MD5sum: d12422ad72812cf05148eaf33e11d7e5
+SHA1: beabb4eafec130c78dc7cc912445ab24de41c6d3
+SHA256: 08ffa297d035bdcf7f035f54935cf105dc379f8d8ca7763a7067461df0d6b36e
+
+Package: librevenge
+Architecture: aarch64
+Installed-Size: 972
+Maintainer: @termux
+Version: 0.0.6-1
+Homepage: https://sf.net/p/libwpd/librevenge/
+Depends: boost, zlib
+Description: library for REVerses ENGineered formats filters
+Filename: ./librevenge_0.0.6-1_aarch64.deb
+Size: 168616
+MD5sum: 3fd78f77d1d20f56e9607cce10e4c138
+SHA1: 897bca835a68f3d910af90047666f4d87fb3bf90
+SHA256: f5b478e047d73add7d054c5782fbff326eaf71eb5ec40ace02604bcd9264c7c0
 
 Package: librttopo-static
 Architecture: aarch64
@@ -1443,6 +2068,34 @@ Size: 387740
 MD5sum: 4e211f3b95a0deda154604d3b6c839ed
 SHA1: 31c7aa4b878ede8f7fefa4a556510460e096df0c
 SHA256: 5730336ccb42d1b5184583613833b270c95437ba99274bbdc1bac6368fe42526
+
+Package: octomap-static
+Architecture: aarch64
+Installed-Size: 836
+Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
+Version: 1.10.1-1
+Homepage: https://github.com/OctoMap/octomap
+Depends: octomap (= 1.10.1-1)
+Description: Static libraries for octomap
+Filename: ./octomap-static_1.10.1-1_aarch64.deb
+Size: 97104
+MD5sum: c137789b153d47c380120351b48d5589
+SHA1: 40c2b1b71f976ed86ce472dfd71308cdf20e2c07
+SHA256: f58fa0753f9b646522a47595bbbdba655373afd21a631903afa0de44f7dcc8c7
+
+Package: octomap
+Architecture: aarch64
+Installed-Size: 1356
+Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
+Version: 1.10.1-1
+Homepage: https://github.com/OctoMap/octomap
+Depends: libc++
+Description: An efficient probabilistic 3D mapping framework based on octrees
+Filename: ./octomap_1.10.1-1_aarch64.deb
+Size: 184224
+MD5sum: 02633e2e330a3ed3e854d985abfe809e
+SHA1: b7f3e54641c03fe9393b857c6c5ed2071c9a2e9e
+SHA256: f41e6394a6ebdc1c7ee8df1f364cfc837379d5a537d77f076ebf3552962170c1
 
 Package: poppler
 Architecture: aarch64
