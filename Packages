@@ -6351,6 +6351,131 @@ MD5sum: 511176e156808f0426b46197a1664059
 SHA1: b4547c079af6d4330b496236613da693c3de2c69
 SHA256: 071a61559f25f88b589390229d9ada00249b928b249e82c125e75770b141c36e
 
+Package: lychee
+Architecture: aarch64
+Installed-Size: 16736
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 0.24.2-1
+Homepage: https://github.com/lycheeverse/lychee
+Depends: openssl, resolv-conf
+Description: A fast, async, resource-friendly link checker written in Rust
+Filename: ./lychee_0.24.2-1_aarch64.deb
+Size: 4448872
+MD5sum: c3fc97a50c95ba12c561cd1e29253b4d
+SHA1: 09c953e397fcb501082d81c3066c3d88b9a470b9
+SHA256: 70625320b6dee3f12f354e137d7cf5eae105af8db556ab2256deee8e3bd30662
+
+Package: lynx
+Architecture: aarch64
+Installed-Size: 1968
+Maintainer: @termux
+Version: 2.9.3-1
+Homepage: http://lynx.browser.org/
+Depends: brotli, libiconv, ncurses, openssl, libbz2, libidn, zlib
+Description: The text web browser
+Filename: ./lynx_2.9.3-1_aarch64.deb
+Size: 573552
+MD5sum: 5c17498334f176e6067f43b3d5de8141
+SHA1: c9bb073b6f5059ed4a2c7a4bc88a6b924e2b7270
+SHA256: 71d1080daf5f17315cd2928fc6b1bb7bcf4c63aa892eb9775a3aaae2056b4d60
+
+Package: lyrebird
+Architecture: aarch64
+Installed-Size: 17412
+Maintainer: @termux
+Version: 0.9.0-1
+Homepage: https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports
+Breaks: obfs4proxy
+Depends: tor
+Replaces: obfs4proxy
+Provides: obfs4proxy
+Description: A pluggable transport plugin for Tor
+Filename: ./lyrebird_0.9.0-1_aarch64.deb
+Size: 4429952
+MD5sum: 5acc4a556c553285de5e26d4dcb8c747
+SHA1: 23b13df1e03f09b645a38456546fb0e251675bd4
+SHA256: 918e1d42181e4110b4046808a665709bf02aa48a8a994e30bd16d35fecd9c938
+
+Package: lzlib-static
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: @termux
+Version: 1.16-1
+Homepage: http://www.nongnu.org/lzip/lzlib.html
+Depends: lzlib (= 1.16-1)
+Description: Static libraries for lzlib
+Filename: ./lzlib-static_1.16-1_aarch64.deb
+Size: 20364
+MD5sum: 90d48b5649cde04a0003f2e964b907fd
+SHA1: 6861b03e690cdd3c177665b8e8798dfdbbe133ed
+SHA256: 1ad67f9cb70926684a3907340fb6c0fcb554e69eb0b2f155c74733d5b18bf058
+
+Package: lzlib
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: @termux
+Version: 1.16-1
+Homepage: http://www.nongnu.org/lzip/lzlib.html
+Description: A library providing in-memory LZMA compression and decompression functions
+Filename: ./lzlib_1.16-1_aarch64.deb
+Size: 40708
+MD5sum: a05878ee4552d6ef9c2ac8cbe5fee45e
+SHA1: d957148314266f56b01c212c45543f4543e17f5d
+SHA256: c460eaf6d4c1cb41f7bd6ab8b5ef340f0c62259d45da92e3da9532de053288cd
+
+Package: macchina
+Architecture: aarch64
+Installed-Size: 1412
+Maintainer: @termux
+Version: 6.4.0-2
+Homepage: https://github.com/Macchina-CLI/macchina
+Description: A system information fetcher, with an emphasis on performance and minimalism.
+Filename: ./macchina_6.4.0-2_aarch64.deb
+Size: 516788
+MD5sum: a53841a636909f40a940ff5b43928e21
+SHA1: 17bedf05481025c470097e3b259bf5f8cf69eae9
+SHA256: ef2dca977c19802f717a8d9cefa43a18c3eee207a35f243e730bb380ef4ed2c3
+
+Package: magic-wormhole-rs
+Architecture: aarch64
+Installed-Size: 8196
+Maintainer: @termux
+Version: 0.8.1-1
+Homepage: https://github.com/magic-wormhole/magic-wormhole.rs
+Description:  Rust implementation of Magic Wormhole, with new features and enhancements
+Filename: ./magic-wormhole-rs_0.8.1-1_aarch64.deb
+Size: 2343048
+MD5sum: 17299de202a158649a88989f7e2fa9b8
+SHA1: 12ed273de0e9b4a09dee680e538d666b25e1015f
+SHA256: 7613ff9379bac538aa9dd83ba58e2eec3b4056072e6a54a7782173d2933429d9
+
+Package: mailpit
+Architecture: aarch64
+Installed-Size: 25764
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.31.6-1
+Homepage: https://mailpit.axllent.org
+Description: An email and SMTP testing tool with API for developers
+Filename: ./mailpit_1.31.6-1_aarch64.deb
+Size: 7147756
+MD5sum: e9427a730f725ea58076a16ebff141f1
+SHA1: 344d46b1a78a0849a21960901e138da6422278ca
+SHA256: f8d05f6400b9b6122985caf32f35bda7759dd8e3f2f843f133e4990bee37798b
+
+Package: mailsync
+Architecture: aarch64
+Installed-Size: 260
+Maintainer: @termux
+Version: 5.2.7-3
+Homepage: https://mailsync.sourceforge.net/
+Depends: libc++, libc-client
+Description: A way of synchronizing a collection of mailboxes
+Filename: ./mailsync_5.2.7-3_aarch64.deb
+Size: 66024
+MD5sum: 310dee77a15f13054923c6c5d64b7475
+SHA1: f6f96459412175bebc178f1b2ea3677448998c38
+SHA256: 021d2ba9c26fab4e48fb29b85f52c67b9270993ce98b431f6e727741224f4d71
+
 Package: marisa
 Architecture: aarch64
 Installed-Size: 584
@@ -6709,6 +6834,20 @@ Size: 1531796
 MD5sum: 46048a5c7de38f08c57632e8547120d8
 SHA1: 97906a5e716a0d43bea086902a35e6b858ca0bb2
 SHA256: 56e6477c96800fba8dc43b397925743c5fe2e281e8376aa506adcff26829eb86
+
+Package: tor
+Architecture: aarch64
+Installed-Size: 29612
+Maintainer: @termux
+Version: 0.4.9.14-1
+Homepage: https://www.torproject.org
+Depends: libevent, liblzma, openssl, resolv-conf, zlib
+Description: The Onion Router anonymizing overlay network
+Filename: ./tor_0.4.9.14-1_aarch64.deb
+Size: 3390212
+MD5sum: 099ba9dc44893923099a4c8508856980
+SHA1: 94c7bf09903342edc62cb63c04f34b4e4fd7a80d
+SHA256: b748ff2b39adecbfe93035d94bbc63d91f1885fc104f3ed9a69369cb79727cc6
 
 Package: unbound
 Architecture: aarch64
