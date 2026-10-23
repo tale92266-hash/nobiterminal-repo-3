@@ -514,6 +514,157 @@ MD5sum: f28b25d005cb1d212e9bda696066095e
 SHA1: 80ef01f3fc8a2a95298f46631262a51f8a2a6ecc
 SHA256: fd4e5c2a9f0ede048d2c7ae7c0e5c8f6dd6b1e8418eb386f38143c39a824d331
 
+Package: hcl
+Architecture: aarch64
+Installed-Size: 16164
+Maintainer: @termux
+Version: 2.25.0-2
+Homepage: https://github.com/hashicorp/hcl
+Description: A toolkit for creating structured configuration languages
+Filename: ./hcl_2.25.0-2_aarch64.deb
+Size: 2670572
+MD5sum: 3d9d9dc7a75de082e14242fd40d86193
+SHA1: c02dd9dc322b671d08ea97435afaf40cb3f2ecb1
+SHA256: c0bd8eb204dbfef8eb5d45a91b69c4e071d3a90e9dc7ad6418111ed0b19ef7ef
+
+Package: hcloud
+Architecture: aarch64
+Installed-Size: 19396
+Maintainer: @termux
+Version: 1.70.1-2
+Homepage: https://github.com/hetznercloud/cli
+Depends: resolv-conf
+Description: Hetzner Cloud command line client
+Filename: ./hcloud_1.70.1-2_aarch64.deb
+Size: 4613332
+MD5sum: 1e7ed17e78b352e5cd882da99f4254d1
+SHA1: 0fb375919cab6beec8ee3df5ad96d834176c09e0
+SHA256: 5d22f6e0cf6dc3c2ee1e2ea895a4e82df0dc619ac2bd8fb84e22ff4d2403b06a
+
+Package: helix-grammars
+Architecture: aarch64
+Installed-Size: 189628
+Maintainer: @termux
+Version: 25.07.1-3
+Homepage: https://helix-editor.com/
+Depends: libc++, helix (= 25.07.1-3)
+Description: Helix grammars
+Filename: ./helix-grammars_25.07.1-3_aarch64.deb
+Size: 10792192
+MD5sum: 3a53b5db7a332184958196090ccde3d0
+SHA1: 848382ed20396a477b313850ac3f67922958e72c
+SHA256: 005225a9cd82864764a1b7765d72e4a0011afd8503fce83108c7fadf2b42e20e
+
+Package: helix
+Architecture: aarch64
+Installed-Size: 36748
+Maintainer: @termux
+Version: 25.07.1-3
+Homepage: https://helix-editor.com/
+Suggests: helix-grammars, bash-completion, clang, delve, elvish, gopls, lldb, nodejs | nodejs-lts
+Description: A post-modern modal text editor written in rust
+Filename: ./helix_25.07.1-3_aarch64.deb
+Size: 6535600
+MD5sum: a3144a05c9823c0d0d677f1142c5d41b
+SHA1: d3f094707e2a5ee18d26fe49f24baadc7973f0f3
+SHA256: 98b3235540b29140036605a7dd044b154ce1a8329ab7d52abe578d85f8f1fc04
+
+Package: hello
+Architecture: aarch64
+Installed-Size: 148
+Maintainer: @termux
+Version: 2.12.3-2
+Homepage: https://www.gnu.org/software/hello/
+Depends: libiconv
+Description: Prints a friendly greeting
+Filename: ./hello_2.12.3-2_aarch64.deb
+Size: 31372
+MD5sum: e10f97caa84ec7752dfbe1c299728eb3
+SHA1: 21b8db2e441c1fe3c3dec8661297e895c717d1c3
+SHA256: 20c4b0ff18d935683c51d0ca2f84d04552b907dc4ff3ee9eccea852c5fcd9b9b
+
+Package: helm-ls
+Architecture: aarch64
+Installed-Size: 45360
+Maintainer: @termux
+Version: 0.5.4-2
+Homepage: https://github.com/mrjosh/helm-ls
+Description: Language server for Helm
+Filename: ./helm-ls_0.5.4-2_aarch64.deb
+Size: 9008588
+MD5sum: a4ec25deef0661727139436c38cf394f
+SHA1: e031b9479829dc3459c96a846fc1a051ea172805
+SHA256: 2ae233811bec68393ba05537a41076dd5f152a8747fb935c8da802cadb70f2c5
+
+Package: helm
+Architecture: aarch64
+Installed-Size: 65900
+Maintainer: @termux
+Version: 4.3.1-2
+Homepage: https://helm.sh
+Description: Helm helps you manage Kubernetes applications
+Filename: ./helm_4.3.1-2_aarch64.deb
+Size: 12094788
+MD5sum: 3e90167dec8d54922d79c2215b81c4ce
+SHA1: ec4217c191e956358504ff25eaa805bb55a6d24a
+SHA256: 4931117543d32b63104e7e31b778eced198e6e75efad1a79855e83dee1cf2361
+
+Package: help2man
+Architecture: all
+Installed-Size: 96
+Maintainer: @termux
+Version: 1.49.3-1
+Homepage: https://www.gnu.org/software/help2man/
+Depends: perl
+Description: Conversion tool to create man files
+Filename: ./help2man_1.49.3-1_all.deb
+Size: 15648
+MD5sum: 1b5eb375f052fadb28ff62cf09ea1f77
+SHA1: 2a41cd1c3b74bae9ac5e9a28219951c6563e2889
+SHA256: 4b3dd510400f0af58c392b748e521cfb9761d46d46950273a50993715e969466
+
+Package: hexcurse
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: @termux
+Version: 1.60.0-8
+Homepage: https://github.com/LonnyGomes/hexcurse
+Depends: ncurses
+Description: Console hexeditor
+Filename: ./hexcurse_1.60.0-8_aarch64.deb
+Size: 17560
+MD5sum: 6e06d0dce3233559104766befefd0742
+SHA1: 95f9e87d7b5208dcbf382634304643cbc7e24761
+SHA256: ed8deb6997b23057eb0aac4c69cd61a028efa67ef9187af82efa24258ffb52a8
+
+Package: hexedit
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: @termux
+Version: 1.6-2
+Homepage: http://rigaux.org/hexedit.html
+Depends: ncurses
+Description: view and edit files in hexadecimal or in ASCII
+Filename: ./hexedit_1.6-2_aarch64.deb
+Size: 17304
+MD5sum: f2829d06851c7147b0a8987a2bc45d0c
+SHA1: 4b76a6e6a10ec1ab5581ebe1fee9e8add25b835b
+SHA256: 94d75990873364109afa969fd6a33939d94e9f267c4eb38f1964d607676a124e
+
+Package: hexer
+Architecture: aarch64
+Installed-Size: 284
+Maintainer: @termux
+Version: 1.0.7-1
+Homepage: https://devel.ringlet.net/editors/hexer/
+Depends: ncurses
+Description: A multi-buffer editor for binary files for Unix-like systems that displays its buffer(s) as a hex dump
+Filename: ./hexer_1.0.7-1_aarch64.deb
+Size: 76252
+MD5sum: b1ebd6dbd85a93347e1b0190f9f74e1a
+SHA1: 45712402a34a9c55afd2a8312dbc8bf589d110af
+SHA256: 0950207941e7bc8fefbb5221afda2865d464142683861b15952009be385677d9
+
 Package: json-glib
 Architecture: aarch64
 Installed-Size: 772
