@@ -4189,6 +4189,19 @@ MD5sum: 424d7560619ff821b8293430f4bbdef5
 SHA1: a6664ba944df3dc8e20c303eaaf12e7a9c71b8f3
 SHA256: bd6956aef5c5c4f7c7b3cc974fc5cba7be842b63444344c74a4143ee105ed5d3
 
+Package: liborc
+Architecture: aarch64
+Installed-Size: 1408
+Maintainer: @termux
+Version: 0.4.44-1
+Homepage: https://gstreamer.freedesktop.org/projects/orc.html
+Description: Library of Optimized Inner Loops Runtime Compiler
+Filename: ./liborc_0.4.44-1_aarch64.deb
+Size: 284684
+MD5sum: 54b78c8a924cef48bb0da3294493a8e5
+SHA1: 91791c5b2c807a315557ae9a51e13d8466516e1a
+SHA256: 8bcf368a6cc337fb2e476c0f825a2fab47712397dc7c1579c1b60788de2f0e30
+
 Package: liborcus-static
 Architecture: aarch64
 Installed-Size: 6964
@@ -5133,6 +5146,63 @@ MD5sum: 9c9f187def391114593819d27a1d7443
 SHA1: f9448d203c18db2e55198acbc84f78db0fdbeb8f
 SHA256: 22eefa6d4589981e4eaa95a09595136988e380de2bcbc0808c21bc757480bc33
 
+Package: libsoundtouch-static
+Architecture: aarch64
+Installed-Size: 696
+Maintainer: @termux
+Version: 2.4.1-1
+Homepage: https://www.surina.net/soundtouch/
+Depends: libsoundtouch (= 2.4.1-1)
+Description: Static libraries for libsoundtouch
+Filename: ./libsoundtouch-static_2.4.1-1_aarch64.deb
+Size: 71620
+MD5sum: 057f554a660e5c2deff3db69e4928b21
+SHA1: d22eb4db0795eea79bf9cbc6e6e0b2ce787b20c7
+SHA256: 19e73b2dda08ccd9f7bf03574cd88bfc3e83440df207db04467894078b503b16
+
+Package: libsoundtouch
+Architecture: aarch64
+Installed-Size: 488
+Maintainer: @termux
+Version: 2.4.1-1
+Homepage: https://www.surina.net/soundtouch/
+Depends: libc++
+Description: An open-source audio processing library for changing the Tempo, Pitch and Playback Rates of audio streams or files
+Filename: ./libsoundtouch_2.4.1-1_aarch64.deb
+Size: 94660
+MD5sum: cb682b5856a6c501058ae01fdd060bf7
+SHA1: 65adb016ee717afada94142b10959fbc7f4717e8
+SHA256: 0831a92dc719cd84449b186351de5d83406da432e9f675fe08210b4ec45bf6c6
+
+Package: libsoup3
+Architecture: aarch64
+Installed-Size: 1916
+Maintainer: @termux
+Version: 3.8.0-1
+Homepage: https://libsoup.gnome.org/libsoup-3.0/
+Depends: brotli, glib, libnghttp2, libpsl, libsqlite, zlib
+Recommends: glib-networking
+Description: HTTP client and server library
+Filename: ./libsoup3_3.8.0-1_aarch64.deb
+Size: 292576
+MD5sum: 723fd729611970381e78eca359f9e46e
+SHA1: c97ead592e2d89e90602646f8225d7f9da1a3751
+SHA256: d7a5acbf5c74d293abf573618b6db41619d29d82992b06fb93952d2d8877361d
+
+Package: libspatialindex
+Architecture: aarch64
+Installed-Size: 1360
+Maintainer: @termux
+Version: 2.1.0-2
+Homepage: https://libspatialindex.github.io
+Depends: libc++
+Description: C++ implementation of R*-tree, an MVR-tree and a TPR-tree with C API
+Filename: ./libspatialindex_2.1.0-2_aarch64.deb
+Size: 248904
+MD5sum: 5bffefb486092d457829445730d9793f
+SHA1: 70985b7b45fa66da81871beab8b6952063f1e1ec
+SHA256: ca7b0fdcea91acc98875e1c060b194298923bfd7f84a86bea45c443b463610bd
+
 Package: libspatialite-static
 Architecture: aarch64
 Installed-Size: 15352
@@ -5175,6 +5245,102 @@ MD5sum: eaa5b773f161457c794814db4debed68
 SHA1: 5f3d5a4d3de57f76f5e6bba35ed6a24a15ac9ddd
 SHA256: 20ca58cfc82c4df6a2e546a70759d611106e79467390dad5064efea06d286d12
 
+Package: libspectre-static
+Architecture: aarch64
+Installed-Size: 132
+Maintainer: @termux
+Version: 0.2.12-4
+Homepage: https://www.freedesktop.org/wiki/Software/libspectre/
+Depends: libspectre (= 0.2.12-4)
+Description: Static libraries for libspectre
+Filename: ./libspectre-static_0.2.12-4_aarch64.deb
+Size: 24628
+MD5sum: 2a1ad797edc6a6920ce925426c88e423
+SHA1: 371fa1f76e7eb5af0c8f3ab11d9c8a3e03dc0745
+SHA256: 22a5f9ffde28d84067ab288803db6784513dcfeca10d6316bb3562a268e81c39
+
+Package: libspectre
+Architecture: aarch64
+Installed-Size: 156
+Maintainer: @termux
+Version: 0.2.12-4
+Homepage: https://www.freedesktop.org/wiki/Software/libspectre/
+Depends: ghostscript
+Description: A small library for rendering Postscript documents
+Filename: ./libspectre_0.2.12-4_aarch64.deb
+Size: 24528
+MD5sum: c723a607eaf298ae37559ae8e2a77120
+SHA1: 3dac843f55e68e8418483bb1988a815a35b55b30
+SHA256: 60ddbdaf3ac4342a338c56f2c8f53d0f0d22bc543da9a6a6b051239aaae5ab5f
+
+Package: libspeex-static
+Architecture: aarch64
+Installed-Size: 188
+Maintainer: @termux
+Version: 1.2.1-2
+Homepage: https://www.speex.org/
+Depends: libspeex (= 1.2.1-2)
+Description: Static libraries for libspeex
+Filename: ./libspeex-static_1.2.1-2_aarch64.deb
+Size: 47668
+MD5sum: 723ca145142eb913e7c81820bba265f4
+SHA1: aee1c8720ee064e63c521f9486d94e1b5a8cd891
+SHA256: a811737ed55111899f1feebae1d73484ca05553f03d29c22f940128beebf423f
+
+Package: libspeex
+Architecture: aarch64
+Installed-Size: 632
+Maintainer: @termux
+Version: 1.2.1-2
+Homepage: https://www.speex.org/
+Description: A patent-free, Open Source/Free Software voice codec
+Filename: ./libspeex_1.2.1-2_aarch64.deb
+Size: 460248
+MD5sum: 89731db60c60937671def58f6a9eb504
+SHA1: eec7452fd3c7ad3d9bea97eba04f390cbac24958
+SHA256: ad6dcfa99b00e4cd0bdef8eaa5a8262a6b91a3840cf362950fef3bd5726b92f2
+
+Package: libspice-protocol
+Architecture: all
+Installed-Size: 180
+Maintainer: @termux
+Version: 0.14.5-1
+Homepage: https://www.spice-space.org/
+Description: SPICE protocol headers
+Filename: ./libspice-protocol_0.14.5-1_all.deb
+Size: 18500
+MD5sum: f4121c4df023dfde5126889fb7345947
+SHA1: d7ee8af145214c4f43389f68e8dcb27e41ebc57c
+SHA256: 26d4959425af011804ba117cd258e0d90af137d4e51bfaeab199561b64f55653
+
+Package: libspice-server-static
+Architecture: aarch64
+Installed-Size: 2692
+Maintainer: @termux
+Version: 0.16.0-2
+Homepage: https://www.spice-space.org/
+Depends: libspice-server (= 0.16.0-2)
+Description: Static libraries for libspice-server
+Filename: ./libspice-server-static_0.16.0-2_aarch64.deb
+Size: 411396
+MD5sum: 8b4ad2b847825fde5bf3fa78adae1335
+SHA1: 6e12171c3637547bf19a4aec26e26d99334c6c62
+SHA256: 5a2f4a61f8d3d9447776558773a02106cad3a4bd55d053d70751811577a44509
+
+Package: libspice-server
+Architecture: aarch64
+Installed-Size: 1024
+Maintainer: @termux
+Version: 0.16.0-2
+Homepage: https://www.spice-space.org/
+Depends: glib, gst-plugins-base, gstreamer, libc++, libiconv, libjpeg-turbo, liblz4, libopus, liborc, libpixman, libsasl, libspice-protocol, openssl, zlib
+Description: Implements the server side of the SPICE protocol
+Filename: ./libspice-server_0.16.0-2_aarch64.deb
+Size: 273212
+MD5sum: 1141f781523adc8559679d15277691c7
+SHA1: e804366addd5be4886a53f9932b9fe6936e1ce82
+SHA256: 3898c1f514b275b73357d8f4febe6aa7ff87f2a0ba6b73f8f94abc4f41b8b4f2
+
 Package: libsrt
 Architecture: aarch64
 Installed-Size: 948
@@ -5204,6 +5370,62 @@ Size: 234592
 MD5sum: 754f9014b80607e662c392ef8e052727
 SHA1: ab2c08468e688b57bec81fdedb2be7bb38d4a4ab
 SHA256: 3a9897a95df99801b431906faf4ba8e9c49088fbdd863fcdee334b7031ea12c5
+
+Package: libstaroffice-static
+Architecture: aarch64
+Installed-Size: 10688
+Maintainer: @termux
+Version: 0.0.8-2
+Homepage: https://github.com/fosnola/libstaroffice
+Depends: libstaroffice (= 0.0.8-2)
+Description: Static libraries for libstaroffice
+Filename: ./libstaroffice-static_0.0.8-2_aarch64.deb
+Size: 1049824
+MD5sum: 697314cf68381528611536d2b45dadbe
+SHA1: 5b2afc5957c3284a75cb342ff7ad40bcb8dcdfd0
+SHA256: d145c72d1299260c351319a3f8d7675f0b1e5a0aad3c9808e0cb85ed5a34957e
+
+Package: libstaroffice
+Architecture: aarch64
+Installed-Size: 2292
+Maintainer: @termux
+Version: 0.0.8-2
+Homepage: https://github.com/fosnola/libstaroffice
+Depends: librevenge, zlib
+Description: filter for old StarOffice documents(.sdc, .sdw, ...) based on librevenge
+Filename: ./libstaroffice_0.0.8-2_aarch64.deb
+Size: 526208
+MD5sum: 3518ad99c7c5f72eb62bcbed670072fd
+SHA1: ea1b38e586812a8b80e2f5cefc309047912a97ea
+SHA256: 2485e384088408e534d104be73e3db5a7503a51b571cd658d0cac97aec6f2e34
+
+Package: libstrophe-static
+Architecture: aarch64
+Installed-Size: 308
+Maintainer: @termux
+Version: 0.14.0-3
+Homepage: https://strophe.im/libstrophe
+Depends: libstrophe (= 0.14.0-3)
+Description: Static libraries for libstrophe
+Filename: ./libstrophe-static_0.14.0-3_aarch64.deb
+Size: 64788
+MD5sum: b6017f3830dfb996f123ce3ba2f89151
+SHA1: a8faf02a44e0d7c6db6a22e6af0a164d70e948fb
+SHA256: 0bf0ac2cd7f9a8a36279d0dd3c2e10dd947597dc5ae5c54075847da43dffebf5
+
+Package: libstrophe
+Architecture: aarch64
+Installed-Size: 268
+Maintainer: @termux
+Version: 0.14.0-3
+Homepage: https://strophe.im/libstrophe
+Depends: openssl, libexpat, c-ares
+Description: libstrophe is a minimal XMPP library written in C
+Filename: ./libstrophe_0.14.0-3_aarch64.deb
+Size: 69912
+MD5sum: c62f7984e8cebab48556c5f4d02ce005
+SHA1: 2cca00215d21a1442981cdade771afeede5723e7
+SHA256: 9b384eda5a5b71dcc545a56cbb8f0c10e60548659860e30ca59ab9ea3d3dc2dc
 
 Package: libtatsu-static
 Architecture: aarch64
@@ -5766,6 +5988,20 @@ Size: 308568
 MD5sum: 575ec0d5ab11fd49dd7a023e88114aca
 SHA1: 6e505b7f91463ecfa676418ff91bc1f33001fb7d
 SHA256: 27a7d818f5a81aa3258ac7f2e01a9d13393c11a7eff359e562b8cc0086976f60
+
+Package: speex-utils
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: @termux
+Version: 1.2.1-2
+Homepage: https://www.speex.org/
+Depends: libogg, speexdsp, libspeex (= 1.2.1-2)
+Description: Speex command line tools
+Filename: ./speex-utils_1.2.1-2_aarch64.deb
+Size: 16740
+MD5sum: ceeba9c26a9f44d73ca7bd5199a35470
+SHA1: c193baab9d4d828c7d241a407241c3b26a42ec0c
+SHA256: 417757b8fdf7c0fcd6b9d66392a2b42ebd3945fc698db76e64c2454c2134fb86
 
 Package: srt-tools
 Architecture: aarch64
