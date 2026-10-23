@@ -1605,6 +1605,20 @@ MD5sum: b1ebd6dbd85a93347e1b0190f9f74e1a
 SHA1: 45712402a34a9c55afd2a8312dbc8bf589d110af
 SHA256: 0950207941e7bc8fefbb5221afda2865d464142683861b15952009be385677d9
 
+Package: hnterm
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: @termux
+Version: 1.0.5-3
+Homepage: https://github.com/ggerganov/imtui
+Depends: libcurl, libimtui (= 1.0.5-3)
+Description: A simple tool to browse Hacker News in the terminal
+Filename: ./hnterm_1.0.5-3_aarch64.deb
+Size: 33868
+MD5sum: 8a120500c2203d2b67e332c2fc5f782f
+SHA1: 037ca3e0017d053065d913ddd2b78b7e4c738f0f
+SHA256: e0b76db2041b8e74f62f6248bdae44a5e8718968b16e09375c26515e04aabdd0
+
 Package: hollywood
 Architecture: all
 Installed-Size: 2468
@@ -1789,6 +1803,114 @@ MD5sum: a9f7a47b5df12815f3ccb12f814cf703
 SHA1: 1da8f02940f4aeb3a961abd3c57094b7c5176642
 SHA256: 719ac85d8e57109320e67cc24f4389604c724eda38542b97f654c5a2d33ddfb8
 
+Package: hydroxide
+Architecture: aarch64
+Installed-Size: 10716
+Maintainer: @termux
+Version: 0.2.32-2
+Homepage: https://github.com/emersion/hydroxide
+Description: A third-party, open-source ProtonMail CardDAV, IMAP and SMTP bridge
+Filename: ./hydroxide_0.2.32-2_aarch64.deb
+Size: 3049076
+MD5sum: 43a93eb939f9c4d2890859de0ea61601
+SHA1: 8953f38054cbb538035a5bba94af239b8c75554f
+SHA256: 23c3efe516cb10301889b6acaaa4c7065a467b77b8ad4c32cd53369b756db9fe
+
+Package: hyperfine
+Architecture: aarch64
+Installed-Size: 1284
+Maintainer: @termux
+Version: 2.0.0-1
+Homepage: https://github.com/sharkdp/hyperfine
+Description: A command-line benchmarking tool
+Filename: ./hyperfine_2.0.0-1_aarch64.deb
+Size: 450276
+MD5sum: bf8ac184e60cbb47fe60bfea4b1fbd5a
+SHA1: 66cb7077d5b1f1fdbc6bc3f29a8c9bb507759fb1
+SHA256: 6694f2c0a3e9875bf26e2b2d391b7a6db81f8256180c6eb6e857ed588c6b08e0
+
+Package: hz
+Architecture: aarch64
+Installed-Size: 14448
+Maintainer: @termux
+Version: 0.10.6-2
+Homepage: https://www.cloudwego.io
+Description: A high-performance and strong-extensibility Go HTTP framework that helps developers build microservices
+Filename: ./hz_0.10.6-2_aarch64.deb
+Size: 3787620
+MD5sum: b1bbd762d5843f2e0f0123a46baade9c
+SHA1: f848d9575f82249f5c785ec4679abe0262dead4f
+SHA256: 48e017c03922bd2cc4725af51af8d1efb96883e98c0267c5df6d364efbf71526
+
+Package: i2pd-static
+Architecture: aarch64
+Installed-Size: 34872
+Maintainer: @termux
+Version: 3.0.0-1
+Homepage: https://i2pd.website/
+Depends: i2pd (= 3.0.0-1)
+Description: Static libraries for i2pd
+Filename: ./i2pd-static_3.0.0-1_aarch64.deb
+Size: 2876028
+MD5sum: 9dcb0562b5210924a40666738ce99fa2
+SHA1: eb3dba647dac85ed9f304787853b6ad260d8358c
+SHA256: 2fdea3fd2ef7b9511df740fa690d15f295d279e3d07c0b597a09bf96fa697bb0
+
+Package: i2pd
+Architecture: aarch64
+Installed-Size: 7552
+Maintainer: @termux
+Version: 3.0.0-1
+Homepage: https://i2pd.website/
+Depends: boost, libc++, miniupnpc, openssl, zlib
+Description: A full-featured C++ implementation of the I2P router
+Filename: ./i2pd_3.0.0-1_aarch64.deb
+Size: 1597552
+MD5sum: 775f13538f5acc2d7d17f239719d9e09
+SHA1: 170e03ba3a3b1fcc4a01e5f831bb031645208ec9
+SHA256: 05e9ec246a26bc05d503152f84da07344356b2d6a77402efe511dc600696da50
+
+Package: iat
+Architecture: aarch64
+Installed-Size: 188
+Maintainer: @termux
+Version: 0.1.7-1
+Homepage: http://iat.berlios.de/
+Description: Iso9660 Analyzer Tool
+Filename: ./iat_0.1.7-1_aarch64.deb
+Size: 24284
+MD5sum: 9fcfa9f0b7944061b55e58b943ef7194
+SHA1: b0d3014988514260b707df9fd2595e50e41e031e
+SHA256: b1542003243501441640d4aa1a248f38c953ebb03aeba83dbeb16f7639a28214
+
+Package: icecast
+Architecture: aarch64
+Installed-Size: 2268
+Maintainer: @termux
+Version: 2.5.0-1
+Homepage: https://icecast.org
+Depends: libcurl, libgnutls, libogg, libvorbis, libxml2, libxslt, media-types, openssl, libigloo
+Description: Icecast is a streaming media (audio/video) server
+Filename: ./icecast_2.5.0-1_aarch64.deb
+Size: 595308
+MD5sum: a7d6ef017236159908c4bab3cad0d2e6
+SHA1: 0f9bdc6f92ec37a7decf76234d50e15f36b12ba5
+SHA256: ae2aba0a8ca0c47163d8c745ad4b12373389ac36b8a502b1463f95a993165b3f
+
+Package: ices
+Architecture: aarch64
+Installed-Size: 200
+Maintainer: @termux
+Version: 2.0.3-2
+Homepage: https://icecast.org/ices/
+Depends: libshout
+Description: IceS is a source client for the Icecast streaming server.
+Filename: ./ices_2.0.3-2_aarch64.deb
+Size: 42132
+MD5sum: 1ac4b0c373307679a30e6a33ec3ea190
+SHA1: 1cd522eb2fd9a23203dce23ecfee411c768f97ac
+SHA256: 1e0bd0e98946fc77b2b3a3a04a6a515f117af495c67a8fdba86d73e5e390ab06
+
 Package: json-glib
 Architecture: aarch64
 Installed-Size: 772
@@ -1917,6 +2039,60 @@ MD5sum: 8fd87180f8e1df28db7535dd21233e8f
 SHA1: 5bd49839c44c512f3e108c51ce77b5e0c6c12949
 SHA256: 79fec1c4d9d1dbbb958609b603b7d50771cc7f0faf1690065ce869e2f7f6b321
 
+Package: libasio
+Architecture: all
+Installed-Size: 6720
+Maintainer: @termux
+Version: 1.38.2-1
+Homepage: https://think-async.com/Asio
+Description: Cross-platform C++ library for network and low-level I/O programming
+Filename: ./libasio_1.38.2-1_all.deb
+Size: 408172
+MD5sum: b407fd3fb04ba12ab90fc6a080c0a5ff
+SHA1: 659d81583328e0955e253e05634a5d14563b6f57
+SHA256: 90603152aeea03145d2d7fb76c8725a80cf57801eedd688451d9d0db12ac94ba
+
+Package: libatomic-ops-static
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: @termux
+Version: 7.10.0-1
+Homepage: https://github.com/bdwgc/libatomic_ops
+Depends: libatomic-ops (= 7.10.0-1)
+Description: Static libraries for libatomic-ops
+Filename: ./libatomic-ops-static_7.10.0-1_aarch64.deb
+Size: 4196
+MD5sum: 21e4d51332b095fca4a38f9ef989f3f8
+SHA1: 63a26dea9cc94064d0edc815f402d7de7fb6a8e9
+SHA256: 27d909f7d23a9451aa086eb090470619e6e8fb21273db0a99aee385ceacdd347
+
+Package: libatomic-ops
+Architecture: aarch64
+Installed-Size: 1036
+Maintainer: @termux
+Version: 7.10.0-1
+Homepage: https://github.com/bdwgc/libatomic_ops
+Description: Provides semi-portable access to hardware-provided atomic memory update operations
+Filename: ./libatomic-ops_7.10.0-1_aarch64.deb
+Size: 89488
+MD5sum: 1a288aaee07c4de4cc88ea134db112f5
+SHA1: 8af4641a099bf9da2fdc6e9c2f30a88e89693e2d
+SHA256: f1f9e4aec0855f3479c21fbff42e8d31bf4b6f1ef628c935f45e549f1853c068
+
+Package: libbcprov-java
+Architecture: all
+Installed-Size: 7396
+Maintainer: @termux
+Version: 1.86v2-1
+Homepage: https://www.bouncycastle.org/java.html
+Depends: openjdk-21
+Description: A lightweight cryptography API for Java
+Filename: ./libbcprov-java_1.86v2-1_all.deb
+Size: 6333576
+MD5sum: d65b6d2358a1010ed3361758faf07a37
+SHA1: e33c64ceb4571ee486263c48e3cdcde6a3ae7982
+SHA256: 0c4da1d2c80753ad6a48fbcd255b938ba3fb101fd5c1bf7d416f451ddd27e53a
+
 Package: libblocksruntime
 Architecture: aarch64
 Installed-Size: 48
@@ -1929,6 +2105,147 @@ Size: 5424
 MD5sum: f1814262042e5f74d222f45895218021
 SHA1: 461722f6cd8fca448ab9e916ca4b00844b739992
 SHA256: 9d566c87d7ecfc86e1933b94ad05ac3dc1e5455e6ebddbcb862b4b2b2dc0fcd4
+
+Package: libblosc-static
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: @termux
+Version: 1.21.6-3
+Homepage: https://www.blosc.org
+Depends: libblosc (= 1.21.6-3)
+Description: Static libraries for libblosc
+Filename: ./libblosc-static_1.21.6-3_aarch64.deb
+Size: 20232
+MD5sum: e77723d27f7e824441c49b6860b7a10e
+SHA1: add689c74dcf9902568f50205c373323fed15fb4
+SHA256: 1ca7d88003ae4ac0f302d94ea22c21d8bdf8f0ce3aab97798de0ff052689133b
+
+Package: libblosc2
+Architecture: aarch64
+Installed-Size: 996
+Maintainer: @termux
+Version: 3.3.5-1
+Homepage: https://www.blosc.org
+Depends: liblz4, zlib, zstd
+Description: A blocking, shuffling and loss-less compression library
+Filename: ./libblosc2_3.3.5-1_aarch64.deb
+Size: 265584
+MD5sum: ba2b37e47e9d34f3ff4ebc11548a45e5
+SHA1: 849642373cf1fb614253db3b6ecc6eec6bbfde92
+SHA256: 3ff8ddae2899a09516b1dc6150d6bb0fff211c754358504194e893bbb36303a3
+
+Package: libblosc
+Architecture: aarch64
+Installed-Size: 124
+Maintainer: @termux
+Version: 1.21.6-3
+Homepage: https://www.blosc.org
+Depends: liblz4, libsnappy, zlib, zstd
+Description: A blocking, shuffling and loss-less compression library
+Filename: ./libblosc_1.21.6-3_aarch64.deb
+Size: 25080
+MD5sum: 36d9081da5a0b06fc5874e387b06cdf2
+SHA1: 43e594481e5ab5550afe59fc7fbdfcfe226df082
+SHA256: 03572cb80a523da1d1df4d657f667688e5fa1d8a0f001a14e9bef0f25fd0fbac
+
+Package: libbullet
+Architecture: aarch64
+Installed-Size: 8016
+Maintainer: @termux
+Version: 3.25-3
+Homepage: https://github.com/bulletphysics/bullet3
+Depends: libc++
+Description: SDK for real-time collision detection and multi-physics simulation for robotics, VR, etc
+Filename: ./libbullet_3.25-3_aarch64.deb
+Size: 1345116
+MD5sum: 4f0f297ca5a6a9d5bfdcca10881478d2
+SHA1: d802fa7a5546d89acb3adf2612c3d4e019cfe8ad
+SHA256: 47af8a23a40c2490258de0f5b144a7bb7135308cac3d4f624a5c6cc3c00c31f3
+
+Package: libburn-static
+Architecture: aarch64
+Installed-Size: 1876
+Maintainer: @termux
+Version: 1.5.8-1
+Homepage: https://dev.lovelyhq.com/libburnia
+Depends: libburn (= 1.5.8-1)
+Description: Static libraries for libburn
+Filename: ./libburn-static_1.5.8-1_aarch64.deb
+Size: 385340
+MD5sum: 346e9d351b9bdcfda885a2db0ba12a9e
+SHA1: 378016deecbddb346a511f5e665efc6ab5fa84fe
+SHA256: bd263e493da80e95fe65c4328dd742e1d0f0608c227d47e4ac096a9e16ee0b53
+
+Package: libburn
+Architecture: aarch64
+Installed-Size: 752
+Maintainer: @termux
+Version: 1.5.8-1
+Homepage: https://dev.lovelyhq.com/libburnia
+Breaks: libburn-dev
+Replaces: libburn-dev
+Description: Library for reading, mastering and writing optical discs
+Filename: ./libburn_1.5.8-1_aarch64.deb
+Size: 249268
+MD5sum: c265784e0d8e38b756330dd763f466b4
+SHA1: a64dc5baa7fe355863f51e94308dce7619d1fe90
+SHA256: 38aeef0dc41ebc3cf77355eac6d33c8ac3498bc417defb6dc50723e2ed3f7129
+
+Package: libc++utilities
+Architecture: aarch64
+Installed-Size: 1008
+Maintainer: @termux
+Version: 5.37.0-1
+Homepage: https://github.com/Martchus/cpp-utilities
+Depends: boost, libc++, libiconv
+Description: Useful C++ classes and routines such as argument parser, IO and conversion utilities
+Filename: ./libc++utilities_5.37.0-1_aarch64.deb
+Size: 164588
+MD5sum: 5b5daf676a215dbf089480f6840a51f4
+SHA1: b1c780c940ae3f46902e9f2c7bcfb50c4a10aeae
+SHA256: 8d7a8418eea6a8ff1c66e74e92b8fa5796ceb16b901d93b74056b155a31828de
+
+Package: libc-client-static
+Architecture: aarch64
+Installed-Size: 1512
+Maintainer: @termux
+Version: 2007f-5
+Homepage: https://www.washington.edu/imap/
+Depends: libc-client (= 2007f-5)
+Description: Static libraries for libc-client
+Filename: ./libc-client-static_2007f-5_aarch64.deb
+Size: 395676
+MD5sum: 49d1c06edffd57db1bb3640540cd2db1
+SHA1: 828a239b66a1e0ac57536ca3ad32b5c739bbb28e
+SHA256: 854481ab97865c80f64db2fd0da74532e4e2e2156872a4adb5f565de22fca459
+
+Package: libc-client
+Architecture: aarch64
+Installed-Size: 1436
+Maintainer: @termux
+Version: 2007f-5
+Homepage: https://www.washington.edu/imap/
+Depends: openssl
+Description: UW IMAP c-client library
+Filename: ./libc-client_2007f-5_aarch64.deb
+Size: 399504
+MD5sum: ef565a1165b01c820f870cc8b5c564b8
+SHA1: 24b3d0c22ef138aaf67490a35e56f0df84a7f42a
+SHA256: 46a5b04f758e17f6f44b8e59f60e4711f01fadfdb558dcd0d64c28b848625ecb
+
+Package: libcairomm-1.0
+Architecture: aarch64
+Installed-Size: 584
+Maintainer: @termux
+Version: 1.14.6-1
+Homepage: https://www.cairographics.org/cairomm/
+Depends: libc++, libcairo, libsigc++-2.0
+Description: Provides a C++ interface to cairo
+Filename: ./libcairomm-1.0_1.14.6-1_aarch64.deb
+Size: 93312
+MD5sum: 1cce2cbdfb1c2ff9f38af71ecf1e3921
+SHA1: 04e8f48309bab3a260b8087d6fc8d8b0ab046913
+SHA256: b6ad64efe7e912e9f970154e0a7aace41cf462b2dcc7c1516927dbd0a5a59e06
 
 Package: libdeflate-static
 Architecture: aarch64
@@ -2346,6 +2663,233 @@ MD5sum: 40f2e47748bd9bade8e3564f771ca974
 SHA1: b6534af70fb9e6384fccb5c1e6d58ee8139e3414
 SHA256: a14fa619b6bc31f021ec955ac6beaf0f050836edc9e269949e4ee7fd849e8c08
 
+Package: libice
+Architecture: aarch64
+Installed-Size: 436
+Maintainer: @termux
+Version: 1.1.2-2
+Homepage: https://xorg.freedesktop.org/
+Description: X11 Inter-Client Exchange library
+Filename: ./libice_1.1.2-2_aarch64.deb
+Size: 68856
+MD5sum: a25db5a6995bab9aaba50dc8569b8797
+SHA1: 661cb6f98d4fd01f5932bf55837425ec5b668763
+SHA256: d8f3c72c68732467174a3a7bad8142e4a472fc1601c38ef47e9326e1b1019cd3
+
+Package: libigloo-static
+Architecture: aarch64
+Installed-Size: 148
+Maintainer: @termux
+Version: 0.9.5-1
+Homepage: https://icecast.org
+Depends: libigloo (= 0.9.5-1)
+Description: Static libraries for libigloo
+Filename: ./libigloo-static_0.9.5-1_aarch64.deb
+Size: 26188
+MD5sum: a1433358b23447ad53eda094f31af24d
+SHA1: 82197380981868df40f2446c31231eada2e62fc8
+SHA256: 63f5ff4552374af5aec8fb7317da9e2df42e8437208f00f462af116f397d73ab
+
+Package: libigloo
+Architecture: aarch64
+Installed-Size: 224
+Maintainer: @termux
+Version: 0.9.5-1
+Homepage: https://icecast.org
+Depends: rhash
+Description: Generic C framework used and developed by the Icecast project
+Filename: ./libigloo_0.9.5-1_aarch64.deb
+Size: 35452
+MD5sum: ca812369ef698043d39819bf99ef2dc8
+SHA1: 65e8d987b62c6ec1c192c0cdda109ba84ede43e7
+SHA256: 696ade238d41e6e63b63980fe4421dd3e06a66a82310ca8a9ac991a32df179ed
+
+Package: libimobiledevice-glue-static
+Architecture: aarch64
+Installed-Size: 148
+Maintainer: @termux
+Version: 1.3.3-2
+Homepage: https://libimobiledevice.org/
+Depends: libimobiledevice-glue (= 1.3.3-2)
+Description: Static libraries for libimobiledevice-glue
+Filename: ./libimobiledevice-glue-static_1.3.3-2_aarch64.deb
+Size: 27812
+MD5sum: de94a29b3e53929523ebba5bab86b786
+SHA1: 10f4c21be6d394bd897631f389b0c976fcbc94fc
+SHA256: 8365bb6933fede92a41486f196c32610f1faa96145e3271c99479c792b7805cc
+
+Package: libimobiledevice-glue
+Architecture: aarch64
+Installed-Size: 172
+Maintainer: @termux
+Version: 1.3.3-2
+Homepage: https://libimobiledevice.org/
+Depends: libplist
+Description: Library with common code used by the libraries and tools around the libimobiledevice project
+Filename: ./libimobiledevice-glue_1.3.3-2_aarch64.deb
+Size: 28380
+MD5sum: ec0f1014b33a700a35c9884a32ff640c
+SHA1: 67fc9ffe6c66e7836c788140e767a96fceb25af8
+SHA256: 2c8ad8b058bdc87a9e37f14c2e8144a91b91a5501194b016b600534ade5e6214
+
+Package: libimtui
+Architecture: aarch64
+Installed-Size: 1032
+Maintainer: @termux
+Version: 1.0.5-3
+Homepage: https://github.com/ggerganov/imtui
+Depends: libc++, ncurses
+Description: An immediate mode text-based user interface library
+Filename: ./libimtui_1.0.5-3_aarch64.deb
+Size: 319048
+MD5sum: 1e5837880d4090c84fef34af1fbd473e
+SHA1: f737bf94176320528fbc4d286372211826ee9e83
+SHA256: dc508240e4b102b9c1342b06efa6a2d188dc9d8fd6214dbe22f997a232151981
+
+Package: libiodbc-static
+Architecture: aarch64
+Installed-Size: 912
+Maintainer: @termux
+Version: 3.52.16-3
+Homepage: https://www.iodbc.org/
+Depends: libiodbc (= 3.52.16-3)
+Description: Static libraries for libiodbc
+Filename: ./libiodbc-static_3.52.16-3_aarch64.deb
+Size: 138136
+MD5sum: 36de5c8a654f0189086b163495ac22da
+SHA1: 67604467f9a843b43c0961917458ccda783b1a50
+SHA256: 236e3224aab32223869cc15cdb5cf7f1c97614391e49b71d49a8d30b0fa026d4
+
+Package: libiodbc
+Architecture: aarch64
+Installed-Size: 1344
+Maintainer: @termux
+Version: 3.52.16-3
+Homepage: https://www.iodbc.org/
+Conflicts: unixodbc
+Description: Independent Open DataBase Connectivity for Linux, MacOS X and Unix systems
+Filename: ./libiodbc_3.52.16-3_aarch64.deb
+Size: 193640
+MD5sum: ea764088ca03b6a2749fd8650a8f6376
+SHA1: 4a589c17ea57ce63ff79dd4ab57455ae3251fcf7
+SHA256: 5dc282270c4e6a58860ed558f0d6bbb85c7d2e03139497a6399b7f9e2bbd3844
+
+Package: libiptcdata-static
+Architecture: aarch64
+Installed-Size: 204
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.0.5-1
+Homepage: https://libiptcdata.sourceforge.net/
+Depends: libiptcdata (= 1.0.5-1)
+Description: Static libraries for libiptcdata
+Filename: ./libiptcdata-static_1.0.5-1_aarch64.deb
+Size: 36436
+MD5sum: d345a8a1cbb6d25bb6c5860374959e90
+SHA1: 6448ef9c54968b69107b610bcbf2b1116307c617
+SHA256: ce33869033388d5baf20b6547eac71194e5dbfc0b9151c3efd9828c387c780f8
+
+Package: libiptcdata
+Architecture: aarch64
+Installed-Size: 152
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.0.5-1
+Homepage: https://libiptcdata.sourceforge.net/
+Description: a C library for manipulating the IPTC metadata stored within multimedia files
+Filename: ./libiptcdata_1.0.5-1_aarch64.deb
+Size: 20824
+MD5sum: 6fa5a995160756c30b827dd6985ac3bd
+SHA1: 9fdd2a5c6d5676ea831cec1ab60acd3eca4a80ce
+SHA256: a6440466f86c9c753b543bb4fe014bc272343f04c1b73126652c10d844fecc50
+
+Package: libisoburn-static
+Architecture: aarch64
+Installed-Size: 5536
+Maintainer: @termux
+Version: 1.5.8.pl02-1
+Homepage: https://dev.lovelyhq.com/libburnia
+Depends: libisoburn (= 1.5.8.pl02-1)
+Description: Static libraries for libisoburn
+Filename: ./libisoburn-static_1.5.8.pl02-1_aarch64.deb
+Size: 1060832
+MD5sum: 2b0d3e64dddbb3a525ed8a72b2eaa0a7
+SHA1: eef99f82e47e8c3ebf099e485448e1af1b66bcdd
+SHA256: d889d5b47be80317e039df6063e4a4c8fdf0d20814f5bbfd3e07c7c59e71e095
+
+Package: libisoburn
+Architecture: aarch64
+Installed-Size: 2124
+Maintainer: @termux
+Version: 1.5.8.pl02-1
+Homepage: https://dev.lovelyhq.com/libburnia
+Breaks: libisoburn-dev
+Depends: libburn, libisofs, readline
+Conflicts: xorriso
+Replaces: libisoburn-dev
+Description: Frontend for libraries libburn and libisofs
+Filename: ./libisoburn_1.5.8.pl02-1_aarch64.deb
+Size: 674224
+MD5sum: 391d5bea2b98cabdfdaaeecbedea7e27
+SHA1: 4e6336c3a708aed82261dbaad7a9c4c4ea59c074
+SHA256: e1551bf534cc38655e781ceb415fad2139d5454d2db7311e858ebdb3e2558c8e
+
+Package: libisofs-static
+Architecture: aarch64
+Installed-Size: 3040
+Maintainer: @termux
+Version: 1.5.8.pl02-1
+Homepage: https://dev.lovelyhq.com/libburnia
+Depends: libisofs (= 1.5.8.pl02-1)
+Description: Static libraries for libisofs
+Filename: ./libisofs-static_1.5.8.pl02-1_aarch64.deb
+Size: 629844
+MD5sum: e0616a073b6befc91524f2cd608b91d6
+SHA1: 712a07b237048b2402a2b64a08c36f6a3751b24f
+SHA256: 6eeda65f9b1b66da6d094a3886ae8ac4783ce1c89f91d67732623967dfad4db8
+
+Package: libisofs
+Architecture: aarch64
+Installed-Size: 868
+Maintainer: @termux
+Version: 1.5.8.pl02-1
+Homepage: https://dev.lovelyhq.com/libburnia
+Breaks: libisofs-dev
+Depends: libiconv, zlib
+Replaces: libisofs-dev
+Description: Library to pack up hard disk files and directories into a ISO 9660 disk image
+Filename: ./libisofs_1.5.8.pl02-1_aarch64.deb
+Size: 239240
+MD5sum: bed966d2acc8ef4d38b8f8258ee2c71e
+SHA1: 5bb49035ee8c71cf7696f18b08ba18c6607945c7
+SHA256: a5fb4c5baca1d8a78f9a7c6a490b60b07ef9fcee5668a99115f14921ac6d332d
+
+Package: libixion-static
+Architecture: aarch64
+Installed-Size: 3080
+Maintainer: @termux
+Version: 0.20.0-5
+Homepage: https://gitlab.com/ixion/ixion/blob/master/README.md
+Depends: libixion (= 0.20.0-5)
+Description: Static libraries for libixion
+Filename: ./libixion-static_0.20.0-5_aarch64.deb
+Size: 342740
+MD5sum: eb36a602e8a44b3612cab1e4ed1d3845
+SHA1: 489c53a79c6a089f28430725ee73587fe165f026
+SHA256: 031a85453e089558ac1ece7dfccaac4b0daae770b62c5feba31972eca62824c5
+
+Package: libixion
+Architecture: aarch64
+Installed-Size: 1476
+Maintainer: @termux
+Version: 0.20.0-5
+Homepage: https://gitlab.com/ixion/ixion/blob/master/README.md
+Depends: boost, libc++
+Description: A general purpose formula parser & interpreter
+Filename: ./libixion_0.20.0-5_aarch64.deb
+Size: 306968
+MD5sum: cac62d714b75e71a5442536d192626fd
+SHA1: bd909dedfc6f372a31eef812f7e7c7a1d5f2ee05
+SHA256: c6464c5d68843173b3f303edbde1dcdc30e3d71ee0652bd8d8e22124a0224c4d
+
 Package: libkiwix
 Architecture: aarch64
 Installed-Size: 2448
@@ -2430,6 +2974,34 @@ Size: 86776
 MD5sum: f52b43e9a002b94dc9ca26bb79f4b4fd
 SHA1: 44f84cb857dc256052b9ac8c59ab924238e1c177
 SHA256: 7a046fbb8b29eb5f09dba6e67db7a6c42076c614809e4115f995b164a9a0e2f3
+
+Package: libplist-static
+Architecture: aarch64
+Installed-Size: 388
+Maintainer: @termux
+Version: 2.8.0-1
+Homepage: https://libimobiledevice.org
+Depends: libplist (= 2.8.0-1)
+Description: Static libraries for libplist
+Filename: ./libplist-static_2.8.0-1_aarch64.deb
+Size: 65060
+MD5sum: 00449b495a88d1aed7842c7d48f1420f
+SHA1: 12f894516d8f036c1302937cb92cf8df6b0d4113
+SHA256: 79d38c1fafb5d2fd637ef3f8d0c9db0136246707dd330b8a5b5c022191f4a597
+
+Package: libplist
+Architecture: aarch64
+Installed-Size: 448
+Maintainer: @termux
+Version: 2.8.0-1
+Homepage: https://libimobiledevice.org
+Depends: libc++
+Description: A small portable C library to handle Apple Property List files in binary or XML format
+Filename: ./libplist_2.8.0-1_aarch64.deb
+Size: 89704
+MD5sum: 374dce1f75f07bfeeb639ba095f7c07e
+SHA1: 8bd2abdcf74c4110f29fbfdc446f4829d4cfc9b3
+SHA256: be69ca88f80521d50708b5ee1f7d98442607de000c3ef0f6debdea081e738d4a
 
 Package: libprotobuf-c-static
 Architecture: aarch64
@@ -2531,6 +3103,48 @@ MD5sum: 7a54f16870643995f8100598123d917a
 SHA1: 10c228b2d46e11e58030f70484c38eb5cc60044a
 SHA256: 8abd48f088c2ccf2605daef45f5384f58b7cabad02cb00c7d5a70d906f170bae
 
+Package: libshout-static
+Architecture: aarch64
+Installed-Size: 208
+Maintainer: @termux
+Version: 2.4.6-3
+Homepage: https://icecast.org/
+Depends: libshout (= 2.4.6-3)
+Description: Static libraries for libshout
+Filename: ./libshout-static_2.4.6-3_aarch64.deb
+Size: 40228
+MD5sum: ebbe377a91a22a611d9b525c1a050e97
+SHA1: 9eb1c4afb8781095a864c40d528a54692b60dc1a
+SHA256: e6711fdb0fbe0ab710cff183904502a31b4beb407fa941db658a929191fe5387
+
+Package: libshout
+Architecture: aarch64
+Installed-Size: 276
+Maintainer: @termux
+Version: 2.4.6-3
+Homepage: https://icecast.org/
+Depends: libogg, libvorbis, libxml2, openssl
+Description: Library which can be used to write a source client like ices.
+Filename: ./libshout_2.4.6-3_aarch64.deb
+Size: 56584
+MD5sum: b42cdfb677b91a264cba1ea5524142dd
+SHA1: adb67da8526073d6e0a7fbe84394aebec2864da1
+SHA256: a8c6e4135a296de1e39733ab7305dd50ffef537e0eeb7a214b421185ef7529ca
+
+Package: libsigc++-2.0
+Architecture: aarch64
+Installed-Size: 1336
+Maintainer: @termux
+Version: 2.12.1-2
+Homepage: https://libsigcplusplus.github.io/libsigcplusplus/
+Depends: libc++
+Description: Implements a typesafe callback system for standard C++
+Filename: ./libsigc++-2.0_2.12.1-2_aarch64.deb
+Size: 73388
+MD5sum: 89aee1e628e4aff1cc962a9f4ae39331
+SHA1: 48ee55752861ef0ada69ae029f0d3d8ee8cddda2
+SHA256: 432f971516680cf8cf2d333d75e11ae23ce766dabc79c6685cd17cd2ca10a369
+
 Package: libspatialite-static
 Architecture: aarch64
 Installed-Size: 15352
@@ -2558,6 +3172,48 @@ Size: 2744440
 MD5sum: 8da970181af89e35d282e3a1737f83ca
 SHA1: a4fce1cbe6a856451d9723ce18226b1f7bb2a38b
 SHA256: 9467299a42e50f0bf82a523f4e86e00ce2ff23ab1a6cd9c3f344a271ed4a76f2
+
+Package: libspdlog
+Architecture: aarch64
+Installed-Size: 1148
+Maintainer: @termux
+Version: 1.17.0-2
+Homepage: https://github.com/gabime/spdlog
+Depends: libc++, fmt
+Description: Very fast, header-only/compiled, C++ logging library
+Filename: ./libspdlog_1.17.0-2_aarch64.deb
+Size: 154508
+MD5sum: eaa5b773f161457c794814db4debed68
+SHA1: 5f3d5a4d3de57f76f5e6bba35ed6a24a15ac9ddd
+SHA256: 20ca58cfc82c4df6a2e546a70759d611106e79467390dad5064efea06d286d12
+
+Package: libtatsu-static
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: @termux
+Version: 1.0.5-3
+Homepage: https://libimobiledevice.org/
+Depends: libtatsu (= 1.0.5-3)
+Description: Static libraries for libtatsu
+Filename: ./libtatsu-static_1.0.5-3_aarch64.deb
+Size: 15188
+MD5sum: 75e865bafae87e08ddde139fbe67166d
+SHA1: 7935880ed02e52001c051c3ecc35b0f77167ada4
+SHA256: 22c5f845b8c09a1d4120521e7a0559add3ea0eab426e9ad752ccaf83ac54ff48
+
+Package: libtatsu
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: @termux
+Version: 1.0.5-3
+Homepage: https://libimobiledevice.org/
+Depends: libcurl (>= 7.0), libplist
+Description: Library handling the communication with Apple's Tatsu Signing Server (TSS)
+Filename: ./libtatsu_1.0.5-3_aarch64.deb
+Size: 15044
+MD5sum: d4bac6178a59625b90da466c36e184ab
+SHA1: 44b1c2e12e05cfeb43ed320b12b530fe7511786f
+SHA256: 384e67a3bec52f2db5ab55fcdd5ac4304d282b40e04ef2c4db7f8369aeda6ae6
 
 Package: libunbound-static
 Architecture: aarch64
@@ -2588,6 +3244,34 @@ Size: 387740
 MD5sum: 4e211f3b95a0deda154604d3b6c839ed
 SHA1: 31c7aa4b878ede8f7fefa4a556510460e096df0c
 SHA256: 5730336ccb42d1b5184583613833b270c95437ba99274bbdc1bac6368fe42526
+
+Package: libusbmuxd-static
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: @termux
+Version: 2.1.1-4
+Homepage: https://libimobiledevice.org
+Depends: libusbmuxd (= 2.1.1-4)
+Description: Static libraries for libusbmuxd
+Filename: ./libusbmuxd-static_2.1.1-4_aarch64.deb
+Size: 12788
+MD5sum: 49b68eeb7c15aa7b48bb27bd7fe21cb4
+SHA1: 60210655553ef46c988a91a9f38b95f05912c133
+SHA256: aa34eb01f9e86da37cd039474d47e1aadc6dc125962ef23c985e58d1a71b91e3
+
+Package: libusbmuxd
+Architecture: aarch64
+Installed-Size: 152
+Maintainer: @termux
+Version: 2.1.1-4
+Homepage: https://libimobiledevice.org
+Depends: libimobiledevice-glue, libplist, usbmuxd
+Description: A client library for applications to handle usbmux protocol connections with iOS devices
+Filename: ./libusbmuxd_2.1.1-4_aarch64.deb
+Size: 22584
+MD5sum: 5ea665da65e79a6b46f005c85ebbe575
+SHA1: fd8eeb5733f887167574149c9a5bb3215487d6b4
+SHA256: 974ed28a5f7b2c3312c789d49bc8c0daab6491eb63682291b4977c3e8df0be19
 
 Package: libvbisam-static
 Architecture: aarch64
@@ -2673,6 +3357,52 @@ Size: 250820
 MD5sum: 1df4b99090ab986e60e4d5ee91273533
 SHA1: 583a61fa5080e438273e76b04dc3075941158137
 SHA256: ef7044766115428c73dbe1bb64e9ac0975fdd0afb69f8fd3a755b52e6787bb04
+
+Package: media-types
+Architecture: all
+Installed-Size: 120
+Maintainer: @termux
+Version: 14.0.0-1
+Homepage: https://pagure.io/mailcap
+Breaks: mime-support
+Conflicts: mutt (<< 1.8.3-1)
+Replaces: mime-support
+Provides: mime-support
+Description: List of standard media types and their usual file extension
+Filename: ./media-types_14.0.0-1_all.deb
+Size: 19676
+MD5sum: a6b3dc03027c8b2dfe3f92d61be5b419
+SHA1: 7d9c9cbe1cacdd522e0ccbd9768577b86d13c56f
+SHA256: 765f7bba8746c5f6b8bce2279a8799c79742d482e3271379a53f34abb3e313cf
+
+Package: miniupnpc-static
+Architecture: aarch64
+Installed-Size: 124
+Maintainer: @termux
+Version: 2.3.3-2
+Homepage: https://miniupnp.tuxfamily.org/
+Depends: miniupnpc (= 2.3.3-2)
+Description: Static libraries for miniupnpc
+Filename: ./miniupnpc-static_2.3.3-2_aarch64.deb
+Size: 22496
+MD5sum: a15295b7fe235e31c1bdc4eba30a6a6b
+SHA1: 26d5c5e524352b3290413db800c776e083510341
+SHA256: b2746e6c70c15003dbc158a46f6324ca235c386af572cfafab24a6caee3331aa
+
+Package: miniupnpc
+Architecture: aarch64
+Installed-Size: 392
+Maintainer: @termux
+Version: 2.3.3-2
+Homepage: https://miniupnp.tuxfamily.org/
+Breaks: miniupnpc-dev
+Replaces: miniupnpc-dev
+Description: Small UPnP client library and tool to access Internet Gateway Devices
+Filename: ./miniupnpc_2.3.3-2_aarch64.deb
+Size: 50636
+MD5sum: c14a3704e5255f0bcc8a274e20fd2c30
+SHA1: ed705b80492aedfd1c0f5eb289841fa535cf6e7f
+SHA256: f540cd7a2f4b59af22b6d55bb3a09d27df096444d2e11f118af20595611a2baa
 
 Package: octomap-static
 Architecture: aarch64
@@ -2820,6 +3550,20 @@ Size: 659580
 MD5sum: 6b57c1dc8a7011d9827f649223a6f831
 SHA1: aa0d65782ae638dae5aec9e7e868e75361bc4780
 SHA256: 0ea5da89d3a004efcbc21e2eac54f6f5d370733c05b664d5a249cc3027d2cb4d
+
+Package: usbmuxd
+Architecture: aarch64
+Installed-Size: 140
+Maintainer: @termux
+Version: 1.1.1-p20250201-4
+Homepage: https://libimobiledevice.org
+Depends: libimobiledevice-glue, libplist, libusb
+Description: A socket daemon to multiplex connections from and to iOS devices
+Filename: ./usbmuxd_1.1.1-p20250201-4_aarch64.deb
+Size: 28352
+MD5sum: 581873219077190c76fe2b0af58c3bea
+SHA1: 00fa58790b36f13263f23d4af40f81d819ccce57
+SHA256: bee1c621043ff23dc00cfc72be630eda7f50e4fa81f19c013e85fff9dca9b098
 
 Package: utf8cpp
 Architecture: all
