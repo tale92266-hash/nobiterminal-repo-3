@@ -2162,6 +2162,150 @@ MD5sum: 1ac4b0c373307679a30e6a33ec3ea190
 SHA1: 1cd522eb2fd9a23203dce23ecfee411c768f97ac
 SHA256: 1e0bd0e98946fc77b2b3a3a04a6a515f117af495c67a8fdba86d73e5e390ab06
 
+Package: ipv6calc
+Architecture: aarch64
+Installed-Size: 6664
+Maintainer: @termux
+Version: 4.4.1-1
+Homepage: https://www.deepspace6.net/projects/ipv6calc.html
+Depends: openssl, perl
+Description: Does some format changes and calculations of IPv6 addresses
+Filename: ./ipv6calc_4.4.1-1_aarch64.deb
+Size: 1103564
+MD5sum: fc691839673e6378d42694f4a13e6853
+SHA1: 1eaa6d194cf825d8458da32ff2f370135a603b5d
+SHA256: 142405d1976a64bd9bec316fce87e579b55315e5a1a54296dc4d1729b55d1a82
+
+Package: ipv6toolkit
+Architecture: aarch64
+Installed-Size: 4000
+Maintainer: @termux
+Version: 2022.09.30-5
+Homepage: https://www.si6networks.com/research/tools/ipv6toolkit/
+Depends: libpcap, resolv-conf
+Recommends: curl, perl
+Description: SI6 Networks IPv6 Toolkit
+Filename: ./ipv6toolkit_2022.09.30-5_aarch64.deb
+Size: 758272
+MD5sum: 3794afaf1982d4a60f508adb93c8ecb6
+SHA1: ea2282e961e6ca00b8d602b9deffaa3f2c5c72ca
+SHA256: 1b19739a88ae4e14cf7470d07abfdeaf098f0eb291f8db8825e1b145e4c04f83
+
+Package: ircd-irc2
+Architecture: aarch64
+Installed-Size: 484
+Maintainer: @termux
+Version: 2.11.2p3-4
+Homepage: http://www.irc.org/
+Depends: libcrypt, resolv-conf
+Description: An Internet Relay Chat (IRC) daemon
+Filename: ./ircd-irc2_2.11.2p3-4_aarch64.deb
+Size: 149304
+MD5sum: 34d81baafb22b3d53979e9c5edcfcf86
+SHA1: 03ba968406ed4318579639a9c3338c381a02964f
+SHA256: 30a98b5d8f249ce20f7a00ed1bd6caab0147fc18febc0ee3b33b03a09683ae81
+
+Package: ired
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: @termux
+Version: 0.6-4
+Homepage: https://github.com/radare/ired
+Description: Minimalist hexadecimal editor
+Filename: ./ired_0.6-4_aarch64.deb
+Size: 14940
+MD5sum: c8eda7c11104d2c8eba7fd5ade02e0e8
+SHA1: 7cf5d9e4eb04ffc68629163bf25231095e0f782f
+SHA256: 282a9db52c996bff6be8ae6db4b1e89599467bdab65224ae66f74c5efe46c351
+
+Package: iredis
+Architecture: aarch64
+Installed-Size: 2540
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.16.1-3
+Homepage: https://iredis.xbin.io
+Depends: python, python-pip
+Description: Interactive CLI for Redis with auto-completion and syntax highlighting
+Filename: ./iredis_1.16.1-3_aarch64.deb
+Size: 207228
+MD5sum: c28cc3a8f6ffc54b3e5066ce7c15193a
+SHA1: 6e31e3090d544642969d1dfe65f3d076aa0704f7
+SHA256: 0397d2cdde47bbc367b482072393538c117f7b6ffd12854f15075732b8faecd0
+
+Package: irssi
+Architecture: aarch64
+Installed-Size: 2920
+Maintainer: @termux
+Version: 1.4.5-7
+Homepage: https://irssi.org/
+Breaks: irssi-dev
+Depends: glib, libandroid-glob, libiconv, libotr, ncurses, openssl, perl, utf8proc
+Replaces: irssi-dev
+Description: Terminal based IRC client
+Filename: ./irssi_1.4.5-7_aarch64.deb
+Size: 539372
+MD5sum: 5dda5d8ae04129e74e92256ea811f616
+SHA1: 74295c89025fde24b19197578e41e773e407e783
+SHA256: 38a408cb6858d9994bb95d0b54fb651dfccc8fb8d27c73509bf94ca2147f5bc6
+
+Package: isync
+Architecture: aarch64
+Installed-Size: 300
+Maintainer: @termux
+Version: 1.5.1-2
+Homepage: http://isync.sourceforge.net
+Depends: openssl, zlib
+Description: IMAP and MailDir mailbox synchronizer
+Filename: ./isync_1.5.1-2_aarch64.deb
+Size: 100820
+MD5sum: e8d46f390a069556cc6126ba722aaebd
+SHA1: eb372ad93498589ad653795a6dc2bc3dd70169d0
+SHA256: c1581b954239a2e7767495cda10d52b933e1ac6fb92f8ba2577dc0b15c02f08a
+
+Package: iverilog-static
+Architecture: aarch64
+Installed-Size: 32
+Maintainer: @termux
+Version: 13.0-1
+Homepage: http://iverilog.icarus.com/
+Depends: iverilog (= 13.0-1)
+Description: Static libraries for iverilog
+Filename: ./iverilog-static_13.0-1_aarch64.deb
+Size: 1244
+MD5sum: 14128971e41aec33817ae71a50b2c180
+SHA1: b700b5773a77afa6755ec00debda42dd22835681
+SHA256: 572a4e642b278e80cd4c5377ac8b178202609c1797f6a261f70c791621a6a657
+
+Package: iverilog
+Architecture: aarch64
+Installed-Size: 6016
+Maintainer: @termux
+Version: 13.0-1
+Homepage: http://iverilog.icarus.com/
+Breaks: iverilog-dev
+Depends: libbz2, libc++, readline, zlib
+Replaces: iverilog-dev
+Description: Icarus Verilog compiler and simulation tool
+Filename: ./iverilog_13.0-1_aarch64.deb
+Size: 1545628
+MD5sum: c11da29529f47877c0143a6385673615
+SHA1: 253e782da69a351b0ba5d014d5e173d4773ce52e
+SHA256: d3acac11cd74240f91e05413d3571f14493e082761a4de6bd37821cb3f379f93
+
+Package: iwyu
+Architecture: aarch64
+Installed-Size: 8816
+Maintainer: @termux
+Version: 0.25-3
+Homepage: https://include-what-you-use.org/
+Depends: clang (>= 21), clang (<< 22), libc++, python
+Description: A tool to analyze #includes in C and C++ source files
+Filename: ./iwyu_0.25-3_aarch64.deb
+Size: 583920
+MD5sum: 1a365963bf3e33ac26c38b0a9690dfdc
+SHA1: cb0348b854895ecd9baf1d31631a3653042b187c
+SHA256: 42203a48b056d62102b9e5704aa6eff735d190d901f2a8f61fee344ef39b763d
+
 Package: json-glib
 Architecture: aarch64
 Installed-Size: 772
@@ -3054,6 +3198,22 @@ MD5sum: a25db5a6995bab9aaba50dc8569b8797
 SHA1: 661cb6f98d4fd01f5932bf55837425ec5b668763
 SHA256: d8f3c72c68732467174a3a7bad8142e4a472fc1601c38ef47e9326e1b1019cd3
 
+Package: libid3tag
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: @termux
+Version: 0.16.4-2
+Homepage: http://www.underbit.com/products/mad/
+Breaks: libid3tag-dev
+Depends: zlib
+Replaces: libid3tag-dev
+Description: MAD ID3 tag manipulation library
+Filename: ./libid3tag_0.16.4-2_aarch64.deb
+Size: 30888
+MD5sum: ec273fb220a29740ef6d216dbcb7a4da
+SHA1: 16392501cbc6750ffdb5ffd38d4094bb107d1f26
+SHA256: b33c96e00c1bcb6ad066fdbc66e363ca3b4407a47a54592d02730452e308f11b
+
 Package: libigloo-static
 Architecture: aarch64
 Installed-Size: 148
@@ -3565,6 +3725,63 @@ MD5sum: 08806f0faf17e0c1db0263cf075b6b49
 SHA1: c6b8895077d8b6d37d06d6c13c5e9cfba2a2b81b
 SHA256: b05b1e9d4abefacd9bee4a1186f58bd7acbd36532330e6f942d878e7d301dbe7
 
+Package: libmhash-static
+Architecture: aarch64
+Installed-Size: 244
+Maintainer: @termux
+Version: 0.9.9.9-5
+Homepage: https://mhash.sourceforge.net/
+Depends: libmhash (= 0.9.9.9-5)
+Description: Static libraries for libmhash
+Filename: ./libmhash-static_0.9.9.9-5_aarch64.deb
+Size: 88144
+MD5sum: 639b33a9468eb9a53694deb20ac13e4f
+SHA1: 64d0e292523769dce175fbd39e7301ac58c392c1
+SHA256: 3cd47e9dfaf4f936135d694607c6d9f422119b6cd638f00f28a9b7fd7cfe83a4
+
+Package: libmhash
+Architecture: aarch64
+Installed-Size: 276
+Maintainer: @termux
+Version: 0.9.9.9-5
+Homepage: https://mhash.sourceforge.net/
+Breaks: libmhash-dev
+Replaces: libmhash-dev
+Description: A thread-safe hash library which provides a uniform interface to hash algorithms
+Filename: ./libmhash_0.9.9.9-5_aarch64.deb
+Size: 97916
+MD5sum: 2737b20610145272f628ec14bafcefe8
+SHA1: 8c8238d4001bba1011273b47dd7330fcc53453f2
+SHA256: 32db5ee0a9ff208f20e6b3f1154ff7878688ec2bd5bad1075ce7bc286d10a7c8
+
+Package: libminizip-ng-static
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: @termux
+Version: 4.2.2-1
+Homepage: https://github.com/zlib-ng/minizip-ng
+Depends: libminizip-ng (= 4.2.2-1)
+Description: Static libraries for libminizip-ng
+Filename: ./libminizip-ng-static_4.2.2-1_aarch64.deb
+Size: 10796
+MD5sum: dba2fcc66cb25f320b94b8247ae90160
+SHA1: 243d28acca327aefd6c78864f55ce6ed0bc70ff0
+SHA256: 5399c574857476fa44c67f427830eacc48a49bbf32184b1a560872a7e2d9b427
+
+Package: libminizip-ng
+Architecture: aarch64
+Installed-Size: 340
+Maintainer: @termux
+Version: 4.2.2-1
+Homepage: https://github.com/zlib-ng/minizip-ng
+Depends: libbz2, libiconv, liblzma, openssl, zlib
+Description: A zip manipulation library written in C
+Filename: ./libminizip-ng_4.2.2-1_aarch64.deb
+Size: 63256
+MD5sum: d13fb2484ec1a470d40f2e3b5bce3178
+SHA1: 32dc81827888291b591c4ad83a0174a97a7ce644
+SHA256: 76416dfcbdefa2f2d516aef613d181c230d76513b4513c483cb33086206284e7
+
 Package: libminizip-static
 Architecture: aarch64
 Installed-Size: 88
@@ -3593,6 +3810,179 @@ MD5sum: 7a8b14bd0886c5de20242ff695c0b0f4
 SHA1: 29c4d7449728c46a3934c1cdf0ffef145371f762
 SHA256: c5f59c40821c71c4a86d25eb32d880717be080d31583278af12717e1e6f5860e
 
+Package: libmnl-static
+Architecture: aarch64
+Installed-Size: 56
+Maintainer: @termux
+Version: 1.0.5-2
+Homepage: https://www.netfilter.org/projects/libmnl/
+Depends: libmnl (= 1.0.5-2)
+Description: Static libraries for libmnl
+Filename: ./libmnl-static_1.0.5-2_aarch64.deb
+Size: 6996
+MD5sum: ecde31e5a231cd694c855f09cfaf85b6
+SHA1: b6c0adce0ed9f58dd59d3fab5ab8125ee8b70e18
+SHA256: 63033977c5fa2acbcd9acd2a1a0d029d250c57c2d0e36b1509d6b6a3a9e1fb72
+
+Package: libmnl
+Architecture: aarch64
+Installed-Size: 84
+Maintainer: @termux
+Version: 1.0.5-2
+Homepage: https://www.netfilter.org/projects/libmnl/
+Breaks: libmnl-dev
+Replaces: libmnl-dev
+Description: a minimalistic user-space library oriented to Netlink developers
+Filename: ./libmnl_1.0.5-2_aarch64.deb
+Size: 8680
+MD5sum: bc8575fe2e55cc6580918bfaf51d4f82
+SHA1: c0b15102927418aa8c2d0f8e1c4e8318c368f56c
+SHA256: 63560a674b8be9c72c8b4321d901518be6b815340d1c03340aef8df0b9dfe159
+
+Package: libmosquitto
+Architecture: aarch64
+Installed-Size: 904
+Maintainer: @termux
+Version: 2.1.2-3
+Homepage: https://mosquitto.org/
+Breaks: libmosquitto-dev
+Depends: c-ares, cjson, libc++, libsqlite, openssl
+Replaces: libmosquitto-dev
+Description: MQTT library
+Filename: ./libmosquitto_2.1.2-3_aarch64.deb
+Size: 135172
+MD5sum: 49f19aa1e5d54f0ee6515aefa469c62e
+SHA1: d4c5f9baa50944e1956e18f286d935e364de1fd4
+SHA256: 13280300efbd6b7da9c51a5b9de63c6eb746f2eaaa04188f310f402e24ee4dd9
+
+Package: libmp3splt-static
+Architecture: aarch64
+Installed-Size: 592
+Maintainer: @termux
+Version: 0.9.2-11
+Homepage: https://mp3splt.sourceforge.net
+Depends: libmp3splt (= 0.9.2-11)
+Description: Static libraries for libmp3splt
+Filename: ./libmp3splt-static_0.9.2-11_aarch64.deb
+Size: 111680
+MD5sum: 843b812823dde98261825238fcd27efc
+SHA1: 2609b5a475972767b00703eb6a79b0a657c58100
+SHA256: 5888e66b2c98e3c131929fceab9891222ff2b2b7073bdf399b72ac289515bedf
+
+Package: libmp3splt
+Architecture: aarch64
+Installed-Size: 456
+Maintainer: @termux
+Version: 0.9.2-11
+Homepage: https://mp3splt.sourceforge.net
+Breaks: libmp3splt-dev
+Depends: libflac, libid3tag, libltdl, libmad, libogg, libvorbis, pcre
+Replaces: libmp3splt-dev
+Description: Utility to split MP3, Ogg Vorbis and native FLAC files without decoding
+Filename: ./libmp3splt_0.9.2-11_aarch64.deb
+Size: 113928
+MD5sum: 94589b9ddc6d42b179266f6c2f00d648
+SHA1: 673d6a76a8a985748ee0c1b02bdcde8f6c4265b8
+SHA256: ea53a047dd5999eaca9993dfcaf4314675bb21bb576bbf8ad360f7a879479fd3
+
+Package: libmpc-static
+Architecture: aarch64
+Installed-Size: 328
+Maintainer: @termux
+Version: 1.4.1-1
+Homepage: https://www.multiprecision.org/
+Depends: libmpc (= 1.4.1-1)
+Description: Static libraries for libmpc
+Filename: ./libmpc-static_1.4.1-1_aarch64.deb
+Size: 49748
+MD5sum: 3928d54070b32cda035ef88f352836f2
+SHA1: 293a324881301997d5b1acef9b00d2b731f50dc9
+SHA256: 0239e4f79f60ae2fc02fbe42f292f001ff11dea25c1d0ddb444cc154d603bd02
+
+Package: libmpc
+Architecture: aarch64
+Installed-Size: 316
+Maintainer: @termux
+Version: 1.4.1-1
+Homepage: https://www.multiprecision.org/
+Breaks: libmpc-dev
+Depends: libgmp, libmpfr
+Replaces: libmpc-dev
+Description: Library for the arithmetic of complex numbers with arbitrarily high precision
+Filename: ./libmpc_1.4.1-1_aarch64.deb
+Size: 74020
+MD5sum: 2ad649e5bb0078f89cfd1e15c41098d8
+SHA1: 2c98451a7f1da027ff531e82b30d09f7c1799227
+SHA256: 192413aacc43087066d509e944548e0d456c7e48fe8909909a8998043bed0e18
+
+Package: libmpeg2-static
+Architecture: aarch64
+Installed-Size: 176
+Maintainer: @termux
+Version: 0.5.1-3
+Homepage: https://libmpeg2.sourceforge.io/
+Depends: libmpeg2 (= 0.5.1-3)
+Description: Static libraries for libmpeg2
+Filename: ./libmpeg2-static_0.5.1-3_aarch64.deb
+Size: 38140
+MD5sum: d01e0c6f0defb4f7659d4421c1fdab04
+SHA1: 468ef63c1ce4c36d58bb4871d4208757a7c856f5
+SHA256: 76a916b2c416da45da9429429a5ee0ca6f06f86d35d977d4d5dc8b6586f29ec4
+
+Package: libmpeg2
+Architecture: aarch64
+Installed-Size: 252
+Maintainer: @termux
+Version: 0.5.1-3
+Homepage: https://libmpeg2.sourceforge.io/
+Description: MPEG-2 decoder libraries
+Filename: ./libmpeg2_0.5.1-3_aarch64.deb
+Size: 55520
+MD5sum: 7a3045e642baab74fc13c8f4afbccfeb
+SHA1: 399859d0404516c227c4cd5d6f5c4a4d561ca015
+SHA256: 8f12a60f3521485f28d65594002b2978c2e123210c4ef0a0a066c1b9728bb5de
+
+Package: libmsgpack-cxx
+Architecture: aarch64
+Installed-Size: 7608
+Maintainer: @termux
+Version: 9.0.0-1
+Homepage: https://msgpack.org/
+Description: msgpack for C++
+Filename: ./libmsgpack-cxx_9.0.0-1_aarch64.deb
+Size: 193024
+MD5sum: d9b497d3efe0db566c0a2cd979e08895
+SHA1: 13f63d1c48043eaab88de9e9e1ca317166f6d5e8
+SHA256: 02dd381a1ce0ace0b5c202fc814f23d934c17925ce2c92597d28e848884f7ca9
+
+Package: libmspub-static
+Architecture: aarch64
+Installed-Size: 1904
+Maintainer: @termux
+Version: 0.1.5-1
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libcdr
+Depends: libmspub (= 0.1.5-1)
+Description: Static libraries for libmspub
+Filename: ./libmspub-static_0.1.5-1_aarch64.deb
+Size: 204672
+MD5sum: 31c8fa04c75ac1059f8acb109d73d449
+SHA1: c71dec0aa6fd7166198b21f7e22b84348af6d9d8
+SHA256: 3c949879c62e2d2852825ff4cfd12fc11272c38967ef1a86a26133636f59b639
+
+Package: libmspub
+Architecture: aarch64
+Installed-Size: 564
+Maintainer: @termux
+Version: 0.1.5-1
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libcdr
+Depends: libwpd, libicu, libxml2, librevenge, zlib
+Description: Microsoft Publisher file format parser library (latest snapshot)
+Filename: ./libmspub_0.1.5-1_aarch64.deb
+Size: 115200
+MD5sum: 2bbd9fedb26354e70f62355b47e8f44b
+SHA1: c10b6698b021763b8aba181081a394a8ae1e9105
+SHA256: ee7969d1ed22635935dc0d98f30e431123d48a8c340b8cdeb9cc82ae0f7fbe9a
+
 Package: libobjc2
 Architecture: aarch64
 Installed-Size: 464
@@ -3607,6 +3997,64 @@ Size: 86776
 MD5sum: f52b43e9a002b94dc9ca26bb79f4b4fd
 SHA1: 44f84cb857dc256052b9ac8c59ab924238e1c177
 SHA256: 7a046fbb8b29eb5f09dba6e67db7a6c42076c614809e4115f995b164a9a0e2f3
+
+Package: liborcus-static
+Architecture: aarch64
+Installed-Size: 6964
+Maintainer: @termux
+Version: 0.21.0-3
+Homepage: https://gitlab.com/orcus/orcus/
+Depends: liborcus (= 0.21.0-3)
+Description: Static libraries for liborcus
+Filename: ./liborcus-static_0.21.0-3_aarch64.deb
+Size: 829196
+MD5sum: 3ad9b6d05b9758dc864cad960b9ff352
+SHA1: c98401bb2c06dc32a6675e5a80d05ca91c320ae6
+SHA256: 88c6fd9139542e4dd56ab1f95f8ce67f8b0007ade56dac2072e9225bfb808cbe
+
+Package: liborcus
+Architecture: aarch64
+Installed-Size: 4172
+Maintainer: @termux
+Version: 0.21.0-3
+Homepage: https://gitlab.com/orcus/orcus/
+Depends: boost, libc++, libixion, zlib
+Description: File import filter library for spreadsheet documents.
+Filename: ./liborcus_0.21.0-3_aarch64.deb
+Size: 729244
+MD5sum: 2613d2ed9f0f577fb11ec8b583321f30
+SHA1: 30b8f94d224b9615d3c4ec8d39c2a60e59457428
+SHA256: 378201413c3bd1442f199f4745a6c466a244df052eab087485c5c8ea775d00c2
+
+Package: libotr-static
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 4.1.1-4
+Homepage: https://otr.cypherpunks.ca
+Depends: libotr (= 4.1.1-4)
+Description: Static libraries for libotr
+Filename: ./libotr-static_4.1.1-4_aarch64.deb
+Size: 36824
+MD5sum: a42d4257b7ae3d3640b3907d53e61308
+SHA1: 7822b1beb8e18f8045918d62c17badfc9174a7db
+SHA256: 6cb221c62bbefaa8c00551b2c489ec256627cb09259c22f7305aa4c8eb824d17
+
+Package: libotr
+Architecture: aarch64
+Installed-Size: 384
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 4.1.1-4
+Homepage: https://otr.cypherpunks.ca
+Breaks: libotr-dev
+Depends: libgcrypt
+Replaces: libotr-dev
+Description: Off-the-Record (OTR) Messaging allows you to have private conversations over instant messaging by providing: Encryption, Authentication, Deniability, Perfect forward secrecy
+Filename: ./libotr_4.1.1-4_aarch64.deb
+Size: 68776
+MD5sum: a2e89ed0c24d550f75d69a11e031645b
+SHA1: 5134dbc3e8f0cd7e8e507d83522f0a980708a773
+SHA256: 5cb8aafb8982bad0ff143e8716df116aa20b89fc6284b6605d6c12e47db88be8
 
 Package: libplist-static
 Architecture: aarch64
@@ -3961,6 +4409,22 @@ MD5sum: 26cf2796685da2870efcf33317d57385
 SHA1: 93d4e073c7c71d2cb01324d1d8ba9a006008cfe8
 SHA256: d251ebacc88cf90d1122e69661f0a13973a1c8dd5c2fd1e269fa074291b4121e
 
+Package: libwebsockets
+Architecture: aarch64
+Installed-Size: 2184
+Maintainer: @termux
+Version: 5.0.0-2
+Homepage: https://libwebsockets.org
+Breaks: libwebsockets-dev
+Depends: openssl, libcap, libuv, zlib
+Replaces: libwebsockets-dev
+Description: Lightweight C websockets library
+Filename: ./libwebsockets_5.0.0-2_aarch64.deb
+Size: 497664
+MD5sum: 72ccec4e44acbaa9308f3b8004fe9aac
+SHA1: 6d3d7131e83a2a4efd8ff990578d4b0975ec1ad8
+SHA256: fe6ed063e036d5ca4e83f197d144d9581822e35f3bb7ad7f14aa86b77009c462
+
 Package: libwpd
 Architecture: aarch64
 Installed-Size: 796
@@ -4092,6 +4556,20 @@ Size: 50636
 MD5sum: c14a3704e5255f0bcc8a274e20fd2c30
 SHA1: ed705b80492aedfd1c0f5eb289841fa535cf6e7f
 SHA256: f540cd7a2f4b59af22b6d55bb3a09d27df096444d2e11f118af20595611a2baa
+
+Package: mosquitto
+Architecture: aarch64
+Installed-Size: 1120
+Maintainer: @termux
+Version: 2.1.2-3
+Homepage: https://mosquitto.org/
+Depends: libwebsockets, libmosquitto (= 2.1.2-3)
+Description: MQTT version 3.1/3.1.1 compatible message broker and clients
+Filename: ./mosquitto_2.1.2-3_aarch64.deb
+Size: 302268
+MD5sum: baf9b0b5410d7b0db7f93064bf0a559f
+SHA1: 0bc419c17bce9ff1d389567558bfbb414cac8788
+SHA256: d27e0069ff490044e4bbc4ba2b2e82b1ee90808caf09bca7afb518e214ee67e1
 
 Package: octomap-static
 Architecture: aarch64
