@@ -1,0 +1,337 @@
+Package: gdu
+Architecture: aarch64
+Installed-Size: 22808
+Maintainer: @termux
+Version: 5.38.0-2
+Homepage: https://github.com/dundee/gdu
+Description: Fast disk usage analyzer with console interface written in Go
+Filename: ./gdu_5.38.0-2_aarch64.deb
+Size: 6080468
+MD5sum: b90bf83b7fd9efaa624239402de94eb0
+SHA1: d061bb9f63145e48beaafbe21f157bf73f807192
+SHA256: d52940c7764d87ef0ecea50548bb39865f92912e63ed2e92450bb0f113f06599
+
+Package: geckodriver
+Architecture: aarch64
+Installed-Size: 4776
+Maintainer: @termux
+Version: 0.37.1-1
+Homepage: https://github.com/mozilla/geckodriver
+Recommends: firefox
+Description: Proxy for using W3C WebDriver-compatible clients to interact with Gecko-based browsers
+Filename: ./geckodriver_0.37.1-1_aarch64.deb
+Size: 1439012
+MD5sum: 8f149d1ecc0424035c5f1b70eef8998c
+SHA1: 51192b020cac09786b3ee75e54ef6aedf2e44204
+SHA256: 7eeb4e6cfeee5049933cec152f7eaf1cb894ecfad3686f8ace42841414868a91
+
+Package: gecode
+Architecture: aarch64
+Installed-Size: 21896
+Maintainer: @termux
+Version: 6.4.0-1
+Homepage: https://www.gecode.dev/
+Depends: libc++
+Description: Generic Constraint Development Environment
+Filename: ./gecode_6.4.0-1_aarch64.deb
+Size: 2664036
+MD5sum: baf8c148d7d67b218d1720510ee7f06e
+SHA1: 84c2d5f9154325efa6c1a6eb7a3b261b0ec1b263
+SHA256: 0a9ed5fce11b6eaefc11f01dacebb1c63d66920077481eb68248117cdf2a9a26
+
+Package: gengetopt
+Architecture: aarch64
+Installed-Size: 976
+Maintainer: @termux
+Version: 2.23.1-1
+Homepage: https://www.gnu.org/software/gengetopt/
+Depends: libc++
+Description: gengetopt is a tool to write command line option parsing code for C programs
+Filename: ./gengetopt_2.23.1-1_aarch64.deb
+Size: 187712
+MD5sum: 250a6930b5107a8d94915642622d424e
+SHA1: 6da1f75939cd687c91e4210f0e510126260b8798
+SHA256: 38ab9520876eb35389b8275f3084e128016b9fb3a120e54e12172d1caa894cc7
+
+Package: geographiclib
+Architecture: aarch64
+Installed-Size: 3468
+Maintainer: @termux
+Version: 2.7-1
+Homepage: https://geographiclib.sourceforge.io
+Depends: libc++
+Description: Utilities and C++ library to solve some geodesic problems
+Filename: ./geographiclib_2.7-1_aarch64.deb
+Size: 619912
+MD5sum: 649c82ea70ed19792693c5523fc9afc3
+SHA1: b14471b0cd5c320a8d7c728a81deaedc4b182214
+SHA256: 1acc15e69e5dbbb219d87eaa5e3217fc7f1c5450bccc8adb7ac3b0dedb680815
+
+Package: geoip2-database
+Architecture: all
+Installed-Size: 71700
+Maintainer: @termux
+Version: 20191221-3
+Homepage: https://dev.maxmind.com/geoip/geoip2/geolite2/
+Description: GeoLite2 IP geolocation databases compiled by MaxMind
+Filename: ./geoip2-database_20191221-3_all.deb
+Size: 23385680
+MD5sum: 3d9026f059cbeedf2c8ee768db492052
+SHA1: 9d01a2acf8b64916fd086a15514b360c976d0fdc
+SHA256: 940f52ab7361094be059d179e3ada4b0cf7b02be771a3d95eb17cd03504c458e
+
+Package: germanium
+Architecture: aarch64
+Installed-Size: 7768
+Maintainer: @termux
+Version: 1.2.3-5
+Homepage: https://github.com/matsuyoshi30/germanium
+Description: Generate image from source code
+Filename: ./germanium_1.2.3-5_aarch64.deb
+Size: 2058692
+MD5sum: ef171d4ef2e48859c021f018fd8d2676
+SHA1: 76932549dd0886071a78467bc01103738fa88fd5
+SHA256: b2e6baf3766be734869280a2894d551109ec319e93a614683147452d19bd0b0d
+
+Package: getconf
+Architecture: aarch64
+Installed-Size: 72
+Maintainer: @termux
+Version: 0.6-2
+Homepage: https://github.com/termux/getconf
+Description: Utility to print configuration values
+Filename: ./getconf_0.6-2_aarch64.deb
+Size: 6636
+MD5sum: 11304ee92628535917a0b7c1fb978a26
+SHA1: e4f0643b1619f000514c46de80de6d7fedbeb588
+SHA256: 21fe65c2243c3753a5fe242e017f2042614338a3ebc16211e399652966d260cc
+
+Package: geth
+Architecture: aarch64
+Installed-Size: 65072
+Maintainer: @termux
+Version: 1.17.9-1
+Homepage: https://geth.ethereum.org/
+Suggests: geth-utils
+Description: Go implementation of the Ethereum protocol
+Filename: ./geth_1.17.9-1_aarch64.deb
+Size: 16109180
+MD5sum: a3cc1e6ea30c830eda93fec1f8f11a56
+SHA1: 5ecd0e2487b0e65cdda9d5f932233ed4afe2254d
+SHA256: e0472654147dbc8a1c0df858a2fec33dfcc7cbbcaca4e40b114124754547590e
+
+Package: gexiv2
+Architecture: aarch64
+Installed-Size: 648
+Maintainer: @termux
+Version: 0.16.2-1
+Homepage: https://wiki.gnome.org/Projects/gexiv2
+Depends: exiv2, glib, libc++
+Description: A GObject-based Exiv2 wrapper
+Filename: ./gexiv2_0.16.2-1_aarch64.deb
+Size: 85868
+MD5sum: a429ecce2e3ad97bf947f05920a7a90b
+SHA1: 4644f5f2e568052a68129ba008cedddccb7f023c
+SHA256: 1ef54e01ba9850184318adfeed401a1881d8afb0f821a96f9de64e7bc5dc2418
+
+Package: gflags-static
+Architecture: aarch64
+Installed-Size: 516
+Maintainer: @termux
+Version: 2.3.1-1
+Homepage: https://github.com/gflags/gflags
+Depends: gflags (= 2.3.1-1)
+Description: Static libraries for gflags
+Filename: ./gflags-static_2.3.1-1_aarch64.deb
+Size: 60392
+MD5sum: 19da58d435bd28722c691e95c04a83cc
+SHA1: f50a0ae1cb57be29fcb9cc4dd67da8739099e930
+SHA256: dcb197ab328a0b7e4d56ae01eb92077ae0943d16fb9f1a39fdb71e4dd082dd6b
+
+Package: gflags
+Architecture: aarch64
+Installed-Size: 448
+Maintainer: @termux
+Version: 2.3.1-1
+Homepage: https://github.com/gflags/gflags
+Breaks: gflags-dev
+Depends: libc++
+Replaces: gflags-dev
+Description: A C++ library that implements commandline flags processing
+Filename: ./gflags_2.3.1-1_aarch64.deb
+Size: 79780
+MD5sum: 9962a9d537c631e143ef8b589663259c
+SHA1: 51dd832085834bd89fa5c36fa5cb7296d7081dcc
+SHA256: ef4c786340fdd43af0f1f249bc97448633b5b79458378405484bf6325cb2c648
+
+Package: ghq
+Architecture: aarch64
+Installed-Size: 10592
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.11.2-2
+Homepage: https://github.com/x-motemen/ghq
+Description: Manage remote repository clones, like go get does
+Filename: ./ghq_1.11.2-2_aarch64.deb
+Size: 2936612
+MD5sum: 043cccdd5768b04cc87a8ac83f3295f9
+SHA1: 3bbbae894fe9c2407e2e78ccd7ec75e487ff4970
+SHA256: 08edca5986663a4d3b0d3b1a68da57a09d496ab0c46f9eef11cb16dc896b8c17
+
+Package: gifsicle
+Architecture: aarch64
+Installed-Size: 360
+Maintainer: @termux
+Version: 1.98-1
+Homepage: https://www.lcdf.org/gifsicle/
+Suggests: libx11
+Description: Tool for creating, editing, and getting information about GIF images and animations
+Filename: ./gifsicle_1.98-1_aarch64.deb
+Size: 115188
+MD5sum: eee9b247b46a525dd13ae2e77868cfbf
+SHA1: ebb97af364a393f889e909d308191449feddcab7
+SHA256: e1e24a32274c6817b2820e9aeb259b0f3cb34937e700291c8bd0995c4ca25ae4
+
+Package: gifski
+Architecture: aarch64
+Installed-Size: 1324
+Maintainer: @termux
+Version: 1.34.0-3
+Homepage: https://gif.ski/
+Description: GIF encoder based on libimagequant
+Filename: ./gifski_1.34.0-3_aarch64.deb
+Size: 505764
+MD5sum: 7880baf7da54bb2591d206c7d9d3662c
+SHA1: 222e8aec4d00f72f8e26e56f45f99a866ea4b9d1
+SHA256: 26fe9eb192788c2827c9dc8107f0d45fbc35562498351f4db4bffd30daf37614
+
+Package: girara
+Architecture: aarch64
+Installed-Size: 144
+Maintainer: @termux
+Version: 2026.07.18-1
+Homepage: https://pwmt.org/projects/girara
+Depends: glib
+Description: Simple user interface library used by Zathura
+Filename: ./girara_2026.07.18-1_aarch64.deb
+Size: 17060
+MD5sum: cd4e9e8a19a1bd28dcd49423a1c43ff9
+SHA1: ae0af527c4d18b0b4aea7743a46035c7e861e041
+SHA256: a8ba4cd3f77df92268c38062addff84eb4d207dac3b6e2d6e2815b46976ae030
+
+Package: git-absorb
+Architecture: aarch64
+Installed-Size: 1712
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 0.9.0-1
+Homepage: https://github.com/tummychow/git-absorb
+Depends: zlib
+Description: git commit --fixup, but automatic
+Filename: ./git-absorb_0.9.0-1_aarch64.deb
+Size: 615664
+MD5sum: ed01023f10705c335f778f6631a25743
+SHA1: e892bc130cc0570060de4a80c966f67c9c2c9d2c
+SHA256: bd519ead3a89f798922c101632a3c844d423e50c452312d09ec2f6a1eb768136
+
+Package: gpgme-static
+Architecture: aarch64
+Installed-Size: 704
+Maintainer: @termux
+Version: 2.2.0-1
+Homepage: https://www.gnupg.org/related_software/gpgme/
+Depends: gpgme (= 2.2.0-1)
+Description: Static libraries for gpgme
+Filename: ./gpgme-static_2.2.0-1_aarch64.deb
+Size: 128592
+MD5sum: 558c400edad2a44cc9a8020518c772d7
+SHA1: 51e1e6aee16435c7b564567da5c01c38744bd512
+SHA256: faf503f5fc7e745194c596442a6bbfdf189e2a718bf39ebda632eb573b2a4afd
+
+Package: gpgme
+Architecture: aarch64
+Installed-Size: 1240
+Maintainer: @termux
+Version: 2.2.0-1
+Homepage: https://www.gnupg.org/related_software/gpgme/
+Breaks: gpgme-dev
+Depends: gnupg (>= 2.2.9-1), libassuan, libgpg-error
+Replaces: gpgme-dev
+Description: Library designed to make access to GnuPG easier
+Filename: ./gpgme_2.2.0-1_aarch64.deb
+Size: 263864
+MD5sum: 5336b70ffcff78d5da80f4872edd7c5d
+SHA1: 6103a156d188359f73854558c5536598d3b1ff9c
+SHA256: e85b2d517614d0c7f453fef619cf09dcd91791c38b0aa28f83ca5de57b49d25f
+
+Package: gpgmepp
+Architecture: aarch64
+Installed-Size: 748
+Maintainer: @termux
+Version: 2.2.0-1
+Homepage: https://www.gnupg.org/related_software/gpgme/
+Depends: gpgme, libc++, libgpg-error
+Description: C++ bindings for GPGME
+Filename: ./gpgmepp_2.2.0-1_aarch64.deb
+Size: 129776
+MD5sum: f28b25d005cb1d212e9bda696066095e
+SHA1: 80ef01f3fc8a2a95298f46631262a51f8a2a6ecc
+SHA256: fd4e5c2a9f0ede048d2c7ae7c0e5c8f6dd6b1e8418eb386f38143c39a824d331
+
+Package: json-glib
+Architecture: aarch64
+Installed-Size: 772
+Maintainer: @termux
+Version: 1.10.8-1
+Homepage: https://wiki.gnome.org/Projects/JsonGlib
+Breaks: json-glib-dev
+Depends: glib
+Replaces: json-glib-dev
+Description: GLib JSON manipulation library
+Filename: ./json-glib_1.10.8-1_aarch64.deb
+Size: 92172
+MD5sum: 1511ef07e8117a17026c8e7a4b9db254
+SHA1: 41a84cf566c166c67e412ba6198755cafdf0fc2d
+SHA256: a779c78dd3830610a1642229c52076cc34f22675c71aa4d5bece4f65541a7aef
+
+Package: poppler
+Architecture: aarch64
+Installed-Size: 8004
+Maintainer: @termux
+Version: 26.10.0-1
+Homepage: https://poppler.freedesktop.org/
+Breaks: poppler-dev, poppler-qt (<< 26.10.0)
+Depends: fontconfig, freetype, glib, gpgme, gpgmepp, harfbuzz, libc++, libcairo, libcurl, libiconv, libjpeg-turbo, libnspr, libnss, libpng, libtiff, littlecms, openjpeg, zlib
+Replaces: poppler-dev, poppler-qt (<< 22.04.0-3)
+Description: PDF rendering library
+Filename: ./poppler_26.10.0-1_aarch64.deb
+Size: 1323932
+MD5sum: 3e2ad7c60ad817f882be2668602aede9
+SHA1: 747918254c54b5927d1d7d0af633e04807b29936
+SHA256: 4b9bb97625d0a3bff7a6361eb2b13336272b504ba2640e6e4f0c1212ca8f2ec3
+
+Package: xerces-c-static
+Architecture: aarch64
+Installed-Size: 10904
+Maintainer: @3ls-it
+Version: 3.3.0-1
+Homepage: https://xerces.apache.org/
+Depends: xerces-c (= 3.3.0-1)
+Description: Static libraries for xerces-c
+Filename: ./xerces-c-static_3.3.0-1_aarch64.deb
+Size: 1122792
+MD5sum: b00afa49ce26dcd34f37bbe6e334894f
+SHA1: fc1aa468bd2fdd1880e2b2d63ea1298dfe5eea98
+SHA256: 6099f8cda1e3e3ba8e9933c9b471e6a2a914ca024525459f8cd6af2cc4260587
+
+Package: xerces-c
+Architecture: aarch64
+Installed-Size: 9600
+Maintainer: @3ls-it
+Version: 3.3.0-1
+Homepage: https://xerces.apache.org/
+Depends: libc++, libcurl, libicu
+Description: Validating XML parser library for C++.
+Filename: ./xerces-c_3.3.0-1_aarch64.deb
+Size: 1152156
+MD5sum: 6a0bbb741b9b78ba6d79571c12ea93d2
+SHA1: b540bf8ae6ea085d5bd8c4a30dde59c66beb23d4
+SHA256: d806dc7df5964a2f2dbb0cfb5b039948209a1b2bdb26aff5e0081d04fde0306d
