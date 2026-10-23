@@ -773,6 +773,150 @@ MD5sum: 354cb8586a960a57a9ec10fb3ce15ca6
 SHA1: 56f5158f400aa4f52d6626f216a44155f2ffd0c8
 SHA256: 2c4a8ebb66e60102c470cefabd1591a76e6ad9bd9f4da9d2216c28f4db7e1e90
 
+Package: glulxe
+Architecture: aarch64
+Installed-Size: 328
+Maintainer: @termux
+Version: 0.6.1-2
+Homepage: https://www.eblong.com/zarf/glulx/
+Depends: ncurses
+Description: Interpreter for the Glulx portable VM for interactive fiction (IF) games
+Filename: ./glulxe_0.6.1-2_aarch64.deb
+Size: 80908
+MD5sum: bc212640b02626b5d69c0ebfc25620db
+SHA1: 741c235775df417316505fdf713a58adcea5f829
+SHA256: 63dc0ee53693cfdd31b14299ee3f2332f28aa9d4523e874d180dc052b63fb574
+
+Package: gmic-gm
+Architecture: aarch64
+Installed-Size: 5312
+Maintainer: @termux
+Version: 4.0.6-1
+Homepage: https://gmic.eu
+Depends: graphicsmagick, fftw, imath, libc++, libcurl, libjpeg-turbo, libpng, libtiff, libx11, openexr, zlib
+Description: Full-featured framework for image processing (GraphicsMagick variant)
+Filename: ./gmic-gm_4.0.6-1_aarch64.deb
+Size: 2769944
+MD5sum: 8234d61fe7b754c582aadedaa36dec83
+SHA1: b5c62e051f29ab18640d55b9c6b4a9c932e60477
+SHA256: 739297226a61793cc0ee086c731cfdb1bf27bbc0b1d53ca974a359c544140eeb
+
+Package: gmic
+Architecture: aarch64
+Installed-Size: 5308
+Maintainer: @termux
+Version: 4.0.6-1
+Homepage: https://gmic.eu
+Depends: fftw, imath, libc++, libcurl, libjpeg-turbo, libpng, libtiff, libx11, openexr, zlib
+Description: Full-featured framework for image processing
+Filename: ./gmic_4.0.6-1_aarch64.deb
+Size: 2768004
+MD5sum: 13d00d226b368fb80c188b189bb0f1bc
+SHA1: 7820a2f096bfe95ea38ab4cf193a4b76a6766292
+SHA256: 2ccb88bbb8a0b6a2469d53f28a0e2fa5148abd33f326bcbe2ec8e5bd1d5fd7e3
+
+Package: gnucap
+Architecture: aarch64
+Installed-Size: 2536
+Maintainer: Henrik Grimler @Grimler91
+Version: 20210107-5
+Homepage: https://www.gnu.org/software/gnucap/gnucap.html
+Breaks: gnucap-dev
+Depends: libc++, readline
+Replaces: gnucap-dev
+Description: The Gnu Circuit Analysis Package
+Filename: ./gnucap_20210107-5_aarch64.deb
+Size: 546604
+MD5sum: e34c99d98a9aedfd1c694fcaa2e26cc9
+SHA1: cab3d2f65d0ef8f322d46b99dd814c695b9f6a3a
+SHA256: 952e7fd2d996df6919522daff744a0b0600fb598fb1d271c037a00fbb64fbf3d
+
+Package: gnucobol-static
+Architecture: aarch64
+Installed-Size: 736
+Maintainer: @termux
+Version: 3.2-3
+Homepage: https://gnucobol.sourceforge.io/
+Depends: gnucobol (= 3.2-3)
+Description: Static libraries for gnucobol
+Filename: ./gnucobol-static_3.2-3_aarch64.deb
+Size: 176424
+MD5sum: fb84c6e22ded04b74423b7fb224ace4c
+SHA1: f34dab22882de4c2e6c72cc5778c24945ad32867
+SHA256: 77c3622caf830cd1fa56c0757548e41bd2cbd35dd6e9f0bc1d62d51b6fb00dcc
+
+Package: gnucobol
+Architecture: aarch64
+Installed-Size: 2528
+Maintainer: @termux
+Version: 3.2-3
+Homepage: https://gnucobol.sourceforge.io/
+Depends: json-c, libgmp, libvbisam, libxml2, ncurses
+Description: A free/libre COBOL compiler
+Filename: ./gnucobol_3.2-3_aarch64.deb
+Size: 646300
+MD5sum: 1f257b35f7e822b2589a9c3a2b8a15a0
+SHA1: 0b7fac4559518ff8127e56c5b2b31d7170a99448
+SHA256: b213b1a83af7f0cdd8dd4003303194719d5e73983b3eb7602b67553cd89e79ed
+
+Package: gnugo
+Architecture: aarch64
+Installed-Size: 8356
+Maintainer: @termux
+Version: 3.8-7
+Homepage: https://www.gnu.org/software/gnugo/
+Depends: ncurses, readline
+Description: Program that plays the game of Go
+Filename: ./gnugo_3.8-7_aarch64.deb
+Size: 1040700
+MD5sum: 25ba59c892fa8cc8db770d7e73ba582b
+SHA1: cdeb2150f45fb9acd0a5950c4270225f41fac49d
+SHA256: 62aa5feeac1f9e33f55b21515a990f3131d90cf0db5c6269de405fd1dd3dba23
+
+Package: gnuit
+Architecture: aarch64
+Installed-Size: 1540
+Maintainer: @termux
+Version: 4.9.5-2
+Homepage: https://www.gnu.org/software/gnuit/
+Depends: libandroid-support, ncurses
+Description: gnuit - GNU Interactive Tools
+Filename: ./gnuit_4.9.5-2_aarch64.deb
+Size: 181988
+MD5sum: f0e832b91917b756810f50269c12421a
+SHA1: 323d65fb2cef5fc159254f306f107dae5e2701ff
+SHA256: b1bb9046a8a7b1c94fd1864ac049b16cb613d54816b67310c0250181886b9e20
+
+Package: gnunet
+Architecture: aarch64
+Installed-Size: 15860
+Maintainer: @termux
+Version: 0.29.0-1
+Homepage: https://gnunet.org
+Depends: libcurl, libgcrypt, libgnutls, libgpg-error, libidn2, libjansson, libltdl, libmicrohttpd, libsodium, libsqlite, libunistring, zlib
+Description: A framework for secure peer-to-peer networking
+Filename: ./gnunet_0.29.0-1_aarch64.deb
+Size: 5341124
+MD5sum: 9627a0b48db1dc22fe659e0669ef7a62
+SHA1: d2c358261a2c1197e1666bad4d6f9158036fdc50
+SHA256: 4e451daceb6374373d2b9765a278ea7b06f5d1e990e47653efab4a427635050e
+
+Package: gnuplot
+Architecture: aarch64
+Installed-Size: 2832
+Maintainer: @termux
+Version: 6.0.5-1
+Homepage: http://gnuplot.info/
+Breaks: gnuplot-x
+Depends: glib, libandroid-support, libcairo, libgd, libiconv, libx11, pango, readline
+Replaces: gnuplot-x
+Description: Command-line driven graphing utility
+Filename: ./gnuplot_6.0.5-1_aarch64.deb
+Size: 868008
+MD5sum: c88dbaa7918b943780d9814ee67c3d1f
+SHA1: 7308a690e96d0334b8c83a53b0358f0fc31d0d17
+SHA256: e5812c85831dcc491741731ae88e95bb5bf4d1b739a26c52a4b0a0501480c5b8
+
 Package: gnurl-static
 Architecture: aarch64
 Installed-Size: 728
@@ -1197,6 +1341,52 @@ MD5sum: 75a95996999c9bc4d98af6a9e7550187
 SHA1: 7ab2cbf603bc770c07af0cc93c801c88e0fd875b
 SHA256: 67e84fe42803565ce94a45a38b6927abf1bb7bdbd970b3e70f160c416cf386e9
 
+Package: harfbuzz-icu
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: @termux
+Version: 15.0.0-1
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Depends: libicu, harfbuzz (= 15.0.0-1)
+Breaks: harfbuzz (<< 7.0.0)
+Replaces: harfbuzz (<< 7.0.0)
+Description: OpenType text shaping engine ICU backend
+Filename: ./harfbuzz-icu_15.0.0-1_aarch64.deb
+Size: 5480
+MD5sum: cffa6216194fd9cd2782a58f5a936e59
+SHA1: e8713d1580d5eff57a56dc3dc1cbfca3c804611a
+SHA256: b142fae7919f14f548f000a34eb1abe09d36b21c6a3e48cb3181a55d919a7544
+
+Package: harfbuzz-utils
+Architecture: aarch64
+Installed-Size: 424
+Maintainer: @termux
+Version: 15.0.0-1
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Depends: harfbuzz (= 15.0.0-1)
+Description: Tools using the harfbuzz library
+Filename: ./harfbuzz-utils_15.0.0-1_aarch64.deb
+Size: 87004
+MD5sum: 5440515091f6f42b021b68266834c25d
+SHA1: 1dd88b01f503833fec606e2cf862407380ffa53e
+SHA256: cfb7fa26cdf81793800d4fe87dc95214411d671ba50753e9982a416bbbf4885f
+
+Package: harfbuzz
+Architecture: aarch64
+Installed-Size: 5716
+Maintainer: @termux
+Version: 15.0.0-1
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Breaks: harfbuzz-dev
+Depends: freetype, glib, libcairo, libgraphite
+Replaces: harfbuzz-dev
+Description: OpenType text shaping engine
+Filename: ./harfbuzz_15.0.0-1_aarch64.deb
+Size: 964644
+MD5sum: e44bd3c96c6ad4c3734f7b8847d6cf92
+SHA1: 7085f10e96ad02b9c0afa2e02083f0d35a4b7c66
+SHA256: f97be3fcbc939fa7e7116c146849d5912d13178db47750b9d1ddf540ebdfea1e
+
 Package: hcl
 Architecture: aarch64
 Installed-Size: 16164
@@ -1548,6 +1738,76 @@ MD5sum: 1511ef07e8117a17026c8e7a4b9db254
 SHA1: 41a84cf566c166c67e412ba6198755cafdf0fc2d
 SHA256: a779c78dd3830610a1642229c52076cc34f22675c71aa4d5bece4f65541a7aef
 
+Package: kainjow-mustache
+Architecture: all
+Installed-Size: 88
+Maintainer: @termux
+Version: 4.1-1
+Homepage: https://github.com/kainjow/Mustache
+Description: Mustache implementation for modern C++
+Filename: ./kainjow-mustache_4.1-1_all.deb
+Size: 8300
+MD5sum: eb60996600afddcfece99ac8f761d959
+SHA1: e4bdbe08d56445e7b1e81b80303fe68a6ee70cc1
+SHA256: d7a8fd648d7a5244b0601a5cdbd433e8552f9999b0368a668d6721f1f65eddde
+
+Package: keybase
+Architecture: aarch64
+Installed-Size: 134868
+Maintainer: @termux
+Version: 6.6.3-2
+Homepage: https://keybase.io
+Conflicts: kbfs
+Replaces: kbfs
+Description: Key directory that maps social media identities to encryption keys
+Filename: ./keybase_6.6.3-2_aarch64.deb
+Size: 31076676
+MD5sum: 125a1b61ad3f0efd60c7124ba002cd5c
+SHA1: c828921770e2d36c9334bae437fe75a5a1204e87
+SHA256: 058d767ebc2c91b020d2e281b5811572df24b4b1726200f37727cb48b625246e
+
+Package: keychain
+Architecture: all
+Installed-Size: 152
+Maintainer: @termux
+Version: 3.0.7-1
+Homepage: https://kernel-seeds.org/projects/keychain/
+Depends: python
+Suggests: gnupg, openssh
+Description: Keychain manager for ssh-agent and gpg-agent
+Filename: ./keychain_3.0.7-1_all.deb
+Size: 113444
+MD5sum: 9a9e5fbe3446d04a18a73ee4e1e3ae92
+SHA1: bff467a68a5108310a96ed74f5905eddde0d8b4b
+SHA256: 1978b27e1be7ab4bf21df662ac75a5ee127b7dedbc15f63f36770908c5af770c
+
+Package: kibi
+Architecture: aarch64
+Installed-Size: 700
+Maintainer: @termux
+Version: 0.3.3-2
+Homepage: https://github.com/ilai-deutel/kibi
+Description: A tiny terminal text editor, written in Rust
+Filename: ./kibi_0.3.3-2_aarch64.deb
+Size: 191768
+MD5sum: da815a4cb9a481c06b31a8eaa128dcbd
+SHA1: c69095fd7fd718066db56d7158bea4e3e955a7a0
+SHA256: fce94de2784dce952b7e924815df59d53eb42febd0c1865a3531f09df1c62288
+
+Package: kiwix-tools
+Architecture: aarch64
+Installed-Size: 244
+Maintainer: @termux
+Version: 3.8.2-1
+Homepage: https://github.com/kiwix/kiwix-tools
+Depends: docopt, libc++, libkiwix, libzim
+Description: A collection of Kiwix related command line tools
+Filename: ./kiwix-tools_3.8.2-1_aarch64.deb
+Size: 41456
+MD5sum: 24745cf681c7e5c6d19889a75fc67336
+SHA1: 3bf7de1b4dfe4d24f9d4cb0c40688927af7902a6
+SHA256: 59eadfa9c5f970c530010c0f390def809f707cbcd28db47b3ab90754e08e25bb
+
 Package: ldd
 Architecture: aarch64
 Installed-Size: 44
@@ -1854,6 +2114,20 @@ MD5sum: 40f2e47748bd9bade8e3564f771ca974
 SHA1: b6534af70fb9e6384fccb5c1e6d58ee8139e3414
 SHA256: a14fa619b6bc31f021ec955ac6beaf0f050836edc9e269949e4ee7fd849e8c08
 
+Package: libkiwix
+Architecture: aarch64
+Installed-Size: 2448
+Maintainer: @termux
+Version: 14.2.1-2
+Homepage: https://github.com/kiwix/libkiwix
+Depends: libc++, libcurl, libicu, libmicrohttpd, libpugixml, libxapian, libzim, zlib
+Description: A library that contains a lot of things used by other kiwix programs
+Filename: ./libkiwix_14.2.1-2_aarch64.deb
+Size: 645024
+MD5sum: 2bdaf462f8430608137a47962bfd209b
+SHA1: 7788616b5ac16fe2b40508c73ce8d759eb1353d5
+SHA256: a9c9d76534578c4f7b155e81188f7aa9ff47611fb7e66365b90584726b2d06d1
+
 Package: liblangtag-static
 Architecture: aarch64
 Installed-Size: 380
@@ -1954,6 +2228,20 @@ Size: 84148
 MD5sum: 4a49d6ee13e700913bf8f2f6236a66a3
 SHA1: b3a30d70763c80d3647d566c36bb6ae80b0eb614
 SHA256: 777868f1832f702c885d6d91ac92e0c6906c7462971b4a91a182fd8ca39b7c2c
+
+Package: libpugixml
+Architecture: aarch64
+Installed-Size: 392
+Maintainer: @termux
+Version: 1.16-1
+Homepage: https://pugixml.org/
+Depends: libc++
+Description: Light-weight, simple and fast XML parser for C++ with XPath support
+Filename: ./libpugixml_1.16-1_aarch64.deb
+Size: 87868
+MD5sum: 92cd75f34dc3e2bdccab1b30c715f82c
+SHA1: d219bb0aa8438c7769b782cd0b724dfe7afe5c1f
+SHA256: 6769222a0ab2dcca9e7f2995828de4943e16346d29a4781f0efb108386c528e9
 
 Package: librevenge-static
 Architecture: aarch64
@@ -2069,6 +2357,77 @@ MD5sum: 4e211f3b95a0deda154604d3b6c839ed
 SHA1: 31c7aa4b878ede8f7fefa4a556510460e096df0c
 SHA256: 5730336ccb42d1b5184583613833b270c95437ba99274bbdc1bac6368fe42526
 
+Package: libvbisam-static
+Architecture: aarch64
+Installed-Size: 196
+Maintainer: @termux
+Version: 2.0-4
+Homepage: https://sourceforge.net/projects/vbisam/
+Depends: libvbisam (= 2.0-4)
+Description: Static libraries for libvbisam
+Filename: ./libvbisam-static_2.0-4_aarch64.deb
+Size: 42952
+MD5sum: c272fa12a6bab8bffbeec0a2b0216ffa
+SHA1: 1d54a6a7225480758b504457f7e34820788ff3a5
+SHA256: 6191fe5c8b21e0302fb5583b86dec6594aa6f4c44036fe2fb84af8cfbfc189a1
+
+Package: libvbisam
+Architecture: aarch64
+Installed-Size: 156
+Maintainer: @termux
+Version: 2.0-4
+Homepage: https://sourceforge.net/projects/vbisam/
+Description: A replacement for IBM's C-ISAM
+Filename: ./libvbisam_2.0-4_aarch64.deb
+Size: 39192
+MD5sum: 26cf2796685da2870efcf33317d57385
+SHA1: 93d4e073c7c71d2cb01324d1d8ba9a006008cfe8
+SHA256: d251ebacc88cf90d1122e69661f0a13973a1c8dd5c2fd1e269fa074291b4121e
+
+Package: libxapian-static
+Architecture: aarch64
+Installed-Size: 10468
+Maintainer: @termux
+Version: 2.1.0-1
+Homepage: https://xapian.org
+Depends: libxapian (= 2.1.0-1)
+Description: Static libraries for libxapian
+Filename: ./libxapian-static_2.1.0-1_aarch64.deb
+Size: 1091552
+MD5sum: af9a26db033f265b22281fb1b9dabc6d
+SHA1: 809a666ad7b85706765264c338118e76417c18ef
+SHA256: da342edce16d1cc2f447343ffaf4385cf25e9eb6da5bcb824f5367a9f110867c
+
+Package: libxapian
+Architecture: aarch64
+Installed-Size: 2980
+Maintainer: @termux
+Version: 2.1.0-1
+Homepage: https://xapian.org
+Breaks: libxapian-dev
+Depends: libc++, libuuid, zlib
+Replaces: libxapian-dev
+Description: Xapian search engine library
+Filename: ./libxapian_2.1.0-1_aarch64.deb
+Size: 596408
+MD5sum: 8bd90873b3044f7f60d466d4fc259b82
+SHA1: 5d7435ed17f5e3028f7c6a7d09526b70198f8621
+SHA256: 603351cc46afbc20aade710f25430a9d7a3e8d9790e96d24416018dc20219325
+
+Package: libzim
+Architecture: aarch64
+Installed-Size: 1076
+Maintainer: @termux
+Version: 9.8.2-2
+Homepage: https://openzim.org
+Depends: libc++, libicu, liblzma, libxapian, zstd
+Description: The ZIM library is the reference implementation for the ZIM file format.
+Filename: ./libzim_9.8.2-2_aarch64.deb
+Size: 250820
+MD5sum: 1df4b99090ab986e60e4d5ee91273533
+SHA1: 583a61fa5080e438273e76b04dc3075941158137
+SHA256: ef7044766115428c73dbe1bb64e9ac0975fdd0afb69f8fd3a755b52e6787bb04
+
 Package: octomap-static
 Architecture: aarch64
 Installed-Size: 836
@@ -2172,6 +2531,22 @@ MD5sum: daa84a8cdee518e33ed58695785b5fa9
 SHA1: 1aaa50dc886fc05622a2e7537771cbdda8ba8120
 SHA256: 67fbb66ba360a13e8c77676163a8fb021ff13ea1ab787fb10f89eb40abd73acd
 
+Package: taglib
+Architecture: aarch64
+Installed-Size: 2828
+Maintainer: @termux
+Version: 2.3.2-1
+Homepage: http://taglib.github.io/
+Breaks: taglib-dev
+Depends: libc++, zlib, utf8cpp
+Replaces: taglib-dev
+Description: A Library for reading and editing the meta-data of several popular audio formats.
+Filename: ./taglib_2.3.2-1_aarch64.deb
+Size: 472044
+MD5sum: 97f2b5a68333006bf3c4588eec27976f
+SHA1: bfb3629e75eac4440b7fe53378686adafe341ad1
+SHA256: 4fe059ca7aa5ca29ea6cec227e1b4190d50bf226d8361c1676b1ac8be2323fe0
+
 Package: unbound
 Architecture: aarch64
 Installed-Size: 3524
@@ -2185,6 +2560,35 @@ Size: 659580
 MD5sum: 6b57c1dc8a7011d9827f649223a6f831
 SHA1: aa0d65782ae638dae5aec9e7e868e75361bc4780
 SHA256: 0ea5da89d3a004efcbc21e2eac54f6f5d370733c05b664d5a249cc3027d2cb4d
+
+Package: utf8cpp
+Architecture: all
+Installed-Size: 144
+Maintainer: @termux
+Version: 1:4.2.1-1
+Homepage: https://github.com/nemtrif/utfcpp
+Description: UTF8-CPP: UTF-8 with C++ in a Portable Way
+Filename: ./utf8cpp_1:4.2.1-1_all.deb
+Size: 10540
+MD5sum: 50c58a57f6c153e9921f9ab79498a1f0
+SHA1: 9aa70ce6132283828972c894444b5c165d3cc348
+SHA256: 70f789882d65e609c4e179c2208aaa51b7455e99773ef0a87d223c53c27db235
+
+Package: xapian-tools
+Architecture: aarch64
+Installed-Size: 764
+Maintainer: @termux
+Version: 2.1.0-1
+Homepage: https://xapian.org
+Depends: libxapian (= 2.1.0-1)
+Breaks: libxapian (<< 1.4.21)
+Replaces: libxapian (<< 1.4.21)
+Description: Basic tools for the Xapian search engine
+Filename: ./xapian-tools_2.1.0-1_aarch64.deb
+Size: 89608
+MD5sum: 951597c5afb148fe8f58de04a6c1f326
+SHA1: 2b50b0a7818330e5ad838ae288bc493bb6130447
+SHA256: d0be8f6ca5f7c5f5f250ff1008349d28b43fba2e009246957819daee8e607dc4
 
 Package: xerces-c-static
 Architecture: aarch64
