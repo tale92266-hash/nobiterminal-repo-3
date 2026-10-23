@@ -6293,6 +6293,20 @@ MD5sum: c14b75921cca1c913f8453adf20a008a
 SHA1: e49b1e8f8a8c07ca5422be7528e28643097216e1
 SHA256: 50c854cf6dc13765a9abef364e80e63cd7526d420bd275870f17cd0e27f77fa1
 
+Package: luajit-lgi
+Architecture: aarch64
+Installed-Size: 432
+Maintainer: @termux
+Version: 0.9.2+p20260728-1
+Homepage: https://github.com/lgi-devs/lgi
+Depends: glib, gobject-introspection, libcairo, libffi, luajit
+Description: Dynamic Lua binding to GObject libraries using GObject-Introspection
+Filename: ./luajit-lgi_0.9.2+p20260728-1_aarch64.deb
+Size: 74216
+MD5sum: 9fe1775d42a48b69c5d86c4e896c58b7
+SHA1: c8cd52df31c8c4c74788c4296531aef61cc5044e
+SHA256: d2703521c6362e7d95b8cd54f3be3775a76cc3c1259d490f3e304c40a39d5c85
+
 Package: luajit-static
 Architecture: aarch64
 Installed-Size: 692
@@ -6322,6 +6336,47 @@ MD5sum: cc77e7add9aa2fb563780757c63faa2b
 SHA1: 2326236e49749eccf58b410200c32fd2781894b6
 SHA256: 847d09a32072b51e0231132713e916a788079e6453ed7c7653fbe052a4c72d70
 
+Package: luarocks
+Architecture: all
+Installed-Size: 1024
+Maintainer: @termux
+Version: 3.13.0-2
+Homepage: https://luarocks.org/
+Depends: curl, lua54
+Description: Deployment and management system for Lua modules
+Filename: ./luarocks_3.13.0-2_all.deb
+Size: 119112
+MD5sum: d6fadd24c0f0480898dffdc98bab730e
+SHA1: a3d79cb82b4bd91ff3a67d5e300d1dc155e2b510
+SHA256: 7364d3613e8e5c7a46324841d8858af842cf5de8162c3c60fcd1723047930371
+
+Package: luau
+Architecture: aarch64
+Installed-Size: 14324
+Maintainer: @termux
+Version: 0.743-1
+Homepage: https://github.com/luau-lang/luau
+Description: A small, fast, and embeddable programming language based on Lua with a gradual type system.
+Filename: ./luau_0.743-1_aarch64.deb
+Size: 2352144
+MD5sum: 9dd6ec7ad4146ceffcf222815f5722d3
+SHA1: 50ab720c3c94a884774e68727d7b205523cddfd4
+SHA256: 1457a1c62e526225f0739e383018bd27843f2f255272e833ddb8cf710f4cedf5
+
+Package: lunasvg
+Architecture: aarch64
+Installed-Size: 376
+Maintainer: @termux
+Version: 3.5.0-2
+Homepage: https://github.com/sammycage/lunasvg
+Depends: libc++, plutovg
+Description: SVG rendering and manipulation library in C++
+Filename: ./lunasvg_3.5.0-2_aarch64.deb
+Size: 90840
+MD5sum: 085d5ab51dfd9cd21e7eea9336dce4ec
+SHA1: 0a36f35994c3c3e9a156285642fdbc1d11bc1d0f
+SHA256: 6a7aded48ac8ddf13991545e70b1dad31a912293c329048d17a1ab8b2a830ba6
+
 Package: luvi
 Architecture: aarch64
 Installed-Size: 672
@@ -6336,6 +6391,51 @@ Size: 161116
 MD5sum: 8fce5543e3d5027d3e17d3fd82aabd7a
 SHA1: 5e9444f1ef150ca2a62ce4a1e05ef7f9c86fd226
 SHA256: ac401c66c4713fe0dad988fa4b37d06c5b7235a5f68e3409828ec8492882235b
+
+Package: luvit
+Architecture: aarch64
+Installed-Size: 616
+Maintainer: @termux
+Version: 2.18.1-2
+Homepage: https://luvit.io
+Depends: luvi
+Suggests: lit
+Description: Asynchronous I/O for Lua
+Filename: ./luvit_2.18.1-2_aarch64.deb
+Size: 167728
+MD5sum: 3b60c266250f9b75bfbbbc31ab320742
+SHA1: 8f84535fe7d9c16d780daa1423c44878fe1f3436
+SHA256: a8440746410177397dd3450fc52609372a04828a8b1037876e3d5cec5acb7d9f
+
+Package: lux-cli
+Architecture: aarch64
+Installed-Size: 31540
+Maintainer: @termux
+Version: 0.48.0-1
+Homepage: https://lux.lumen-labs.org
+Depends: bzip2, gpgme, libgit2, libgpg-error, lua54, openssl, xz-utils
+Provides: lx
+Description: A package manager for Lua, similar to luarocks
+Filename: ./lux-cli_0.48.0-1_aarch64.deb
+Size: 10120452
+MD5sum: 28ed5c3895ec231c3bb3e62b14e52f69
+SHA1: 2782410c75b7966b0f5e403d376db882084b2714
+SHA256: 995042bb5d4a4f0f4a6c88d134d21fd0bf06ba16a8d93ec94e41d1c11c66ef16
+
+Package: lux
+Architecture: aarch64
+Installed-Size: 23900
+Maintainer: @flosnvjx
+Version: 0.24.1-3
+Homepage: https://github.com/iawia002/lux
+Recommends: ffmpeg
+Suggests: aria2
+Description: CLI tool to download videos from various websites
+Filename: ./lux_0.24.1-3_aarch64.deb
+Size: 5732504
+MD5sum: 01540e5e88a0c945c419d9519d4a2dde
+SHA1: 63782b2b05278c40b9828015ee5c00411a20316b
+SHA256: 8b4681c23a6ff72e59371f14b2924914f7daf75ee45fe9da473ff7e189f3822e
 
 Package: lv2
 Architecture: aarch64
@@ -6633,6 +6733,19 @@ Size: 656116
 MD5sum: 51cabbdd6f9bacf38104ce87ab3d5fc4
 SHA1: 2e8bcbecbe6fb9486cdd3254a30a85b591b16589
 SHA256: 81410119fb3d1f4f32b3343bbe4fbb544a4e05dc4fd5edf58d1a03221e72247c
+
+Package: plutovg
+Architecture: aarch64
+Installed-Size: 452
+Maintainer: @termux
+Version: 1.3.3-1
+Homepage: https://github.com/sammycage/plutovg
+Description: Tiny 2D vector graphics library in C
+Filename: ./plutovg_1.3.3-1_aarch64.deb
+Size: 123016
+MD5sum: 1386ed757d171a8a043229b3939ed6d1
+SHA1: b24d96fbd3cdf2c933d4c4a3547eabf9ece9990e
+SHA256: eb5a8939ade3229515ef27dd2897385661af4597f8d5d1cc7cc9fdafe8daf741
 
 Package: poppler
 Architecture: aarch64
