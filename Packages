@@ -470,6 +470,284 @@ MD5sum: cba0d69c134e9bc114a2df05cd665a78
 SHA1: 8067454cf8ff2d4480822ecd61e378b84a835ae9
 SHA256: 0d7671d6dc41d4d34eb0a75137d98bcbc14cc63973567217e72b7d1ce2a850eb
 
+Package: gkermit
+Architecture: aarch64
+Installed-Size: 152
+Maintainer: @termux
+Version: 2.01-2
+Homepage: http://www.columbia.edu/kermit/gkermit.html
+Depends: libandroid-support
+Description: Simple, Portable, Free File Transfer Software for UNIX
+Filename: ./gkermit_2.01-2_aarch64.deb
+Size: 38180
+MD5sum: 2b60e6f6ca091ade9d1539ea9d15af7c
+SHA1: c79126d174ef6fc94453508dbe5d3faf277d8366
+SHA256: 68ecb1ffb85f1a6faad8c595d1b7b4e0dee9fb32c347293a588b5f9cab5ef2ed
+
+Package: glab-cli
+Architecture: aarch64
+Installed-Size: 49912
+Maintainer: @termux
+Version: 1.124.0-2
+Homepage: https://gitlab.com/gitlab-org/cli
+Description: A GitLab CLI tool bringing GitLab to your command line
+Filename: ./glab-cli_1.124.0-2_aarch64.deb
+Size: 11931348
+MD5sum: 50c081a259a6df6826282cb6d124d922
+SHA1: 4d01c81a7711c16e6375b6203d0962ad443944c2
+SHA256: 257997ce64154c5ecaee02748e2a13775a96864a612e0d5e145f7cdbd0ad4318
+
+Package: gleam
+Architecture: aarch64
+Installed-Size: 19848
+Maintainer: @termux
+Version: 1.19.2-1
+Homepage: https://gleam.run
+Depends: erlang
+Suggests: nodejs | nodejs-lts
+Description: A friendly language for building type-safe, scalable systems!
+Filename: ./gleam_1.19.2-1_aarch64.deb
+Size: 5454452
+MD5sum: c062850d681011f60c386111c11782f5
+SHA1: 692c09d13c6f25e160c915dacf67c390b4d9b8de
+SHA256: ffd9ec6e9e817048a1ed74d48f031bbc1de3e2667bf893cb838a468c277fa23a
+
+Package: glib-networking
+Architecture: aarch64
+Installed-Size: 184
+Maintainer: @termux
+Version: 2.90.0-1
+Homepage: https://gitlab.gnome.org/GNOME/glib-networking
+Depends: glib, openssl
+Description: Network-related giomodules for glib
+Filename: ./glib-networking_2.90.0-1_aarch64.deb
+Size: 37464
+MD5sum: 90c08302249cda50c8cb90330cd2ab06
+SHA1: 4e5a6817fa49b9d1f014f9329ea23c1af238e9c4
+SHA256: c3d7fd5921cda1fd63202a4c815a54cc94814388640246a85f2ba4de2c32ed6b
+
+Package: glibc-repo
+Architecture: all
+Installed-Size: 52
+Maintainer: @termux-pacman
+Version: 1.0-1
+Homepage: https://github.com/termux/glibc-packages
+Description: A package repository containing glibc-based programs and libraries
+Filename: ./glibc-repo_1.0-1_all.deb
+Size: 1144
+MD5sum: 209eb425453534402b95159b309c813b
+SHA1: 200be7dbce12b2b1404ec196f4e78ee19b887d41
+SHA256: c72fb172af90072705b04ef8ee0c293d468699ed92c6aa84e4d18b85a7d2ba45
+
+Package: glm
+Architecture: aarch64
+Installed-Size: 24468
+Maintainer: @termux
+Version: 1.0.3-1
+Homepage: https://glm.g-truc.net/
+Description: C++ mathematics library for graphics programming
+Filename: ./glm_1.0.3-1_aarch64.deb
+Size: 3551648
+MD5sum: 226686719417750d3ce48b2ca42fb2d5
+SHA1: 1b89b7e35c8822498c389bf8ce208eaa1d976c28
+SHA256: 7181c49fe310ac115a58bd93c20d0f1e23fbd5bd0115713ba5723bf1222b86ff
+
+Package: global
+Architecture: aarch64
+Installed-Size: 2208
+Maintainer: @termux
+Version: 6.7-1
+Homepage: https://www.gnu.org/software/global/
+Depends: coreutils, ncurses, libltdl
+Description: Source code search and browse tools
+Filename: ./global_6.7-1_aarch64.deb
+Size: 426076
+MD5sum: 4eb0020ba137447b79988363ad389bbf
+SHA1: 0455158be20dd3f6c4b66360f57988e5cb014bfa
+SHA256: a3f3818a7f7f604e670d80d848f6151ea0638110d6e2513f21739e49104df340
+
+Package: glow
+Architecture: aarch64
+Installed-Size: 19324
+Maintainer: @termux
+Version: 3.0.0-2
+Homepage: https://github.com/charmbracelet/glow
+Suggests: git
+Description: Render markdown on the CLI, with pizzazz!
+Filename: ./glow_3.0.0-2_aarch64.deb
+Size: 4734388
+MD5sum: c6d9a8a2322368d8079fd6a8479416c4
+SHA1: 6a0b81f53e55f055ca8497025e7a8b4027cc8660
+SHA256: df073a7414eaa767fc4a68911fdbc0e7d34d52c5be4e45f29c01f9186e04e7de
+
+Package: glpk-static
+Architecture: aarch64
+Installed-Size: 1772
+Maintainer: @termux
+Version: 5.0-3
+Homepage: https://www.gnu.org/software/glpk/
+Depends: glpk (= 5.0-3)
+Description: Static libraries for glpk
+Filename: ./glpk-static_5.0-3_aarch64.deb
+Size: 379900
+MD5sum: 6c1df64652488ec88d17ee998b704583
+SHA1: 71e466686749e4ff7b0f58a5900ce2e86316d79c
+SHA256: f54d77b54657001e4ab4c125656d572c062858a8f79c0fc356dd4811b3109702
+
+Package: glpk
+Architecture: aarch64
+Installed-Size: 880
+Maintainer: @termux
+Version: 5.0-3
+Homepage: https://www.gnu.org/software/glpk/
+Depends: libgmp
+Description: GNU Linear Programming Kit: solve LP, MIP and other problems
+Filename: ./glpk_5.0-3_aarch64.deb
+Size: 317800
+MD5sum: 354cb8586a960a57a9ec10fb3ce15ca6
+SHA1: 56f5158f400aa4f52d6626f216a44155f2ffd0c8
+SHA256: 2c4a8ebb66e60102c470cefabd1591a76e6ad9bd9f4da9d2216c28f4db7e1e90
+
+Package: gnurl-static
+Architecture: aarch64
+Installed-Size: 728
+Maintainer: @termux
+Version: 7.72.0-2
+Homepage: https://gnunet.org/en/gnurl.html
+Depends: gnurl (= 7.72.0-2)
+Description: Static libraries for gnurl
+Filename: ./gnurl-static_7.72.0-2_aarch64.deb
+Size: 154292
+MD5sum: cfb4dc676f3c18c1616768a0eb333f79
+SHA1: 080198196a3ea787b7a84a674475274d4767a3d9
+SHA256: 0624b14a46edc18ec459827802d94185cd974357e0f2e45477bec3e5dad078d4
+
+Package: gnurl
+Architecture: aarch64
+Installed-Size: 2688
+Maintainer: @termux
+Version: 7.72.0-2
+Homepage: https://gnunet.org/en/gnurl.html
+Depends: brotli, libgnutls, libidn2, libnettle, zlib, zstd
+Description: Fork of libcurl, which is mostly for GNUnet
+Filename: ./gnurl_7.72.0-2_aarch64.deb
+Size: 876644
+MD5sum: 279788e8513d9a664c1bd13f4daabdf2
+SHA1: 2ae0c8f7baa55adde05ffe713bc8b4cf7e2be26c
+SHA256: 7d38fe283c07f48012cfcd81e2c0e966bafbdfe4ed3db3069cfe696c705f7849
+
+Package: gnushogi
+Architecture: aarch64
+Installed-Size: 584
+Maintainer: @termux
+Version: 1.4.2-p20141119-2
+Homepage: https://www.gnu.org/software/gnushogi/
+Depends: ncurses
+Description: Program that plays the game of Shogi, also known as Japanese Chess
+Filename: ./gnushogi_1.4.2-p20141119-2_aarch64.deb
+Size: 153116
+MD5sum: 6388c67efbf7573a1f015c5a7a824115
+SHA1: d08adcd5f88c1e6a8f1e5423249769541d031b1a
+SHA256: 555fc72f95d0d83580adbd6bce6d8f8121b7debcd5e80c0221d3fb1734236fcc
+
+Package: gnuski
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: Henrik Grimler @Grimler91
+Version: 0.3-8
+Homepage: https://sourceforge.net/projects/gnuski/
+Depends: ncurses
+Description: Open source clone of Skifree, the old Windows game
+Filename: ./gnuski_0.3-8_aarch64.deb
+Size: 4172
+MD5sum: 57e2b1d42d173ec77c3a8e73fdf89d67
+SHA1: d212e293bc7097b1a0efc06ffc667c4d4bd132d9
+SHA256: 39ac54cb85edf92ae7063d17489531c6974727bb37acf66226b3f93ad8534c5c
+
+Package: gnustep-make
+Architecture: aarch64
+Installed-Size: 1296
+Maintainer: @termux
+Version: 2.9.3-2
+Homepage: https://www.gnustep.org
+Depends: libobjc2
+Description: The GNUstep makefile package
+Filename: ./gnustep-make_2.9.3-2_aarch64.deb
+Size: 167988
+MD5sum: 048d0fe7558299b4bcf6f0ddf738d258
+SHA1: 71a49fd1cdcf42fdd74ab7cccaf02ed63d0919ab
+SHA256: 6846da382ffe4655fdef376cca5c66331e8fc7c81eb3f47d7d6c7fb7b3429b23
+
+Package: go-findimagedupes
+Architecture: aarch64
+Installed-Size: 5076
+Maintainer: @termux
+Version: 2023.01.29-7
+Homepage: https://gitlab.com/opennota/findimagedupes
+Depends: libc++, libheif, libmagic, libjpeg-turbo, libpng, libtiff
+Conflicts: findimagedupes
+Replaces: findimagedupes
+Description: Find visually similar or duplicate images
+Filename: ./go-findimagedupes_2023.01.29-7_aarch64.deb
+Size: 1465948
+MD5sum: 282fbf1745b03ba5d155ef825e2ba39e
+SHA1: a8fe74f0832936554a1642a474ab7be635fbccef
+SHA256: c82eceb0d9ad3d550181345679b087d2f9f85eb55d68d49c72cdd8b468f0c2de
+
+Package: go-musicfox
+Architecture: aarch64
+Installed-Size: 36428
+Maintainer: @anhoder
+Version: 5.1.0-2
+Homepage: https://github.com/go-musicfox/go-musicfox
+Depends: libc++, libflac, libvorbis
+Description: A netease music player in terminal.
+Filename: ./go-musicfox_5.1.0-2_aarch64.deb
+Size: 8975232
+MD5sum: c836c25eba8f2eceee3f97b01be946fa
+SHA1: a49556b89960e2f1673d9b577a0d7b74b8e8296c
+SHA256: 0776cf1fc26cfb628fa87f43d08d460ac8444895bb4d847ea65546c85f98e26d
+
+Package: go-task
+Architecture: aarch64
+Installed-Size: 53472
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.54.0-2
+Homepage: https://github.com/go-task/task
+Description: A task runner / simpler Make alternative written in Go
+Filename: ./go-task_3.54.0-2_aarch64.deb
+Size: 10522792
+MD5sum: ec9d00312b8dc6687dd020aeee55a4c8
+SHA1: 07a664e183e274a1259b7934e44180f2ce637d88
+SHA256: 75f5c6bcfc4f1b9f07d7dfd515a05baf6e945ab7ddb0e9d27b4de30a4578f9db
+
+Package: goaccess
+Architecture: aarch64
+Installed-Size: 2456
+Maintainer: @termux
+Version: 1.12-1
+Homepage: https://goaccess.io
+Depends: ncurses, openssl
+Description: An open source real-time web log analyzer and interactive viewer
+Filename: ./goaccess_1.12-1_aarch64.deb
+Size: 543148
+MD5sum: 71f5d1cada839b51e76946b6b5e38aa4
+SHA1: a980aee2d63b78179b0b1fb950e5973933bf85a0
+SHA256: 0aa7f546d7438dd1a2c7596a4fe60d0d5282a805b5b1d6c9c23d2e615ba4be49
+
+Package: gobang
+Architecture: aarch64
+Installed-Size: 6460
+Maintainer: @termux
+Version: 0.1.0-alpha.5-5
+Homepage: https://github.com/TaKO8Ki/gobang
+Description: A cross-platform TUI database management tool written in Rust
+Filename: ./gobang_0.1.0-alpha.5-5_aarch64.deb
+Size: 2197448
+MD5sum: ec858d3b82b3e22b904cd275d772875f
+SHA1: 4a0ead5849f8fb07cd1e522fbe9f5ddedcd1737f
+SHA256: 57a4a463f997e2d7723f1dfa585c93a1d7d2927bfe97832fe8832f08b821f216
+
 Package: gpgme-static
 Architecture: aarch64
 Installed-Size: 704
@@ -681,6 +959,21 @@ MD5sum: 1511ef07e8117a17026c8e7a4b9db254
 SHA1: 41a84cf566c166c67e412ba6198755cafdf0fc2d
 SHA256: a779c78dd3830610a1642229c52076cc34f22675c71aa4d5bece4f65541a7aef
 
+Package: ldd
+Architecture: aarch64
+Installed-Size: 44
+Maintainer: @termux
+Version: 0.3-3
+Homepage: https://github.com/termux/termux-packages
+Depends: bash, binutils
+Conflicts: binutils (<< 2.39-1)
+Description: Fake ldd command
+Filename: ./ldd_0.3-3_aarch64.deb
+Size: 1832
+MD5sum: 0858978c4e8ac6f34b434b37e1d95268
+SHA1: cd04498c74af769c1047de86431dab872192a93f
+SHA256: 3e9fa210a0a074a9741f2e702f8ae3560844fbcd6a38d2b0c52708118c17f5e4
+
 Package: liba52-static
 Architecture: aarch64
 Installed-Size: 76
@@ -780,6 +1073,21 @@ MD5sum: 7a8b14bd0886c5de20242ff695c0b0f4
 SHA1: 29c4d7449728c46a3934c1cdf0ffef145371f762
 SHA256: c5f59c40821c71c4a86d25eb32d880717be080d31583278af12717e1e6f5860e
 
+Package: libobjc2
+Architecture: aarch64
+Installed-Size: 464
+Maintainer: @termux
+Version: 2.3-2
+Homepage: https://www.gnustep.org/
+Depends: libc++
+Conflicts: libblocksruntime
+Description: The GNUstep Objective-C runtime
+Filename: ./libobjc2_2.3-2_aarch64.deb
+Size: 86776
+MD5sum: f52b43e9a002b94dc9ca26bb79f4b4fd
+SHA1: 44f84cb857dc256052b9ac8c59ab924238e1c177
+SHA256: 7a046fbb8b29eb5f09dba6e67db7a6c42076c614809e4115f995b164a9a0e2f3
+
 Package: libprotobuf-c-static
 Architecture: aarch64
 Installed-Size: 64
@@ -866,6 +1174,36 @@ MD5sum: 8da970181af89e35d282e3a1737f83ca
 SHA1: a4fce1cbe6a856451d9723ce18226b1f7bb2a38b
 SHA256: 9467299a42e50f0bf82a523f4e86e00ce2ff23ab1a6cd9c3f344a271ed4a76f2
 
+Package: libunbound-static
+Architecture: aarch64
+Installed-Size: 2104
+Maintainer: @termux
+Version: 1.26.2-1
+Homepage: https://unbound.net/
+Depends: libunbound (= 1.26.2-1)
+Description: Static libraries for libunbound
+Filename: ./libunbound-static_1.26.2-1_aarch64.deb
+Size: 467040
+MD5sum: f0a0de3d92d1b3bd778c266ace3311d5
+SHA1: 03c47c5a5353ada9e819054068033f287ddf8866
+SHA256: 2e95a54bc19e2630917bc77f184665b9ccf65d7068cd60fe958de0dcd731c065
+
+Package: libunbound
+Architecture: aarch64
+Installed-Size: 1264
+Maintainer: @termux
+Version: 1.26.2-1
+Homepage: https://unbound.net/
+Breaks: unbound (<< 1.17.1-1)
+Depends: libevent, libnghttp2, libngtcp2, openssl, resolv-conf
+Replaces: unbound (<< 1.17.1-1)
+Description: A validating, recursive, caching DNS resolver
+Filename: ./libunbound_1.26.2-1_aarch64.deb
+Size: 387740
+MD5sum: 4e211f3b95a0deda154604d3b6c839ed
+SHA1: 31c7aa4b878ede8f7fefa4a556510460e096df0c
+SHA256: 5730336ccb42d1b5184583613833b270c95437ba99274bbdc1bac6368fe42526
+
 Package: poppler
 Architecture: aarch64
 Installed-Size: 8004
@@ -898,6 +1236,21 @@ MD5sum: 988d06abe4707c348f1b47d3df884790
 SHA1: 5f2b44e9d2247976990c40ba4ba4bec0ead1c592
 SHA256: 16068c4ad99543761ee5c0b2c7070e40d29181f0bbda32ffa73569a917c214a5
 
+Package: pyunbound
+Architecture: aarch64
+Installed-Size: 24
+Maintainer: @termux
+Version: 1.26.2-1
+Homepage: https://unbound.net/
+Depends: python, libunbound (= 1.26.2-1)
+Conflicts: unbound (<< 1.15.0-1)
+Description: Python bindings for Unbound
+Filename: ./pyunbound_1.26.2-1_aarch64.deb
+Size: 800
+MD5sum: 667ab83f4cdb436c90a84e11ff741c7a
+SHA1: be13dcb3787c070743e50f697bae7cd7505815ae
+SHA256: 8c184b1446f83d65b61e13a890d584d708524ac0b0751019ce6a49c06301649e
+
 Package: rsync
 Architecture: aarch64
 Installed-Size: 664
@@ -911,6 +1264,34 @@ Size: 308568
 MD5sum: 575ec0d5ab11fd49dd7a023e88114aca
 SHA1: 6e505b7f91463ecfa676418ff91bc1f33001fb7d
 SHA256: 27a7d818f5a81aa3258ac7f2e01a9d13393c11a7eff359e562b8cc0086976f60
+
+Package: swig
+Architecture: aarch64
+Installed-Size: 7064
+Maintainer: @termux
+Version: 4.5.1-1
+Homepage: https://swig.org
+Depends: libc++, pcre2, zlib
+Description: Generate scripting interfaces to C/C++ code
+Filename: ./swig_4.5.1-1_aarch64.deb
+Size: 947216
+MD5sum: daa84a8cdee518e33ed58695785b5fa9
+SHA1: 1aaa50dc886fc05622a2e7537771cbdda8ba8120
+SHA256: 67fbb66ba360a13e8c77676163a8fb021ff13ea1ab787fb10f89eb40abd73acd
+
+Package: unbound
+Architecture: aarch64
+Installed-Size: 3524
+Maintainer: @termux
+Version: 1.26.2-1
+Homepage: https://unbound.net/
+Depends: libexpat, libunbound (= 1.26.2-1)
+Description: Unbound command-line tools
+Filename: ./unbound_1.26.2-1_aarch64.deb
+Size: 659580
+MD5sum: 6b57c1dc8a7011d9827f649223a6f831
+SHA1: aa0d65782ae638dae5aec9e7e868e75361bc4780
+SHA256: 0ea5da89d3a004efcbc21e2eac54f6f5d370733c05b664d5a249cc3027d2cb4d
 
 Package: xerces-c-static
 Architecture: aarch64
