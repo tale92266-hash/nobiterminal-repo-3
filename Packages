@@ -3998,6 +3998,20 @@ MD5sum: f52b43e9a002b94dc9ca26bb79f4b4fd
 SHA1: 44f84cb857dc256052b9ac8c59ab924238e1c177
 SHA256: 7a046fbb8b29eb5f09dba6e67db7a6c42076c614809e4115f995b164a9a0e2f3
 
+Package: libopencc
+Architecture: aarch64
+Installed-Size: 2344
+Maintainer: @termux
+Version: 1.4.2-1
+Homepage: https://github.com/BYVoid/OpenCC
+Depends: libc++, marisa
+Description: An opensource project for conversions between Traditional Chinese, Simplified Chinese and Japanese Kanji (Shinjitai)
+Filename: ./libopencc_1.4.2-1_aarch64.deb
+Size: 736756
+MD5sum: 122fde7dccd961e5129177c646b08d0e
+SHA1: 2f1899514f1850730d682ffe43f8b7065e79e219
+SHA256: 7d8fca0da0fd0f0db33fee32a74964b0d08c36ffbcdb2d682818652ee7367951
+
 Package: liborcus-static
 Architecture: aarch64
 Installed-Size: 6964
@@ -4025,6 +4039,47 @@ Size: 729244
 MD5sum: 2613d2ed9f0f577fb11ec8b583321f30
 SHA1: 30b8f94d224b9615d3c4ec8d39c2a60e59457428
 SHA256: 378201413c3bd1442f199f4745a6c466a244df052eab087485c5c8ea775d00c2
+
+Package: libosmium
+Architecture: all
+Installed-Size: 2124
+Maintainer: @termux
+Version: 2.23.1-2
+Homepage: https://osmcode.org/libosmium/
+Description: Library for reading from and writing to OSM files in XML and PBF formats
+Filename: ./libosmium_2.23.1-2_all.deb
+Size: 175004
+MD5sum: 3338a6674c4bf77bc0c83d2b8d69ff96
+SHA1: 717068fd8c69097704cd6ebaaa6a9262865e3ebd
+SHA256: 322d2175accc8c02795b428c231b3447e0572f20147014b6c53275cc0ea52693
+
+Package: libosmpbf-static
+Architecture: aarch64
+Installed-Size: 212
+Maintainer: @termux
+Version: 1.8.0-3
+Homepage: https://github.com/openstreetmap/OSM-binary/
+Depends: libosmpbf (= 1.8.0-3)
+Description: Static libraries for libosmpbf
+Filename: ./libosmpbf-static_1.8.0-3_aarch64.deb
+Size: 29332
+MD5sum: f2876f5b6e75172bce622417c62e40b9
+SHA1: 14b386e9a5b03d0df456e6d472783828d24d423e
+SHA256: 892f01300796384984789c9a7f14de8bcbfa8e0534c628a9d45353014b589c76
+
+Package: libosmpbf
+Architecture: aarch64
+Installed-Size: 536
+Maintainer: @termux
+Version: 1.8.0-3
+Homepage: https://github.com/openstreetmap/OSM-binary/
+Depends: libc++, libprotobuf
+Description: osmpbf is a Java/C library to read and write OpenStreetMap PBF files
+Filename: ./libosmpbf_1.8.0-3_aarch64.deb
+Size: 62332
+MD5sum: 644892e030028ea4c7d764ea9a6c988b
+SHA1: ea6dad0893734bc0ee0aa5a7868a8391a90ba73c
+SHA256: fb9092edcf4741e6b40a5c66e275c1bfe2c50722a982aaac75a7647a739f7385
 
 Package: libotr-static
 Architecture: aarch64
@@ -4056,6 +4111,161 @@ MD5sum: a2e89ed0c24d550f75d69a11e031645b
 SHA1: 5134dbc3e8f0cd7e8e507d83522f0a980708a773
 SHA256: 5cb8aafb8982bad0ff143e8716df116aa20b89fc6284b6605d6c12e47db88be8
 
+Package: libowfat
+Architecture: aarch64
+Installed-Size: 2768
+Maintainer: @termux
+Version: 0.34-1
+Homepage: http://www.fefe.de/libowfat/
+Description: GPL reimplementation of libdjb
+Filename: ./libowfat_0.34-1_aarch64.deb
+Size: 291872
+MD5sum: 906c5467aa4c210f379d2f786d9aeaa5
+SHA1: a9e20d35cfaafe53ff39ecc081635e295ee2b6d1
+SHA256: a0355415a28b4ee417f43e51831140837ddad4a3456c4731e9ddfcf76902f9f0
+
+Package: libpano13-static
+Architecture: aarch64
+Installed-Size: 804
+Maintainer: @termux
+Version: 2.9.23-2
+Homepage: https://panotools.sourceforge.net/
+Depends: libpano13 (= 2.9.23-2)
+Description: Static libraries for libpano13
+Filename: ./libpano13-static_2.9.23-2_aarch64.deb
+Size: 199100
+MD5sum: 04f5b0db11ed5216597e37fb7aec4c98
+SHA1: 5c06d0f29de84bd9b291757a90912c16f7866934
+SHA256: 7a4d70dc3c589ced751489597a2c5e473e1ef3973e6fe518f9406d25db378aab
+
+Package: libpano13
+Architecture: aarch64
+Installed-Size: 900
+Maintainer: @termux
+Version: 2.9.23-2
+Homepage: https://panotools.sourceforge.net/
+Depends: libjpeg-turbo, libpng, libtiff, zlib
+Description: Part of the Panorama Tools by Helmut Dersch
+Filename: ./libpano13_2.9.23-2_aarch64.deb
+Size: 243400
+MD5sum: e5f635d8a2d125d07dd15829c982c854
+SHA1: 269356131e85fab5451f81654dfbe5e95141b229
+SHA256: c712004a4669344934f4d7b8c3e27ba2590b94e8137c7161aa922dd76ba80984
+
+Package: libpaper-static
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: @termux
+Version: 2.2.8-1
+Homepage: https://github.com/rrthomas/psutils
+Depends: libpaper (= 2.2.8-1)
+Description: Static libraries for libpaper
+Filename: ./libpaper-static_2.2.8-1_aarch64.deb
+Size: 5688
+MD5sum: 40e4b455875f7e11b3f35db8d88dbe0f
+SHA1: ca3279102597fe34c67e6662c0ae1ac3e5026868
+SHA256: c2a796efb07f0f639e11c2a38f450766a5422cf34c819dc68fe8d75a92f62fb7
+
+Package: libpaper
+Architecture: aarch64
+Installed-Size: 196
+Maintainer: @termux
+Version: 2.2.8-1
+Homepage: https://github.com/rrthomas/psutils
+Provides: paper
+Description: Library for handling paper characteristics (by @rrthomas)
+Filename: ./libpaper_2.2.8-1_aarch64.deb
+Size: 32620
+MD5sum: 69a3f0c8c91fe62a2b6cc180292ff626
+SHA1: e767543d7ca01fcd64adafd6cf53a11ecc1dda1e
+SHA256: d52285fdc5d1cda2ecf5c7ab46111b1ca2567e607be2d3479320cc4bee777d75
+
+Package: libpcsclite
+Architecture: aarch64
+Installed-Size: 356
+Maintainer: @termux
+Version: 2.5.3-1
+Homepage: https://pcsclite.apdu.fr/
+Breaks: libpcsclite-dev
+Depends: python
+Replaces: libpcsclite-dev
+Description: Middleware to access a smart card using SCard API (PC/SC).
+Filename: ./libpcsclite_2.5.3-1_aarch64.deb
+Size: 59428
+MD5sum: 264e7d60efaf79f7fff96a8290039256
+SHA1: 801220afb290ad804b429b66e8293d698c535475
+SHA256: eeb8c0f7b1424bd29132fd06f8be8b94181fe0a5abc343e1d09c952ae6d4da4d
+
+Package: libphysfs
+Architecture: aarch64
+Installed-Size: 396
+Maintainer: @termux
+Version: 3.2.0-3
+Homepage: https://icculus.org/physfs/
+Description: A portable, flexible file i/o abstraction
+Filename: ./libphysfs_3.2.0-3_aarch64.deb
+Size: 92948
+MD5sum: 747fb9642d1cfbcf48cd4aaec09e2563
+SHA1: 14bf1e8355bf1db5d805861587c3e6e7ae668b1c
+SHA256: 4965f76ca3f13e79336fd81f74180b843c1a9094975dcc1e3f5dac5d5ee4fd60
+
+Package: libpinyin-static
+Architecture: aarch64
+Installed-Size: 1856
+Maintainer: @termux
+Version: 2.10.3-1
+Homepage: https://github.com/libpinyin/libpinyin
+Depends: libpinyin (= 2.10.3-1)
+Description: Static libraries for libpinyin
+Filename: ./libpinyin-static_2.10.3-1_aarch64.deb
+Size: 175632
+MD5sum: 0049ef91b4573f52cdfcd56886d1fc1d
+SHA1: fef6a9363b1b36564e4b13f25726a35b679170db
+SHA256: 0c199231f749a7a5fe50b65d0dd413d3717795c05ff53dfc90590dea6ab07fef
+
+Package: libpinyin
+Architecture: aarch64
+Installed-Size: 53112
+Maintainer: @termux
+Version: 2.10.3-1
+Homepage: https://github.com/libpinyin/libpinyin
+Depends: glib, libdb
+Description: Library to deal with pinyin.
+Filename: ./libpinyin_2.10.3-1_aarch64.deb
+Size: 12366900
+MD5sum: 9f1abeda08783813dad82ad34a3a5038
+SHA1: afd9d9b9151061daa1f186ae69aee2585b2c65f3
+SHA256: 6dec011137bba8ee99b2e960f0e20c4ae96742ba10c7514c117238cb9738f860
+
+Package: libpipeline-static
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: @termux
+Version: 1.5.8-2
+Homepage: http://libpipeline.nongnu.org/
+Depends: libpipeline (= 1.5.8-2)
+Description: Static libraries for libpipeline
+Filename: ./libpipeline-static_1.5.8-2_aarch64.deb
+Size: 29456
+MD5sum: 51e5853883c370101a0a91087c59e59e
+SHA1: c629cfe238f58436e1305cba2a8de695cd7ac8a2
+SHA256: 17d99c04b1d679d85432accb319652c624ea9ba0e8d73855fc3a32528dd77162
+
+Package: libpipeline
+Architecture: aarch64
+Installed-Size: 148
+Maintainer: @termux
+Version: 1.5.8-2
+Homepage: http://libpipeline.nongnu.org/
+Breaks: libpipeline-dev
+Replaces: libpipeline-dev
+Description: C library for manipulating pipelines of subprocesses in a flexible and convenient way
+Filename: ./libpipeline_1.5.8-2_aarch64.deb
+Size: 36528
+MD5sum: 818b01bb8b7a6919b45a65f2e9241ca5
+SHA1: 6e26ed6938de71aa73eb42a2d93ecf08bbcf56e3
+SHA256: 83c8d4ab4ceb158a0b32756be8d41b34394257841826c1d560b69dbd4913acba
+
 Package: libplist-static
 Architecture: aarch64
 Installed-Size: 388
@@ -4083,6 +4293,78 @@ Size: 89704
 MD5sum: 374dce1f75f07bfeeb639ba095f7c07e
 SHA1: 8bd2abdcf74c4110f29fbfdc446f4829d4cfc9b3
 SHA256: be69ca88f80521d50708b5ee1f7d98442607de000c3ef0f6debdea081e738d4a
+
+Package: libpluto-static
+Architecture: aarch64
+Installed-Size: 3512
+Maintainer: Komo @mbekkomo
+Version: 0.13.2-1
+Homepage: https://plutolang.github.io/
+Depends: libpluto (= 0.13.2-1)
+Description: Static libraries for libpluto
+Filename: ./libpluto-static_0.13.2-1_aarch64.deb
+Size: 424708
+MD5sum: 05a577ddc15128fe0dc26769c0d2244b
+SHA1: 33e6eb5c7bb808b317be32fa60a3d77828f0687a
+SHA256: e5af7bc48df2a6c3bb6092f9f90e003a658ada920d6f0cc6d3c94855fd7eb972
+
+Package: libpluto
+Architecture: aarch64
+Installed-Size: 2308
+Maintainer: Komo @mbekkomo
+Version: 0.13.2-1
+Homepage: https://plutolang.github.io/
+Breaks: plutolang (<< 0.9.4-1)
+Depends: libc++
+Replaces: plutolang (<< 0.9.4-1)
+Description: Shared library for the Pluto interpreter
+Filename: ./libpluto_0.13.2-1_aarch64.deb
+Size: 727680
+MD5sum: 7d65a8419a0be82c9c2ec45267e2e4b4
+SHA1: 1f19cf23a824c6b69c3c4da1ebfe54763ac2e7e4
+SHA256: 2d4bd5e75b476cd5e708d4fc353d512341e8f5b5bd926db9ef67a2e8786afc0c
+
+Package: libpngwriter-static
+Architecture: aarch64
+Installed-Size: 216
+Maintainer: @termux
+Version: 0.7.0-2
+Homepage: https://pngwriter.sourceforge.net
+Depends: libpngwriter (= 0.7.0-2)
+Description: Static libraries for libpngwriter
+Filename: ./libpngwriter-static_0.7.0-2_aarch64.deb
+Size: 34036
+MD5sum: 418c8ec619da6deed1fb9e037d38a2b0
+SHA1: 3b2c54717cdc828bf0cb39d5a1fce9963c3e49ee
+SHA256: ae0be6a2bf75cb42f37be88a5d82f784eb6ef6ee64a78e6cc7c29e381836ba27
+
+Package: libpngwriter
+Architecture: aarch64
+Installed-Size: 112
+Maintainer: @termux
+Version: 0.7.0-2
+Homepage: https://pngwriter.sourceforge.net
+Depends: zlib,freetype,libpng
+Description: C++ library for creating PNG images
+Filename: ./libpngwriter_0.7.0-2_aarch64.deb
+Size: 13052
+MD5sum: cbffc0ffa0b144d43d4118653eb900f4
+SHA1: 8e9beca30b09ee840a39e745580719b70f893f61
+SHA256: c77e11c58afe7cb1d44e014fdd4d233cab8efa12c8450ff12fd79d2f1a3fbe4c
+
+Package: libpoco
+Architecture: aarch64
+Installed-Size: 19868
+Maintainer: @termux
+Version: 1.15.4-1
+Homepage: https://pocoproject.org/
+Depends: libandroid-posix-semaphore, libc++, libexpat, libsqlite, openssl, pcre2, utf8proc, zlib
+Description: A comprehensive set of C++ libraries that cover all modern-day programming needs
+Filename: ./libpoco_1.15.4-1_aarch64.deb
+Size: 3129496
+MD5sum: 4a777fc9962b8794fad404bfccb7d929
+SHA1: ffb649ebf3cd84011093cbdf718a5db20dfcf643
+SHA256: 6fc54f3488468f98c7d9fab5b5fc70051055d2ae2e68aec7fe81422efdc77471
 
 Package: libprotobuf-c-static
 Architecture: aarch64
@@ -4114,6 +4396,49 @@ MD5sum: 4a49d6ee13e700913bf8f2f6236a66a3
 SHA1: b3a30d70763c80d3647d566c36bb6ae80b0eb614
 SHA256: 777868f1832f702c885d6d91ac92e0c6906c7462971b4a91a182fd8ca39b7c2c
 
+Package: libprotozero
+Architecture: aarch64
+Installed-Size: 224
+Maintainer: @termux
+Version: 1.8.2-1
+Homepage: https://github.com/mapbox/protozero
+Description: Minimalistic protocol buffer decoder and encoder in C++
+Filename: ./libprotozero_1.8.2-1_aarch64.deb
+Size: 19668
+MD5sum: 3976bf739cf4e1339df270a2d54b3421
+SHA1: 9cc9bf8caca54f319e7c2e9c976a472a06ba3e17
+SHA256: fc7f8b230003f3b277f63bd4696a297b7df532316c6beb7643ebee019cd66772
+
+Package: libpsl-static
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 0.23.3-1
+Homepage: https://github.com/rockdaboot/libpsl
+Depends: libpsl (= 0.23.3-1)
+Description: Static libraries for libpsl
+Filename: ./libpsl-static_0.23.3-1_aarch64.deb
+Size: 52948
+MD5sum: d4f7c334080a7b60bc279714dccd24c2
+SHA1: 0637bad87ebb25a8f2ea7fa6a94605a07d26c23e
+SHA256: b6bdc6111752c873e5aa7ebf5edf1e19637a18d4f31da8dec35fc5ee2d0d7e6a
+
+Package: libpsl
+Architecture: aarch64
+Installed-Size: 200
+Maintainer: @termux
+Version: 0.23.3-1
+Homepage: https://github.com/rockdaboot/libpsl
+Breaks: libpsl-dev
+Depends: libidn2, libunistring
+Replaces: libpsl-dev
+Description: Public Suffix List library
+Filename: ./libpsl_0.23.3-1_aarch64.deb
+Size: 66696
+MD5sum: c97fb00e8fafd33ac6b6a5339dd549c6
+SHA1: f807317946c944445e9e529732be180493f4ca40
+SHA256: c044b0513f24033118f7fbb27b47a190dd95f6cd1b17261edbb0b4521785ab99
+
 Package: libpugixml
 Architecture: aarch64
 Installed-Size: 392
@@ -4127,6 +4452,63 @@ Size: 87868
 MD5sum: 92cd75f34dc3e2bdccab1b30c715f82c
 SHA1: d219bb0aa8438c7769b782cd0b724dfe7afe5c1f
 SHA256: 6769222a0ab2dcca9e7f2995828de4943e16346d29a4781f0efb108386c528e9
+
+Package: libpwquality
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: @termux
+Version: 1.4.5-1
+Homepage: https://github.com/libpwquality/libpwquality
+Description: Library for password quality checking and generating random passwords
+Filename: ./libpwquality_1.4.5-1_aarch64.deb
+Size: 30268
+MD5sum: 0978b3d995cdd6fc1553da21ef5db704
+SHA1: 1177d9564a25a2bbdc77a5ef3c051f6d2401e63d
+SHA256: 7b71d547e4cad5b8a1c230c82af29f1d8a5779f86f1f9c714f913730f4aecbd5
+
+Package: libqrencode
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.1.1-3
+Homepage: https://fukuchi.org/works/qrencode/
+Breaks: libqrencode-dev
+Depends: libandroid-support, libpng, zlib
+Replaces: libqrencode-dev
+Description: Fast and compact library for encoding data in a QR Code symbol
+Filename: ./libqrencode_4.1.1-3_aarch64.deb
+Size: 41960
+MD5sum: dfddaac0c65049ab444d521c853c3edd
+SHA1: 89ab8bc353d53372f314d4b4ab9c7bb3c8d358bd
+SHA256: e5a2b0c587a28d256349186f24c92963eac730c52bcbcaf4c9039d5228c89404
+
+Package: libqxp-static
+Architecture: aarch64
+Installed-Size: 1856
+Maintainer: @termux
+Version: 0.0.3-1
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libqxp
+Depends: libqxp (= 0.0.3-1)
+Description: Static libraries for libqxp
+Filename: ./libqxp-static_0.0.3-1_aarch64.deb
+Size: 177688
+MD5sum: 049be6b38588da9bb5d383c3328673ab
+SHA1: 959522899d4920f323d239182feb451e4b638796
+SHA256: 3d27777bc565a2d6bad6deebf3ece20ca64a362bf87652590b5b1aef8096265b
+
+Package: libqxp
+Architecture: aarch64
+Installed-Size: 520
+Maintainer: @termux
+Version: 0.0.3-1
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libqxp
+Depends: libicu, librevenge
+Description: a library that parses the file format of QuarkXPress documents
+Filename: ./libqxp_0.0.3-1_aarch64.deb
+Size: 98224
+MD5sum: da1e54347e5f29bb0546a3260f118de8
+SHA1: 58f7cb0e788c17f6b61d1d84b13319da401941e1
+SHA256: 6d10c7b32c6182ee91584958aa3948f82624c9834b7124f56d3fb0a702fe2eaa
 
 Package: libraptor2-static
 Architecture: aarch64
@@ -4156,6 +4538,34 @@ MD5sum: 1c2c992d1b73e8e5178bad2f4eb48655
 SHA1: 209efd5739c3ae92cda3e9707970e800f3364daa
 SHA256: dd87c50c09741d7301edcfe5f88794d177363b67f334df66d88ab446ff5bb7a3
 
+Package: librasqal-static
+Architecture: aarch64
+Installed-Size: 864
+Maintainer: @termux
+Version: 0.9.33-5
+Homepage: https://librdf.org/rasqal/
+Depends: librasqal (= 0.9.33-5)
+Description: Static libraries for librasqal
+Filename: ./librasqal-static_0.9.33-5_aarch64.deb
+Size: 159660
+MD5sum: 7b061278e2687d3d360fd34e52f27550
+SHA1: 5b9c3ed1f09639543b258079a73d38af1045bc6c
+SHA256: 76d81a67005f334d927bad15a5455da5ba580469772f27d1b04c31a13918cbf7
+
+Package: librasqal
+Architecture: aarch64
+Installed-Size: 652
+Maintainer: @termux
+Version: 0.9.33-5
+Homepage: https://librdf.org/rasqal/
+Depends: libgmp, libmhash, libraptor2, libuuid, pcre
+Description: RDF Query Library
+Filename: ./librasqal_0.9.33-5_aarch64.deb
+Size: 162116
+MD5sum: d1bfb5141a59842f5bb7f2371eb71fee
+SHA1: 285ad3f09497052ba94aaeb79af5b3f4fb3ee6f5
+SHA256: 22957f1afd389cf314eedcc2d06839958ea7f1e315e0994bcd673d31aea0f813
+
 Package: librevenge-static
 Architecture: aarch64
 Installed-Size: 2168
@@ -4183,6 +4593,20 @@ Size: 168616
 MD5sum: 3fd78f77d1d20f56e9607cce10e4c138
 SHA1: 897bca835a68f3d910af90047666f4d87fb3bf90
 SHA256: f5b478e047d73add7d054c5782fbff326eaf71eb5ec40ace02604bcd9264c7c0
+
+Package: librime
+Architecture: aarch64
+Installed-Size: 2944
+Maintainer: @termux
+Version: 1.17.0-2
+Homepage: https://rime.im/
+Depends: boost, google-glog, leveldb, libc++, libopencc, libyaml-cpp, marisa
+Description: A modular, extensible input method engine in cross-platform C++ code
+Filename: ./librime_1.17.0-2_aarch64.deb
+Size: 647456
+MD5sum: 61d5cbd264e72a3290e6cda0620f02c2
+SHA1: c728066c0103dbdf3201612103cfa495dcb36d01
+SHA256: ba8448d1859553ab6e5e663e30f3074c4c4a6a0bd18fbda4e18423a6e010a181
 
 Package: librttopo-static
 Architecture: aarch64
@@ -4295,6 +4719,36 @@ Size: 154508
 MD5sum: eaa5b773f161457c794814db4debed68
 SHA1: 5f3d5a4d3de57f76f5e6bba35ed6a24a15ac9ddd
 SHA256: 20ca58cfc82c4df6a2e546a70759d611106e79467390dad5064efea06d286d12
+
+Package: libsrt
+Architecture: aarch64
+Installed-Size: 948
+Maintainer: @termux
+Version: 1.5.7-1
+Homepage: https://github.com/Haivision/srt
+Depends: libc++, openssl
+Description: Secure Reliable Transport (SRT) Protocol
+Filename: ./libsrt_1.5.7-1_aarch64.deb
+Size: 279720
+MD5sum: 2b1d4d6d8c07186d8b325475a7396d06
+SHA1: 974c8109ef5a3b83bdc2bc0661c09a1904f1e637
+SHA256: 13bb1471a13e3130fee890117333662f2d269796ce0963ec7c5cc2794d59503d
+
+Package: libssh
+Architecture: aarch64
+Installed-Size: 904
+Maintainer: @termux
+Version: 0.12.2-1
+Homepage: https://www.libssh.org/
+Breaks: libssh-dev
+Depends: openssl, zlib
+Replaces: libssh-dev
+Description: Tiny C SSH library
+Filename: ./libssh_0.12.2-1_aarch64.deb
+Size: 234592
+MD5sum: 754f9014b80607e662c392ef8e052727
+SHA1: ab2c08468e688b57bec81fdedb2be7bb38d4a4ab
+SHA256: 3a9897a95df99801b431906faf4ba8e9c49088fbdd863fcdee334b7031ea12c5
 
 Package: libtatsu-static
 Architecture: aarch64
@@ -4469,6 +4923,62 @@ MD5sum: 8bd90873b3044f7f60d466d4fc259b82
 SHA1: 5d7435ed17f5e3028f7c6a7d09526b70198f8621
 SHA256: 603351cc46afbc20aade710f25430a9d7a3e8d9790e96d24416018dc20219325
 
+Package: libxss-static
+Architecture: aarch64
+Installed-Size: 44
+Maintainer: @termux
+Version: 1.2.5-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libxss (= 1.2.5-1)
+Description: Static libraries for libxss
+Filename: ./libxss-static_1.2.5-1_aarch64.deb
+Size: 4416
+MD5sum: 6525ca9b5873e9d8ef884bfab0071db2
+SHA1: 2c6ee78fb738f56a6175556636e7ac0400902419
+SHA256: 71eaa477c7d68963fad25cc2a6730fe8aad3b69c397f7f7ab0a37058f5634e5b
+
+Package: libxss
+Architecture: aarch64
+Installed-Size: 144
+Maintainer: @termux
+Version: 1.2.5-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxau, libxcb, libxdmcp, libxext
+Description: X11 Screen Saver extension library
+Filename: ./libxss_1.2.5-1_aarch64.deb
+Size: 12064
+MD5sum: d7f80ba74a1231ac1e532c5272f7ba9a
+SHA1: 1646a3d62fcdc7ded101c7a29d8efea70e67a606
+SHA256: 48df181c4dabb99b50b2c767cfba531e697fe2bed8a67af0c97451c899c4f4c2
+
+Package: libxv
+Architecture: aarch64
+Installed-Size: 212
+Maintainer: @termux
+Version: 1.0.13-2
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext
+Description: Library for the X Video (Xv) extension to the X Window System
+Filename: ./libxv_1.0.13-2_aarch64.deb
+Size: 31820
+MD5sum: b4a9657f9d63c719f8f6dc4f7317c9b3
+SHA1: 6efc6db4af85165b759f10b8ab683c18511a59b2
+SHA256: e7306e79a8e31b60949e3d5fb9fe72105861edf417e61e77ad78ee7ed49b0a0e
+
+Package: libyaml-cpp
+Architecture: aarch64
+Installed-Size: 636
+Maintainer: @termux
+Version: 0.9.0-1
+Homepage: https://github.com/jbeder/yaml-cpp
+Depends: libc++
+Description: A YAML parser and emitter in C++ matching the YAML 1.2 spec
+Filename: ./libyaml-cpp_0.9.0-1_aarch64.deb
+Size: 122808
+MD5sum: a3e3167e5bdd634884fe8f69d3573177
+SHA1: d8b81b302253294a504b4d151c91d14bf21997d2
+SHA256: b1e93d9b575bc848bd5d849436f544a585cdb8ef5013093ddc462f310b1729f9
+
 Package: libzen-static
 Architecture: aarch64
 Installed-Size: 1104
@@ -4510,6 +5020,78 @@ Size: 250820
 MD5sum: 1df4b99090ab986e60e4d5ee91273533
 SHA1: 583a61fa5080e438273e76b04dc3075941158137
 SHA256: ef7044766115428c73dbe1bb64e9ac0975fdd0afb69f8fd3a755b52e6787bb04
+
+Package: libzimg-static
+Architecture: aarch64
+Installed-Size: 1872
+Maintainer: @termux
+Version: 3.0.6-1
+Homepage: https://github.com/sekrit-twc/zimg
+Depends: libzimg (= 3.0.6-1)
+Description: Static libraries for libzimg
+Filename: ./libzimg-static_3.0.6-1_aarch64.deb
+Size: 219880
+MD5sum: add36a55dc72f977e0ba4f9ad590739c
+SHA1: 24691048122d0780038e2e1436705fd2b9a98db8
+SHA256: 55a8f62b060b6b30ffae13d1f191b7026c05adcf2c19f2221bd826136db69a30
+
+Package: libzimg
+Architecture: aarch64
+Installed-Size: 576
+Maintainer: @termux
+Version: 3.0.6-1
+Homepage: https://github.com/sekrit-twc/zimg
+Depends: libc++
+Description: Scaling, colorspace conversion, and dithering library
+Filename: ./libzimg_3.0.6-1_aarch64.deb
+Size: 145188
+MD5sum: b14fc8a37cd627dcfeceba489e19480f
+SHA1: 72969f4d8ea2d7d93725d01265904198f351dad3
+SHA256: a72732f6317b5b470bfd6332ce4a701287fb30d643c59e81a3d1208d36a1b497
+
+Package: libzmq-static
+Architecture: aarch64
+Installed-Size: 3484
+Maintainer: @termux
+Version: 4.3.5-3
+Homepage: https://zeromq.org/
+Depends: libzmq (= 4.3.5-3)
+Description: Static libraries for libzmq
+Filename: ./libzmq-static_4.3.5-3_aarch64.deb
+Size: 366804
+MD5sum: 5a1a88e6412247fb23ffa5f7ca6c2e89
+SHA1: 1ba7384b3299c030e70d4d3ee34fafbc63435253
+SHA256: ec207e8b955fb2c87f72af57883df62abda9739ad5a298941a253992fddfe9e7
+
+Package: libzmq
+Architecture: aarch64
+Installed-Size: 1012
+Maintainer: @termux
+Version: 4.3.5-3
+Homepage: https://zeromq.org/
+Breaks: libzmq-dev
+Depends: libc++, libsodium
+Replaces: libzmq-dev
+Description: Fast messaging system built on sockets. C and C++ bindings. aka 0MQ, ZMQ.
+Filename: ./libzmq_4.3.5-3_aarch64.deb
+Size: 322284
+MD5sum: 10ff0a9662b6c40dae82f80b4de84be5
+SHA1: 10abc2426999bdaec6edcb2e146e0e48c50177d1
+SHA256: e7efeb25209c6d9f1b96e1ca6726ba02193dadc738a974e5205daa8c2eeda6fa
+
+Package: marisa
+Architecture: aarch64
+Installed-Size: 584
+Maintainer: @termux
+Version: 0.3.1-2
+Homepage: https://github.com/s-yata/marisa-trie
+Depends: libc++
+Description: Matching Algorithm with Recursively Implemented StorAge
+Filename: ./marisa_0.3.1-2_aarch64.deb
+Size: 86928
+MD5sum: 357fc4f730515dd6021b134e73db3738
+SHA1: 103308a691c8f63ae42d5612daf4f737e95d35e4
+SHA256: e0a6caa9da25bc531013ec9088e964a70f1378f039eb0a58cb57d9bf854c1194
 
 Package: media-types
 Architecture: all
@@ -4599,6 +5181,20 @@ MD5sum: 02633e2e330a3ed3e854d985abfe809e
 SHA1: b7f3e54641c03fe9393b857c6c5ed2071c9a2e9e
 SHA256: f41e6394a6ebdc1c7ee8df1f364cfc837379d5a537d77f076ebf3552962170c1
 
+Package: opencc-tools
+Architecture: aarch64
+Installed-Size: 416
+Maintainer: @termux
+Version: 1.4.2-1
+Homepage: https://github.com/BYVoid/OpenCC
+Depends: libopencc (= 1.4.2-1)
+Description: Command-line tools for OpenCC
+Filename: ./opencc-tools_1.4.2-1_aarch64.deb
+Size: 84960
+MD5sum: e190ac1fc6bd37fa08c90e3565c7be33
+SHA1: 33d94988ae332050b1ad6f3cc8f266a3332d9d3d
+SHA256: f25131bfaf875cc3d0492b26573c6414f4b64bcd1ec2db57333ad8ec0183fa60
+
 Package: opengl
 Architecture: all
 Installed-Size: 4
@@ -4612,6 +5208,34 @@ Size: 708
 MD5sum: d8793acd666cffe7335f57a8ad915eed
 SHA1: 29c574672873b72a298580ffa011809bb2f288f9
 SHA256: 991999ee3e9e6285e8ff8d1f0ce97b3b751634a641d43f8783c6a9c71da2eaa2
+
+Package: pcscd
+Architecture: aarch64
+Installed-Size: 160
+Maintainer: @termux
+Version: 2.5.3-1
+Homepage: https://pcsclite.apdu.fr/
+Depends: libusb, libpcsclite (= 2.5.3-1)
+Description: Middleware to access a smart card using SCard API (PC/SC). (daemon side)
+Filename: ./pcscd_2.5.3-1_aarch64.deb
+Size: 44236
+MD5sum: 2d0db0fbb238a85ad6b3849bf8d532ac
+SHA1: 0ec2bf1e72d5e53bd9068f1a295f50da09283dae
+SHA256: 9e364a3263c9fd3440dee76f7c0e80e6b61d238eb8a149708b08790a329394ed
+
+Package: plutolang
+Architecture: aarch64
+Installed-Size: 2256
+Maintainer: Komo @mbekkomo
+Version: 0.13.2-1
+Homepage: https://plutolang.github.io/
+Depends: readline, libpluto (= 0.13.2-1)
+Description: A superset of Lua 5.4 with a focus on general-purpose programming.
+Filename: ./plutolang_0.13.2-1_aarch64.deb
+Size: 656116
+MD5sum: 51cabbdd6f9bacf38104ce87ab3d5fc4
+SHA1: 2e8bcbecbe6fb9486cdd3254a30a85b591b16589
+SHA256: 81410119fb3d1f4f32b3343bbe4fbb544a4e05dc4fd5edf58d1a03221e72247c
 
 Package: poppler
 Architecture: aarch64
@@ -4660,6 +5284,20 @@ MD5sum: 667ab83f4cdb436c90a84e11ff741c7a
 SHA1: be13dcb3787c070743e50f697bae7cd7505815ae
 SHA256: 8c184b1446f83d65b61e13a890d584d708524ac0b0751019ce6a49c06301649e
 
+Package: roqet
+Architecture: aarch64
+Installed-Size: 84
+Maintainer: @termux
+Version: 0.9.33-5
+Homepage: https://librdf.org/rasqal/
+Depends: librasqal (= 0.9.33-5)
+Description: Standalone command line RDF query utility program
+Filename: ./roqet_0.9.33-5_aarch64.deb
+Size: 14820
+MD5sum: 5530b8a70bbe1b708714711a40e31545
+SHA1: 653637d0ca6ca967bdfa6de3acd109bfe2763250
+SHA256: dca7609eed2dfbdbbb86cc40fa2a8a62269bfebd4bf84b9eee375f750a36ddf1
+
 Package: rsync
 Architecture: aarch64
 Installed-Size: 664
@@ -4673,6 +5311,20 @@ Size: 308568
 MD5sum: 575ec0d5ab11fd49dd7a023e88114aca
 SHA1: 6e505b7f91463ecfa676418ff91bc1f33001fb7d
 SHA256: 27a7d818f5a81aa3258ac7f2e01a9d13393c11a7eff359e562b8cc0086976f60
+
+Package: srt-tools
+Architecture: aarch64
+Installed-Size: 696
+Maintainer: @termux
+Version: 1.5.7-1
+Homepage: https://github.com/Haivision/srt
+Depends: libsrt (= 1.5.7-1)
+Description: Command-line tools for libsrt
+Filename: ./srt-tools_1.5.7-1_aarch64.deb
+Size: 132996
+MD5sum: ce93cf5143880fb82d73c1fca4b412a0
+SHA1: bb5dbe885b289983f52c16c4110b84bace824105
+SHA256: 59c37c8bf9dbdc7406cb51fcd28edd25ffa8814832ccc72d6ed0a78488e9e720
 
 Package: swig
 Architecture: aarch64
@@ -4788,6 +5440,35 @@ Size: 1152156
 MD5sum: 6a0bbb741b9b78ba6d79571c12ea93d2
 SHA1: b540bf8ae6ea085d5bd8c4a30dde59c66beb23d4
 SHA256: d806dc7df5964a2f2dbb0cfb5b039948209a1b2bdb26aff5e0081d04fde0306d
+
+Package: xvidcore-static
+Architecture: aarch64
+Installed-Size: 548
+Maintainer: @termux
+Version: 1.3.7-2
+Homepage: https://www.xvid.com/
+Depends: xvidcore (= 1.3.7-2)
+Description: Static libraries for xvidcore
+Filename: ./xvidcore-static_1.3.7-2_aarch64.deb
+Size: 139280
+MD5sum: 1fa6514039eac60628620aecdb27c00a
+SHA1: c30a7bc69596fae561e78d31c05619d095861b7a
+SHA256: 13934fcfd8205813d5b4d556e47c607ff2ff9622589d6e6a08750c00282820a3
+
+Package: xvidcore
+Architecture: aarch64
+Installed-Size: 404
+Maintainer: @termux
+Version: 1.3.7-2
+Homepage: https://www.xvid.com/
+Breaks: xvidcore-dev
+Replaces: xvidcore-dev
+Description: High performance and high quality MPEG-4 library
+Filename: ./xvidcore_1.3.7-2_aarch64.deb
+Size: 126080
+MD5sum: 653f03aa35b9055b7d643e0706878026
+SHA1: c630895c1b1a736185afe249b81c3e8b11e10bef
+SHA256: 95e20084521287e0ac60e4c43b3c75e159a5cd3fe65bb941456f3728e20f6f28
 
 Package: yajl-static
 Architecture: aarch64
