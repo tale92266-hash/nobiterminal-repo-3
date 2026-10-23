@@ -748,6 +748,142 @@ MD5sum: ec858d3b82b3e22b904cd275d772875f
 SHA1: 4a0ead5849f8fb07cd1e522fbe9f5ddedcd1737f
 SHA256: 57a4a463f997e2d7723f1dfa585c93a1d7d2927bfe97832fe8832f08b821f216
 
+Package: google-glog
+Architecture: aarch64
+Installed-Size: 448
+Maintainer: @termux
+Version: 0.7.1-3
+Homepage: https://github.com/google/glog
+Breaks: google-glog-dev
+Depends: gflags, libc++
+Replaces: google-glog-dev
+Description: Logging library for C++
+Filename: ./google-glog_0.7.1-3_aarch64.deb
+Size: 103932
+MD5sum: 5ee5af062bea15976fb871b4ae329cb4
+SHA1: b2b32015fb8ffd981cb22b34b91391a9a239052c
+SHA256: 6f3e43258ed63b8228530b79cefb73f50c83b9c99d912bdbf2b05c2eda66d603
+
+Package: goose
+Architecture: aarch64
+Installed-Size: 45124
+Maintainer: @termux
+Version: 3.29.0-2
+Homepage: https://pressly.github.io/goose
+Description: A database migration tool. Supports SQL migrations and Go functions.
+Filename: ./goose_3.29.0-2_aarch64.deb
+Size: 9892900
+MD5sum: 29cbba0e58894344d6606389d05fc11f
+SHA1: 04089ead6a53c0b64a0621f0d2dbe0e135fe7063
+SHA256: bdc611ee83f43131a7e5f525c510a33aa9c50a486e3c3fc281e1a73032b854ff
+
+Package: gopass
+Architecture: aarch64
+Installed-Size: 25468
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 1.17.4-2
+Homepage: https://github.com/gopasspw/gopass
+Depends: git, gnupg
+Suggests: termux-api, openssh
+Description: The slightly more awesome standard unix password manager for teams
+Filename: ./gopass_1.17.4-2_aarch64.deb
+Size: 7688048
+MD5sum: 1ff83715a41a91c9aa9a7afa4d351b05
+SHA1: 1fd8d5cbca44a65d8f7ea2ff684a6b8b3afc2d58
+SHA256: dc0a8865da5a0ea8cfab87a150fe3c1b4c0f91c9ef484460d6acd42f130f08f8
+
+Package: gopher
+Architecture: aarch64
+Installed-Size: 256
+Maintainer: @termux
+Version: 3.0.19-1
+Homepage: gopher://gopher.quux.org/1/devel/gopher
+Depends: ncurses
+Description: University of Minnesota gopher
+Filename: ./gopher_3.0.19-1_aarch64.deb
+Size: 63676
+MD5sum: 2c1a786fcc7f6a8b63ad398289a57988
+SHA1: 396b305bbc8444ee08df6fd8155ad180107f6891
+SHA256: 4b0fbf58d14a93ed4c54ac9cf00999cfca5aff881719e0a7d48585ed1efa9ee7
+
+Package: gopls
+Architecture: aarch64
+Installed-Size: 32104
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.24.0-2
+Homepage: https://github.com/golang/tools
+Description: The official Go language server
+Filename: ./gopls_0.24.0-2_aarch64.deb
+Size: 7851968
+MD5sum: 45780803a1566352218ee5aefe5f01d2
+SHA1: 066ecaa290a7e859066b80aef55c1f6659b337f6
+SHA256: f9406a09ef267838c20b8feae0bef824f7a454855143bb1046157cc899bab9fc
+
+Package: goreleaser
+Architecture: aarch64
+Installed-Size: 88620
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.19.0-2
+Homepage: https://goreleaser.com
+Description: Deliver Go binaries as fast and easily as possible
+Filename: ./goreleaser_2.19.0-2_aarch64.deb
+Size: 17106400
+MD5sum: cdde06ff98fb93f4ec8fa070a0445c54
+SHA1: 6f7e252b1561af8160647cbb77a531769f416353
+SHA256: 67cd725c8f298ad71017e46c3d75c9757be53815d5c532c8da62ff1dae6e21f6
+
+Package: goresym
+Architecture: aarch64
+Installed-Size: 4612
+Maintainer: @termux
+Version: 3.4.1-2
+Homepage: https://github.com/mandiant/GoReSym
+Description: Go symbol recovery tool
+Filename: ./goresym_3.4.1-2_aarch64.deb
+Size: 1230572
+MD5sum: a6b808534ba671069cb0a85b38cf2d65
+SHA1: b011b88f78aa509e8d9b3d7d705eb922ea01ba92
+SHA256: a59385a085c68e13977f820dca821db84b9f8aa0f24be3a98bce60406a61aa8d
+
+Package: gosec
+Architecture: aarch64
+Installed-Size: 50944
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.29.0-2
+Homepage: https://github.com/securego/gosec
+Description: Golang security checker
+Filename: ./gosec_2.29.0-2_aarch64.deb
+Size: 9069632
+MD5sum: 71e9e4b4b46d00b6495682b8679020c4
+SHA1: 345a44c3c5eb3fd1e9724ef154709ec882f9c195
+SHA256: bed8499bea85e84fae585d24deb305a8cbc5ee6db7c136d9d07d67f7424ec6cf
+
+Package: gost
+Architecture: aarch64
+Installed-Size: 49572
+Maintainer: @ian4hu
+Version: 3.3.1-1
+Homepage: https://github.com/go-gost/gost
+Description: GO Simple Tunnel - a simple tunnel written in golang
+Filename: ./gost_3.3.1-1_aarch64.deb
+Size: 11062088
+MD5sum: 602dae4232587857264a401a3c3b5124
+SHA1: f49e7cb216ec61ead54f1ddcb08a02b2635b5d2d
+SHA256: 453026eab74baa039d3bacc1d1753869db6d404f74a198734075ac8c466cb14c
+
+Package: gotests
+Architecture: aarch64
+Installed-Size: 13364
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.9.0-2
+Homepage: https://github.com/cweill/gotests
+Description: Generates Go tests from your source code
+Filename: ./gotests_1.9.0-2_aarch64.deb
+Size: 3492848
+MD5sum: 627fc5b8fc50779e2de90a4e2000c0ad
+SHA1: e3d9d79e67f98bb4b45956b2fe310ae2d3b53c31
+SHA256: a031ba6c58794e182b7d0ec3ba020a311d810ea549fb91dd1e341e56ad9946da
+
 Package: gotestsum
 Architecture: aarch64
 Installed-Size: 6740
