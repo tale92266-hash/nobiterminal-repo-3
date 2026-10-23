@@ -41,6 +41,73 @@ MD5sum: 3211c237413fb74e62359add54d83d83
 SHA1: 1341941c849d4360bd56a9902981159c54b53044
 SHA256: 43ce0c3e6b6c3e826840e4bd356a9c2be7c474a5e8a43a7ebd9e3241a989e1d1
 
+Package: daemonize
+Architecture: aarch64
+Installed-Size: 72
+Maintainer: @termux
+Version: 1.7.8-4
+Homepage: http://software.clapper.org/daemonize/
+Description: Run a command as a Unix daemon
+Filename: ./daemonize_1.7.8-4_aarch64.deb
+Size: 9676
+MD5sum: 17f18485ff25ef9e3175b49d74fd20f9
+SHA1: 98e07e38131a2216ab740c8d3a5da570609560f1
+SHA256: 1dbd3ecfa155b68508e75d50c808fc118703d04bfd79ed02dd8059e8bae06ac6
+
+Package: darkhttpd
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: @termux
+Version: 1.17-2
+Homepage: https://unix4lyfe.org/darkhttpd
+Description: A simple webserver, implemented in a single .c file.
+Filename: ./darkhttpd_1.17-2_aarch64.deb
+Size: 17084
+MD5sum: 2b572b86abc65fcc3dfc334f7aa64a46
+SHA1: 107c31176d8a2fc709a1187f84e49f9e364649c5
+SHA256: f3faa409daabc8e6a0d4f9732580eacc6837718bbfe9f06aae38fadfeb17ac93
+
+Package: dasel
+Architecture: aarch64
+Installed-Size: 10628
+Maintainer: @termux
+Version: 3.11.2-2
+Homepage: https://github.com/TomWright/dasel
+Description: Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single utility
+Filename: ./dasel_3.11.2-2_aarch64.deb
+Size: 2770140
+MD5sum: b09465f205239059afd38a890d56b7a9
+SHA1: a1150100603a48927da8b0a71ff7d1a90534acf7
+SHA256: 31d42f0779426181314471b3c3cfbf084f89feb8bd04703e6a9941b6aa14f6e5
+
+Package: diffstat
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: @termux
+Version: 1.69-1
+Homepage: https://invisible-island.net/diffstat/diffstat.html
+Description: Displays a histogram of changes to a file
+Filename: ./diffstat_1.69-1_aarch64.deb
+Size: 22056
+MD5sum: 6a853b6f093a74ee2292b9ddc08c9fc3
+SHA1: 1a758bb5c0ac372e9f2ea093b63069f8c1539850
+SHA256: 5bd387049c9d7d8d46843b61db7c828b68f4a6ca1a9425b2751395ccf579ea03
+
+Package: difftastic
+Architecture: aarch64
+Installed-Size: 114568
+Maintainer: @termux
+Version: 0.71.0-1
+Homepage: https://github.com/Wilfred/difftastic
+Depends: libc++
+Recommends: file
+Description: difft: A structural diff that understands syntax
+Filename: ./difftastic_0.71.0-1_aarch64.deb
+Size: 6187548
+MD5sum: 47dbc8c13662e15e6a8cb5974439e1c9
+SHA1: 9a6dc1e91daeb53738089d31fbb6705316dc576f
+SHA256: ed62a673fec73bc0192bb415b679489468b5d3cdac61c4eb0121abdb5922aebc
+
 Package: duckdb
 Architecture: aarch64
 Installed-Size: 51840
