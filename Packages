@@ -135,6 +135,136 @@ MD5sum: 0fce14e6b096dfd88e61270853279ef1
 SHA1: b9c26f719b1a87fc979d014cf41779a499601f94
 SHA256: 334e7862ca56cf40d08ae997a0fed9c1dd003f5da0b81051f37c8aa780987911
 
+Package: fetchmail
+Architecture: aarch64
+Installed-Size: 372
+Maintainer: @termux
+Version: 6.6.9-1
+Homepage: https://www.fetchmail.info/
+Depends: openssl
+Description: A remote-mail retrieval utility
+Filename: ./fetchmail_6.6.9-1_aarch64.deb
+Size: 157396
+MD5sum: 2b632ab68db18ca7dc05685e28b55515
+SHA1: 9b218ba3d63a441ba2aa7c13543a5f2249dada8c
+SHA256: 1a85d1eef48ae4fb642fa50b3e3234969f0d42f6e99244a1a3aa94f660fe9e0d
+
+Package: fetchmailconf
+Architecture: all
+Installed-Size: 156
+Maintainer: @termux
+Version: 6.6.9-1
+Homepage: https://www.fetchmail.info/
+Depends: python, python-tkinter, fetchmail (= 6.6.9-1)
+Conflicts: fetchmail (<< 6.4.33)
+Replaces: fetchmail (<< 6.4.33)
+Description: A GUI configurator for generating fetchmail configuration files
+Filename: ./fetchmailconf_6.6.9-1_all.deb
+Size: 25120
+MD5sum: 6714956d51f05bc47820935b50be4eb1
+SHA1: 6f1b25fa90c9d54cebb50716baf6b522fdfb41e3
+SHA256: 9aaa6a5101fa5a34bacd2352bbae2ec164022a036a1fc5f92d4dfab9a616c58c
+
+Package: fff
+Architecture: all
+Installed-Size: 104
+Maintainer: @termux
+Version: 2.2-1
+Homepage: https://github.com/dylanaraps/fff
+Depends: bash
+Suggests: w3m-img, xdotool
+Description: A simple file manager written in bash
+Filename: ./fff_2.2-1_all.deb
+Size: 16212
+MD5sum: dba2430ab2f24374f64f9708f8da08f8
+SHA1: d1604f8afb657f6fc52b41533115383b7887730b
+SHA256: 374c49541cfe4a065f1223194272c3482c60fedb331a1664d5e54cb6635a9364
+
+Package: ffsend
+Architecture: aarch64
+Installed-Size: 7060
+Maintainer: @termux
+Version: 0.2.77-3
+Homepage: https://gitlab.com/timvisee/ffsend
+Depends: openssl
+Description: A fully featured Firefox Send client
+Filename: ./ffsend_0.2.77-3_aarch64.deb
+Size: 1934540
+MD5sum: 3c88cd2a14ecae8cee3c6c7d3a35d5fa
+SHA1: f47bdd860c2df10b33da88af3cd5d2661a239045
+SHA256: 2eddae0cb2b88c02cd0f4fc5f6839ff1e03ec9039e184c986047553afb1a6588
+
+Package: figlet
+Architecture: aarch64
+Installed-Size: 832
+Maintainer: @termux
+Version: 2.2.5-4
+Homepage: http://www.figlet.org/
+Description: Program for making large letters out of ordinary text
+Filename: ./figlet_2.2.5-4_aarch64.deb
+Size: 89660
+MD5sum: 9a10823b02a8af42b191069e009745f3
+SHA1: 91405efbcb4e3cd37907ad0fc77f7106e788992d
+SHA256: 4132dc59cf441011ce3f1f3dcd8e45b294da150858b9deecd05fc16d89e49318
+
+Package: finch-static
+Architecture: aarch64
+Installed-Size: 17740
+Maintainer: @termux
+Version: 2.14.14-4
+Homepage: https://pidgin.im/
+Depends: finch (= 2.14.14-4)
+Description: Static libraries for finch
+Filename: ./finch-static_2.14.14-4_aarch64.deb
+Size: 2745264
+MD5sum: 2d6ad0feb7ea288c00d0c7136168f129
+SHA1: 6f08da696a995031fe511483e3dd2f5bccc1cf33
+SHA256: da99266b62602e7e7af3254cb0910600b1237b8ee3cae5e8e6de81944cf8a9d4
+
+Package: finch
+Architecture: aarch64
+Installed-Size: 3484
+Maintainer: @termux
+Version: 2.14.14-4
+Homepage: https://pidgin.im/
+Breaks: finch-dev
+Depends: ca-certificates, glib, libgnt, libgnutls, libidn, libsasl, libxml2, ncurses
+Replaces: finch-dev
+Description: Text-based multi-protocol instant messaging client
+Filename: ./finch_2.14.14-4_aarch64.deb
+Size: 756672
+MD5sum: 7b33fec5d5f5237c8a9ebde377227ca1
+SHA1: 6d0d5f941f69baf4e83b28d707a3ff841d8db5cb
+SHA256: 4ded9e72908667d6bc2e47f8c6adda9e921fb32441fba96be8b3ccb915fa1221
+
+Package: findomain
+Architecture: aarch64
+Installed-Size: 12736
+Maintainer: @termux
+Version: 10.0.1-2
+Homepage: https://findomain.app/
+Depends: resolv-conf, openssl
+Description: Findomain is the fastest subdomain enumerator and the only one written in Rust
+Filename: ./findomain_10.0.1-2_aarch64.deb
+Size: 3739024
+MD5sum: b2378910c57ace84aab68b20e7e2e619
+SHA1: 6a32a51a7ae4e5d2e9066a73a0e60320e56fd164
+SHA256: 2aec6432684c340da33d741fb627c0127e0fdc508438ec0bf7bb6112d5a2336a
+
+Package: fossil
+Architecture: aarch64
+Installed-Size: 5148
+Maintainer: @termux
+Version: 2.28-1
+Homepage: https://www.fossil-scm.org
+Depends: openssl, zlib
+Description: DSCM with built-in wiki, http interface and server, tickets database
+Filename: ./fossil_2.28-1_aarch64.deb
+Size: 1704644
+MD5sum: ccd9038193a0f51e47c7fe50703ba528
+SHA1: 01ce3ce09d62a6e559cd5d128c1a5a6fc246bbab
+SHA256: ba9b6b2dc0aab3c6733e43f0f4be4e349182f574e3b2bf791d8279eee14a71f0
+
 Package: freecell-solver
 Architecture: aarch64
 Installed-Size: 844
@@ -314,6 +444,34 @@ Size: 3837784
 MD5sum: ffaed675a2af7a55bc1c04a19806b482
 SHA1: 4c5e55e9fd15b46965444cfff00f83b1f2f13190
 SHA256: 5a20fcac581884270f85466162cdcd00406e21ba4515547be623e076ee635ace
+
+Package: game-music-emu-static
+Architecture: aarch64
+Installed-Size: 660
+Maintainer: @termux
+Version: 0.6.5-1
+Homepage: https://bitbucket.org/mpyne/game-music-emu/wiki/Home
+Depends: game-music-emu (= 0.6.5-1)
+Description: Static libraries for game-music-emu
+Filename: ./game-music-emu-static_0.6.5-1_aarch64.deb
+Size: 157060
+MD5sum: 57eb515d7aa7a8c282c3a995ace526cc
+SHA1: f3cac7e4042cda3a07b5793a9dfbaefd778340ce
+SHA256: ffe8186ef92ffff6cc0cb7e7749ed64cbc39f28eace62e4fb09e22ac45338a23
+
+Package: game-music-emu
+Architecture: aarch64
+Installed-Size: 384
+Maintainer: @termux
+Version: 0.6.5-1
+Homepage: https://bitbucket.org/mpyne/game-music-emu/wiki/Home
+Depends: libc++, zlib
+Description: A collection of video game music file emulators
+Filename: ./game-music-emu_0.6.5-1_aarch64.deb
+Size: 128508
+MD5sum: 12a96dc51d5e15837826b66f2431bdca
+SHA1: 43c2e51d14471d64ee59cef87deebad61af537a4
+SHA256: 862ab004dc374830b08960d23c3e750c37a0a49f597b6e9897391dd685ef0850
 
 Package: gdu
 Architecture: aarch64
@@ -840,6 +998,20 @@ MD5sum: 354cb8586a960a57a9ec10fb3ce15ca6
 SHA1: 56f5158f400aa4f52d6626f216a44155f2ffd0c8
 SHA256: 2c4a8ebb66e60102c470cefabd1591a76e6ad9bd9f4da9d2216c28f4db7e1e90
 
+Package: glslang
+Architecture: aarch64
+Installed-Size: 16588
+Maintainer: @termux
+Version: 16.6.0-1
+Homepage: https://github.com/KhronosGroup/glslang
+Depends: libc++
+Description: OpenGL and OpenGL ES shader front end and validator
+Filename: ./glslang_16.6.0-1_aarch64.deb
+Size: 2555904
+MD5sum: 054c1bb4f5e6e50476eff60e412cdb6c
+SHA1: 2f07425f2adcfbc43138746d59ac331cc553b498
+SHA256: b3204b28a88aacb314769584c40dac9e63587e299dff73a900758ef0ab626103
+
 Package: glulxe
 Architecture: aarch64
 Installed-Size: 328
@@ -1123,6 +1295,85 @@ Size: 2197448
 MD5sum: ec858d3b82b3e22b904cd275d772875f
 SHA1: 4a0ead5849f8fb07cd1e522fbe9f5ddedcd1737f
 SHA256: 57a4a463f997e2d7723f1dfa585c93a1d7d2927bfe97832fe8832f08b821f216
+
+Package: gofumpt
+Architecture: aarch64
+Installed-Size: 3444
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 0.12.0-2
+Homepage: https://github.com/mvdan/gofumpt
+Description: A stricter gofmt, backwards compatible drop-in replacement
+Filename: ./gofumpt_0.12.0-2_aarch64.deb
+Size: 1013828
+MD5sum: 1d48b0c5847726d350bbb1dda156d3ee
+SHA1: 780028a3273a974de8343266462e0b00d619e3d2
+SHA256: 5fd28d085f8e4ba925318e1188ca17a563216c7a41f7c1de5fce22e9aebb1468
+
+Package: gogs
+Architecture: aarch64
+Installed-Size: 75208
+Maintainer: @termux
+Version: 0.14.3-2
+Homepage: https://gogs.io
+Depends: dash, git
+Description: A painless self-hosted Git service
+Filename: ./gogs_0.14.3-2_aarch64.deb
+Size: 20717728
+MD5sum: fbaed6442ded5296b264e7d5e27debc2
+SHA1: aba1ad2d916db71882521291279f098a1d2b2dd1
+SHA256: 8daf00611825f9f0964e615ee6835a669461f300b56b0abf2a36276dc6766e50
+
+Package: goimports
+Architecture: aarch64
+Installed-Size: 7240
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 0.52.0-2
+Homepage: https://pkg.go.dev/golang.org/x/tools/cmd/goimports
+Description: Updates Go import lines, adding missing ones and removing unreferenced ones
+Filename: ./goimports_0.52.0-2_aarch64.deb
+Size: 1782460
+MD5sum: 01408d25e66ce100817efba03b1a6773
+SHA1: 5231e71ebcde6c7b4ec12c308777878c5443ac9b
+SHA256: 34c02652bafbdb6813287b178489547669850f373d4520d7afce4c80d487312a
+
+Package: gojq
+Architecture: aarch64
+Installed-Size: 4760
+Maintainer: @termux
+Version: 0.12.19-2
+Homepage: https://github.com/itchyny/gojq
+Description: Pure Go implementation of jq
+Filename: ./gojq_0.12.19-2_aarch64.deb
+Size: 1336792
+MD5sum: 5a999c4ce28b1f9461e76ec482ce8d22
+SHA1: b5042e47dc38934b02bce80d8e804db2b90464b5
+SHA256: 7439b351ea3c90b71823342e9206a774ec698faf47f6b4d6a34538dcbd7d65bb
+
+Package: golang-migrate
+Architecture: aarch64
+Installed-Size: 41788
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 4.20.1-2
+Homepage: https://github.com/golang-migrate/migrate
+Description: Database migrations. CLI and Golang library
+Filename: ./golang-migrate_4.20.1-2_aarch64.deb
+Size: 8979524
+MD5sum: 4e3219600eb3345308e4b33f16b43403
+SHA1: eec87f6c431eedf44053516eee5cbb6a2bb635e0
+SHA256: d7fdf844f44d71bf84c554df930247d55825d4d1b7b00df521303181f6c87f17
+
+Package: golangci-lint
+Architecture: aarch64
+Installed-Size: 44428
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.15.0-2
+Homepage: https://golangci-lint.run/
+Description: Fast linters runner for Go, aggregating many Go linters into one tool
+Filename: ./golangci-lint_2.15.0-2_aarch64.deb
+Size: 10481864
+MD5sum: 9659edb25da9d51e4bafe339227ac7cf
+SHA1: 452664f189c3a251f25353e9014f6fb63ccb3cd6
+SHA256: 81ce36945c60514976a20ef41e6a89a679e82ef164525e0cb4df56b9c110d180
 
 Package: google-glog
 Architecture: aarch64
@@ -2662,6 +2913,20 @@ Size: 1506720
 MD5sum: 40f2e47748bd9bade8e3564f771ca974
 SHA1: b6534af70fb9e6384fccb5c1e6d58ee8139e3414
 SHA256: a14fa619b6bc31f021ec955ac6beaf0f050836edc9e269949e4ee7fd849e8c08
+
+Package: libgnt
+Architecture: aarch64
+Installed-Size: 524
+Maintainer: @termux
+Version: 2.14.4-3
+Homepage: https://keep.imfreedom.org/libgnt/libgnt
+Depends: glib, libxml2, ncurses, ncurses-ui-libs
+Description: An ncurses toolkit for creating text-mode graphical user interfaces in a fast and easy way
+Filename: ./libgnt_2.14.4-3_aarch64.deb
+Size: 96208
+MD5sum: c9762d3d2f95db4273ce6b72393ede7f
+SHA1: bad6dc8f444064ac386250b4aa68ec9961d13558
+SHA256: cf9e008e7cc3db0dd3a2bb3a01c468114d5076546b4148e493f2a15a438b93f1
 
 Package: libice
 Architecture: aarch64
