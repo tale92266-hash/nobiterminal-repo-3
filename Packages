@@ -2928,6 +2928,119 @@ MD5sum: c9762d3d2f95db4273ce6b72393ede7f
 SHA1: bad6dc8f444064ac386250b4aa68ec9961d13558
 SHA256: cf9e008e7cc3db0dd3a2bb3a01c468114d5076546b4148e493f2a15a438b93f1
 
+Package: libgtop-static
+Architecture: aarch64
+Installed-Size: 220
+Maintainer: @termux
+Version: 2.41.3-3
+Homepage: https://gitlab.gnome.org/GNOME/libgtop
+Depends: libgtop (= 2.41.3-3)
+Description: Static libraries for libgtop
+Filename: ./libgtop-static_2.41.3-3_aarch64.deb
+Size: 32984
+MD5sum: aefb874eafd90021fb20b6fcb3f3785f
+SHA1: e9f0f42e429661090df07fc0778067e63fc1b0e6
+SHA256: 77c5505f024434321ec039174a70c28304645302fff58267453ae2b2d578ce27
+
+Package: libgtop
+Architecture: aarch64
+Installed-Size: 696
+Maintainer: @termux
+Version: 2.41.3-3
+Homepage: https://gitlab.gnome.org/GNOME/libgtop
+Depends: glib, libandroid-shmem, libxau
+Description: Library for collecting system monitoring data
+Filename: ./libgtop_2.41.3-3_aarch64.deb
+Size: 75164
+MD5sum: 5ec2cddaec9d479b2f813a08138abd98
+SHA1: ed88afe485fd01d07b6c2dc13020e58bc4fa8e10
+SHA256: 49d05d8c4f54b72f1835d04f2f0b41d54053b76abd89042be46356451f3d2eeb
+
+Package: libhangul-static
+Architecture: aarch64
+Installed-Size: 112
+Maintainer: @termux
+Version: 0.2.0-2
+Homepage: https://github.com/libhangul/libhangul
+Depends: libhangul (= 0.2.0-2)
+Description: Static libraries for libhangul
+Filename: ./libhangul-static_0.2.0-2_aarch64.deb
+Size: 18640
+MD5sum: 034b136a9e040095e685486f08dbb3fb
+SHA1: a10b53cdb714c1ebbd8697aca60095835a2bb772
+SHA256: 690628ff5d05dfde5149414a7b7e48e6b13cf5659c3d37df08320d10db0620c3
+
+Package: libhangul
+Architecture: aarch64
+Installed-Size: 6464
+Maintainer: @termux
+Version: 0.2.0-2
+Homepage: https://github.com/libhangul/libhangul
+Depends: libandroid-glob, libexpat, libiconv
+Description: A library to support hangul input method logic
+Filename: ./libhangul_0.2.0-2_aarch64.deb
+Size: 1847360
+MD5sum: b7c417e3edaf46ae1853038e69db6d13
+SHA1: 2fc6c093947961f5bf973569234e2fce3b21563c
+SHA256: 46878903f2d445b154633cc27fbfb6af56dc0b02ca7dbf477774e4839d460cc2
+
+Package: libharu
+Architecture: aarch64
+Installed-Size: 2316
+Maintainer: @termux
+Version: 2.4.6-1
+Homepage: http://libharu.org/
+Depends: libpng, zlib
+Description: Free, cross platform, open source library for generating PDF files
+Filename: ./libharu_2.4.6-1_aarch64.deb
+Size: 483076
+MD5sum: e790e1113713581bb37e60deffa543e3
+SHA1: 0596fe9fdae0ffa6cb9cb632679bd1017bcb8e19
+SHA256: 329446f7c93b40c43a6e984edc7a4d55c0619a97a43fbe560e0b90f1c18a10b9
+
+Package: libhyphen-static
+Architecture: aarch64
+Installed-Size: 56
+Maintainer: @termux
+Version: 2.8.9-1
+Homepage: https://github.com/hunspell/hyphen
+Depends: libhyphen (= 2.8.9-1)
+Description: Static libraries for libhyphen
+Filename: ./libhyphen-static_2.8.9-1_aarch64.deb
+Size: 9364
+MD5sum: 03b3d08adb8b32fc0c921a86a88c94f5
+SHA1: ec47031c6006a6d17b535a6a6e646512581f5ba4
+SHA256: 583600666c1fcc9aac570146803d79c5b09d97b4b73b1ff3a9615809385ab1e4
+
+Package: libhyphen
+Architecture: aarch64
+Installed-Size: 196
+Maintainer: @termux
+Version: 2.8.9-1
+Homepage: https://github.com/hunspell/hyphen
+Description: hyphenation library to use converted TeX hyphenation patterns
+Filename: ./libhyphen_2.8.9-1_aarch64.deb
+Size: 50640
+MD5sum: 7219f24d36487c2f613b0879210f6d1a
+SHA1: 975613c8b9abe0cc428cbd689ad427c0e71d6b4f
+SHA256: ad703d019116c21b375d858c4f321ff28b7b36b9e6e094c270080357db0ec878
+
+Package: libical
+Architecture: aarch64
+Installed-Size: 4828
+Maintainer: @termux
+Version: 4.0.7-1
+Homepage: https://libical.github.io/libical/
+Breaks: libical-dev
+Depends: libc++, libicu
+Replaces: libical-dev
+Description: Libical is an Open Source implementation of the iCalendar protocols and protocol data units
+Filename: ./libical_4.0.7-1_aarch64.deb
+Size: 406876
+MD5sum: 683ead7cd46c23ec5c04194787f1b7db
+SHA1: c060482c48072bab88ed2d1ac48a5383035db127
+SHA256: 5292a21f5a5b7933a194d5028b3336415c7e2a0171ecf59650c1d76e4e9fe9c2
+
 Package: libice
 Architecture: aarch64
 Installed-Size: 436
@@ -2969,6 +3082,33 @@ MD5sum: ca812369ef698043d39819bf99ef2dc8
 SHA1: 65e8d987b62c6ec1c192c0cdda109ba84ede43e7
 SHA256: 696ade238d41e6e63b63980fe4421dd3e06a66a82310ca8a9ac991a32df179ed
 
+Package: libimagequant-static
+Architecture: aarch64
+Installed-Size: 24940
+Maintainer: @termux
+Version: 4.4.1-1
+Homepage: https://pngquant.org/lib/
+Depends: libimagequant (= 4.4.1-1)
+Description: Static libraries for libimagequant
+Filename: ./libimagequant-static_4.4.1-1_aarch64.deb
+Size: 4261552
+MD5sum: a7a8bfa245f35b3cbb0367715841b29d
+SHA1: cf5ce3f7f48470e4004895f4ff87e2f3fed223b8
+SHA256: 7331f8ad9ea65dbea2e00633ad751184b960e32095e0d7972de440cfedce3946
+
+Package: libimagequant
+Architecture: aarch64
+Installed-Size: 628
+Maintainer: @termux
+Version: 4.4.1-1
+Homepage: https://pngquant.org/lib/
+Description: Small, portable C library for high-quality conversion of RGBA images to 8-bit indexed-color (palette) images
+Filename: ./libimagequant_4.4.1-1_aarch64.deb
+Size: 224012
+MD5sum: ed61198bff5670dc8e60ae352e3e1ea4
+SHA1: c20c00b3d0a620a8b1d15d32dcb123a4ab49e0c9
+SHA256: 0afc097fa06ba9ed79d4f58c93ea76cb3a85761584d23b594a2684f74cdbd300
+
 Package: libimobiledevice-glue-static
 Architecture: aarch64
 Installed-Size: 148
@@ -2996,6 +3136,34 @@ Size: 28380
 MD5sum: ec0f1014b33a700a35c9884a32ff640c
 SHA1: 67fc9ffe6c66e7836c788140e767a96fceb25af8
 SHA256: 2c8ad8b058bdc87a9e37f14c2e8144a91b91a5501194b016b600534ade5e6214
+
+Package: libimobiledevice-static
+Architecture: aarch64
+Installed-Size: 512
+Maintainer: @termux
+Version: 1.4.0-2
+Homepage: https://libimobiledevice.org/
+Depends: libimobiledevice (= 1.4.0-2)
+Description: Static libraries for libimobiledevice
+Filename: ./libimobiledevice-static_1.4.0-2_aarch64.deb
+Size: 118388
+MD5sum: 4aecf65d42faa8a2813777feb465186c
+SHA1: f22ab09d5bd003900e21a3ba8280e40fde89ee3b
+SHA256: 6a65b5d5f60503c82d8bb076888e29bd2d42256ec396478bf4a734bab77f9df2
+
+Package: libimobiledevice
+Architecture: aarch64
+Installed-Size: 1124
+Maintainer: @termux
+Version: 1.4.0-2
+Homepage: https://libimobiledevice.org/
+Depends: libimobiledevice-glue, libplist, libtatsu, libusbmuxd, openssl, usbmuxd
+Description: A library to communicate with services on iOS devices using native protocols
+Filename: ./libimobiledevice_1.4.0-2_aarch64.deb
+Size: 224384
+MD5sum: 9d42de654362253ad96d75be7ccbee58
+SHA1: 3593e0dce2dd17460f21ef40e1bd3511f12ca284
+SHA256: 70d2714dc5aac45fb18f54bbd2d2fd06af8ca71edc40c2ce02566c4bf09c62f5
 
 Package: libimtui
 Architecture: aarch64
@@ -3197,6 +3365,206 @@ MD5sum: 35e4aade3cd0245351639dbdb502e88e
 SHA1: 96da85316221e82836b2d12ba7e565c24d359497
 SHA256: 0c72f4bda2abca3fb82a7799f00c4001787160f8b0da9bcbb4097ea9afd7de3e
 
+Package: libmariadbcpp-static
+Architecture: aarch64
+Installed-Size: 4100
+Maintainer: @termux
+Version: 1.1.9-2
+Homepage: https://mariadb.com/docs/clients/mariadb-connectors/connector-cpp/
+Depends: libmariadbcpp (= 1.1.9-2)
+Description: Static libraries for libmariadbcpp
+Filename: ./libmariadbcpp-static_1.1.9-2_aarch64.deb
+Size: 482812
+MD5sum: 7051452523993fd59f3084e56c9410f9
+SHA1: c5c26501c4504fd45053d490353bb9bc446e1c69
+SHA256: 1e773d335937a2a8921da5306a70285d9f45b0aebd72be457c2a603d66f977be
+
+Package: libmariadbcpp
+Architecture: aarch64
+Installed-Size: 2364
+Maintainer: @termux
+Version: 1.1.9-2
+Homepage: https://mariadb.com/docs/clients/mariadb-connectors/connector-cpp/
+Depends: libc++, openssl, zlib
+Description: Enables C++ applications to establish client connections to MariaDB Enterprise over TLS
+Filename: ./libmariadbcpp_1.1.9-2_aarch64.deb
+Size: 546104
+MD5sum: e6520e427020cc756afae78e7296b7c5
+SHA1: 688ed2e9ff0c839a002cbc8b6d68d4f97981a195
+SHA256: 213fad405ca2a878fea5e338119e52627095221d040fb04a9657889e258def18
+
+Package: libmatio
+Architecture: aarch64
+Installed-Size: 500
+Maintainer: @termux
+Version: 1.6.0-1
+Homepage: https://github.com/tbeu/matio
+Depends: zlib
+Description: A C library for reading and writing Matlab MAT files
+Filename: ./libmatio_1.6.0-1_aarch64.deb
+Size: 111404
+MD5sum: 22ee9edfadf4ef52160d2f23570017c7
+SHA1: ab2603839350addec905e7f1fe2b4e1bacfbb6e0
+SHA256: f230d0bebb31c17a8841292ef51c330b6f46a93b9ccd570c946e0723bca7115b
+
+Package: libmatroska
+Architecture: aarch64
+Installed-Size: 916
+Maintainer: @termux
+Version: 1.7.2-1
+Homepage: https://dl.matroska.org/downloads/libmatroska/
+Depends: libc++, libebml
+Description: Matroska library
+Filename: ./libmatroska_1.7.2-1_aarch64.deb
+Size: 119872
+MD5sum: 3c0f80b85e33809bb673a6eaec3c2b9f
+SHA1: fdfd1843ef2f28d212b5f488122ef0ef864bc84f
+SHA256: 11086647e2bb38c506ac37337ea98939e386d52bba012453ad26fb8f45d7ba5c
+
+Package: libmaxminddb-static
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: @termux
+Version: 1.14.1-1
+Homepage: https://dev.maxmind.com/geoip/geoip2/
+Depends: libmaxminddb (= 1.14.1-1)
+Description: Static libraries for libmaxminddb
+Filename: ./libmaxminddb-static_1.14.1-1_aarch64.deb
+Size: 28048
+MD5sum: 0683da9f7ec5ac7da2b168e2e7a1945d
+SHA1: fb12f7310e18cbaee16f0d2b43c9ed6bbe6c3c9d
+SHA256: df2caedbdcdccb1593dd198b03ec46af4189b696e3727b0ac5e1ce2cbbd8f261
+
+Package: libmaxminddb-tools
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: @termux
+Version: 1.14.1-1
+Homepage: https://dev.maxmind.com/geoip/geoip2/
+Depends: geoip2-database, libmaxminddb (= 1.14.1-1)
+Description: A geoip lookup utility for MaxMind DB
+Filename: ./libmaxminddb-tools_1.14.1-1_aarch64.deb
+Size: 8872
+MD5sum: 6f943db3151033d1ea7da26dbf97817e
+SHA1: c3f2f40d1832f37f30d4c8c3be3f39f7e9dca8ef
+SHA256: 2d512bed2188d53080636d189ffbf71527585e3c301e763d6e9e0a657ed63b1c
+
+Package: libmaxminddb
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 1.14.1-1
+Homepage: https://dev.maxmind.com/geoip/geoip2/
+Breaks: libmaxminddb-dev
+Replaces: libmaxminddb-dev
+Description: MaxMind GeoIP2 database - library and utilities
+Filename: ./libmaxminddb_1.14.1-1_aarch64.deb
+Size: 11612
+MD5sum: 8c036a9f1f12d98383c07747168ea9c2
+SHA1: b6ad34537f95e1a36fc252f87286225d5cb6a2aa
+SHA256: 8005300e0ffad513fbb3b60427a7145fc6d2e96fbb92a4cd535fda8855ffc2e1
+
+Package: libmcrypt-static
+Architecture: aarch64
+Installed-Size: 332
+Maintainer: @termux
+Version: 2.5.8-7
+Homepage: https://mcrypt.sourceforge.net/
+Depends: libmcrypt (= 2.5.8-7)
+Description: Static libraries for libmcrypt
+Filename: ./libmcrypt-static_2.5.8-7_aarch64.deb
+Size: 61512
+MD5sum: 26e50b9f4e710a5913838595da558226
+SHA1: 7497a8c6f049947c0eb61c3216875352d6792c6e
+SHA256: 72a6e24863f1629465f256808df4ee3f459e0b499877697f8bf8f66c221526f3
+
+Package: libmcrypt
+Architecture: aarch64
+Installed-Size: 260
+Maintainer: @termux
+Version: 2.5.8-7
+Homepage: https://mcrypt.sourceforge.net/
+Breaks: libmcrypt-dev
+Replaces: libmcrypt-dev
+Description: A library which provides a uniform interface to several symmetric encryption algorithms
+Filename: ./libmcrypt_2.5.8-7_aarch64.deb
+Size: 64200
+MD5sum: b2d3bf15fce0ca8323ef995ab4f6a56c
+SHA1: 1d5390279530e0b49868b2cbdcda87129d4ee097
+SHA256: 7b6b9a78d20d6d76f8e5dc767f174d6f5eeefd3f2b3ed68dc798eb283aa3c509
+
+Package: libmdbx
+Architecture: aarch64
+Installed-Size: 3356
+Maintainer: @termux
+Version: 0.14.4-1
+Homepage: https://libmdbx.dqdkfa.ru/
+Depends: libc++
+Description: An extremely fast, compact, powerful, embedded, transactional key-value database
+Filename: ./libmdbx_0.14.4-1_aarch64.deb
+Size: 531196
+MD5sum: e45dc684cc9c7858d749f18d53460b87
+SHA1: ad4840b5e605809dfdedd806907107364371d3b1
+SHA256: 56eaa39895fa5e6a0b479325f8f82b939c6bd59bdef4af8d7cf75fd13b034952
+
+Package: libmediainfo-static
+Architecture: aarch64
+Installed-Size: 24944
+Maintainer: @termux
+Version: 26.10-1
+Homepage: https://mediaarea.net/en/MediaInfo
+Depends: libmediainfo (= 26.10-1)
+Description: Static libraries for libmediainfo
+Filename: ./libmediainfo-static_26.10-1_aarch64.deb
+Size: 3381568
+MD5sum: fd48b0a47cb286f3e180d39fd7d5528f
+SHA1: 51c4fbdabbc88091d97d2f83fd520becf46b0065
+SHA256: dc00d7b29cb86dc9d12d9126fa9c3dfc73b764dbb991423e25aa20376fe2414c
+
+Package: libmediainfo
+Architecture: aarch64
+Installed-Size: 9452
+Maintainer: @termux
+Version: 26.10-1
+Homepage: https://mediaarea.net/en/MediaInfo
+Depends: libc++, libcurl, libzen, zlib
+Description: Library for reading information from media files
+Filename: ./libmediainfo_26.10-1_aarch64.deb
+Size: 2598764
+MD5sum: 84201352db0c57ff83a951d4880c7cf1
+SHA1: f1a8fed42aaa25744a9bc1db69408f8f2cbd5ea6
+SHA256: aab1b81270599f8bd0ac1b016b919c876cddc5930e440ad77bb2405b978fb935
+
+Package: libmesode-static
+Architecture: aarch64
+Installed-Size: 216
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 0.10.1-6
+Homepage: https://github.com/boothj5/libmesode
+Depends: libmesode (= 0.10.1-6)
+Description: Static libraries for libmesode
+Filename: ./libmesode-static_0.10.1-6_aarch64.deb
+Size: 43800
+MD5sum: c570f8f92b354d60bb951730f3070b5b
+SHA1: 6eb70fa884873a0147d4b48ac898f8aa12edfc8a
+SHA256: 9232c14247ec7786696c765afad974779459d036176623e1cd2fc955db3a2557
+
+Package: libmesode
+Architecture: aarch64
+Installed-Size: 160
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 0.10.1-6
+Homepage: https://github.com/boothj5/libmesode
+Breaks: libmesode-dev
+Depends: openssl,libexpat
+Replaces: libmesode-dev
+Description: Minimal XMPP library written for use with Profanity XMPP client
+Filename: ./libmesode_0.10.1-6_aarch64.deb
+Size: 38704
+MD5sum: 08806f0faf17e0c1db0263cf075b6b49
+SHA1: c6b8895077d8b6d37d06d6c13c5e9cfba2a2b81b
+SHA256: b05b1e9d4abefacd9bee4a1186f58bd7acbd36532330e6f942d878e7d301dbe7
+
 Package: libminizip-static
 Architecture: aarch64
 Installed-Size: 88
@@ -3311,6 +3679,34 @@ Size: 87868
 MD5sum: 92cd75f34dc3e2bdccab1b30c715f82c
 SHA1: d219bb0aa8438c7769b782cd0b724dfe7afe5c1f
 SHA256: 6769222a0ab2dcca9e7f2995828de4943e16346d29a4781f0efb108386c528e9
+
+Package: libraptor2-static
+Architecture: aarch64
+Installed-Size: 748
+Maintainer: @termux
+Version: 2.0.16-11
+Homepage: https://librdf.org/raptor/
+Depends: libraptor2 (= 2.0.16-11)
+Description: Static libraries for libraptor2
+Filename: ./libraptor2-static_2.0.16-11_aarch64.deb
+Size: 144524
+MD5sum: d16b6d1d4c22d063f1e857d1e4431ea9
+SHA1: 2c20e25a9bd5a87f72c2715797af77d205cdb97a
+SHA256: e8c3f43ea42401b8a6351e3c190789959d06fc2f39913d395455aa09ae3a49f4
+
+Package: libraptor2
+Architecture: aarch64
+Installed-Size: 600
+Maintainer: @termux
+Version: 2.0.16-11
+Homepage: https://librdf.org/raptor/
+Depends: libcurl, libicu, libxml2, libxslt, yajl
+Description: RDF Syntax Library
+Filename: ./libraptor2_2.0.16-11_aarch64.deb
+Size: 154552
+MD5sum: 1c2c992d1b73e8e5178bad2f4eb48655
+SHA1: 209efd5739c3ae92cda3e9707970e800f3364daa
+SHA256: dd87c50c09741d7301edcfe5f88794d177363b67f334df66d88ab446ff5bb7a3
 
 Package: librevenge-static
 Architecture: aarch64
@@ -3609,6 +4005,34 @@ MD5sum: 8bd90873b3044f7f60d466d4fc259b82
 SHA1: 5d7435ed17f5e3028f7c6a7d09526b70198f8621
 SHA256: 603351cc46afbc20aade710f25430a9d7a3e8d9790e96d24416018dc20219325
 
+Package: libzen-static
+Architecture: aarch64
+Installed-Size: 1104
+Maintainer: @termux
+Version: 0.4.41-2
+Homepage: https://mediaarea.net/en/MediaInfo
+Depends: libzen (= 0.4.41-2)
+Description: Static libraries for libzen
+Filename: ./libzen-static_0.4.41-2_aarch64.deb
+Size: 129600
+MD5sum: ed1d81bef3fe92031a3ffcd472d5cc5d
+SHA1: 6cd8fc2af99e862120a6263bba6b0a678d428e90
+SHA256: e49dff3856e5e8cd0510a25171d4cd72258f14711e965ce9aceae36960c82fd1
+
+Package: libzen
+Architecture: aarch64
+Installed-Size: 604
+Maintainer: @termux
+Version: 0.4.41-2
+Homepage: https://mediaarea.net/en/MediaInfo
+Depends: libandroid-support, libc++
+Description: ZenLib C++ utility library
+Filename: ./libzen_0.4.41-2_aarch64.deb
+Size: 111292
+MD5sum: dc9ec3d45f173e886aa4ec047bda10b7
+SHA1: bad1a472da66fc8d5ff7e0d5f0bc417ed456fb17
+SHA256: 6b6e3fd219578ec0f029b811797b655c9b653e2a4334eaa8c4461673e861530e
+
 Package: libzim
 Architecture: aarch64
 Installed-Size: 1076
@@ -3886,3 +4310,32 @@ Size: 1152156
 MD5sum: 6a0bbb741b9b78ba6d79571c12ea93d2
 SHA1: b540bf8ae6ea085d5bd8c4a30dde59c66beb23d4
 SHA256: d806dc7df5964a2f2dbb0cfb5b039948209a1b2bdb26aff5e0081d04fde0306d
+
+Package: yajl-static
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: @termux
+Version: 2.1.0-9
+Homepage: https://lloyd.github.io/yajl/
+Depends: yajl (= 2.1.0-9)
+Description: Static libraries for yajl
+Filename: ./yajl-static_2.1.0-9_aarch64.deb
+Size: 14332
+MD5sum: 6477cd23fe8b6405bef353ccb7271416
+SHA1: 54ff03a5fd79b49638e846ea0f0a5aa1bd165ff5
+SHA256: d8697d0d459e893979c3423f1885f2e3bbd0c46a3402d7064e6bcc77f2713f92
+
+Package: yajl
+Architecture: aarch64
+Installed-Size: 192
+Maintainer: @termux
+Version: 2.1.0-9
+Homepage: https://lloyd.github.io/yajl/
+Breaks: yajl-dev
+Replaces: yajl-dev
+Description: Yet Another JSON Library
+Filename: ./yajl_2.1.0-9_aarch64.deb
+Size: 25256
+MD5sum: d4718859ec45895d92affab67dfb6cd8
+SHA1: 82ffe77f9b82d0f8c6b2feb2a03af1989373a62e
+SHA256: b8432c41b2d8cc482bea02c47db5fe1c8199c8d39504bf2d8758da4ca613cf6d
