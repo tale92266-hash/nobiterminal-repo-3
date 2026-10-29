@@ -6890,6 +6890,25 @@ MD5sum: baf9b0b5410d7b0db7f93064bf0a559f
 SHA1: 0bc419c17bce9ff1d389567558bfbb414cac8788
 SHA256: d27e0069ff490044e4bbc4ba2b2e82b1ee90808caf09bca7afb518e214ee67e1
 
+Package: nodejs
+Architecture: aarch64
+Installed-Size: 51744
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 26.12.1-1
+Homepage: https://nodejs.org/
+Breaks: nodejs-dev
+Depends: libc++, openssl, c-ares, libicu, libsqlite, zlib, libffi
+Conflicts: nodejs-lts, nodejs-current
+Recommends: npm
+Replaces: nodejs-current, nodejs-dev
+Suggests: clang, make, pkg-config, python
+Description: Open Source, cross-platform JavaScript runtime environment
+Filename: ./nodejs_26.12.1-1_aarch64.deb
+Size: 10677256
+MD5sum: e5ea726e8403ebc7ad72c296f071ff91
+SHA1: d41ef1dcba4c932a5f6d43470208ac8ca9b1bee3
+SHA256: 79521a9fd707865485f979396f7db5533ac134f48d8cf4163b8d867ae63faf16
+
 Package: octomap-static
 Architecture: aarch64
 Installed-Size: 836
