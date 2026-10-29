@@ -281,6 +281,20 @@ MD5sum: b2378910c57ace84aab68b20e7e2e619
 SHA1: 6a32a51a7ae4e5d2e9066a73a0e60320e56fd164
 SHA256: 2aec6432684c340da33d741fb627c0127e0fdc508438ec0bf7bb6112d5a2336a
 
+Package: forgejo-cli
+Architecture: aarch64
+Installed-Size: 17320
+Maintainer: @termux
+Version: 0.7.0-1
+Homepage: https://codeberg.org/forgejo-contrib/forgejo-cli
+Depends: libgit2, libssh2, openssl, zlib
+Description: CLI tool for Forgejo
+Filename: ./forgejo-cli_0.7.0-1_aarch64.deb
+Size: 4555408
+MD5sum: b5942a1273e5d4947c92006f586dcac7
+SHA1: 6761b72325ce646ffdf27218684cc12cfe3d875e
+SHA256: 54353fe49b024a920f815eb6894660d7a2eaba8c7732963cbd7c74a6002a2229
+
 Package: fossil
 Architecture: aarch64
 Installed-Size: 5148
@@ -903,6 +917,34 @@ Size: 38180
 MD5sum: 2b60e6f6ca091ade9d1539ea9d15af7c
 SHA1: c79126d174ef6fc94453508dbe5d3faf277d8366
 SHA256: 68ecb1ffb85f1a6faad8c595d1b7b4e0dee9fb32c347293a588b5f9cab5ef2ed
+
+Package: gl2ps-static
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: @termux
+Version: 1.4.2-1
+Homepage: https://www.geuz.org/gl2ps/
+Depends: gl2ps (= 1.4.2-1)
+Description: Static libraries for gl2ps
+Filename: ./gl2ps-static_1.4.2-1_aarch64.deb
+Size: 39956
+MD5sum: fd0241ef3acf397a9551fd20b055e0c4
+SHA1: 5da38bbcdb6bc00ba9ba2d457183cc80a1d35f9a
+SHA256: 64ad5c9b30caeb1999f7f6b7a11e3b459cbb488a676610e5c6f9e334e0cb608f
+
+Package: gl2ps
+Architecture: aarch64
+Installed-Size: 460
+Maintainer: @termux
+Version: 1.4.2-1
+Homepage: https://www.geuz.org/gl2ps/
+Depends: libpng, opengl, zlib
+Description: An OpenGL to PostScript printing library
+Filename: ./gl2ps_1.4.2-1_aarch64.deb
+Size: 285892
+MD5sum: 7002b2c73b60ee58d28793777964b6e0
+SHA1: 8a12f669275b35d2e790c64aa65a4b2442c18d72
+SHA256: 83e48c9f21b7de6daaf5db3c2d49be6fde1037a7423c320ffd0ee544acb603c9
 
 Package: glab-cli
 Architecture: aarch64
@@ -7105,6 +7147,24 @@ MD5sum: 2d0db0fbb238a85ad6b3849bf8d532ac
 SHA1: 0ec2bf1e72d5e53bd9068f1a295f50da09283dae
 SHA256: 9e364a3263c9fd3440dee76f7c0e80e6b61d238eb8a149708b08790a329394ed
 
+Package: plocate
+Architecture: aarch64
+Installed-Size: 452
+Maintainer: @termux
+Version: 1.1.25-1
+Homepage: https://plocate.sesse.net/
+Breaks: mlocate
+Depends: libc++, zstd
+Replaces: mlocate
+Provides: locate, mlocate
+Suggests: cronie
+Description: A much faster locate
+Filename: ./plocate_1.1.25-1_aarch64.deb
+Size: 99168
+MD5sum: 727687cb8aab74920e479aea2318ee0e
+SHA1: 5cbac41af9f0eaeda632e5cebb34560b6766bb6d
+SHA256: 3cf78390874e7aecb57bfad8b170f3776d6c86833ff0d1ece6a64925c8559d92
+
 Package: plutolang
 Architecture: aarch64
 Installed-Size: 2256
@@ -7206,6 +7266,20 @@ Size: 800
 MD5sum: 667ab83f4cdb436c90a84e11ff741c7a
 SHA1: be13dcb3787c070743e50f697bae7cd7505815ae
 SHA256: 8c184b1446f83d65b61e13a890d584d708524ac0b0751019ce6a49c06301649e
+
+Package: rmlint
+Architecture: aarch64
+Installed-Size: 356
+Maintainer: @termux
+Version: 2.10.4-1
+Homepage: https://github.com/sahib/rmlint
+Depends: glib, json-glib, libblkid, libelf
+Description: Extremely fast tool to find space waste and duplicate files
+Filename: ./rmlint_2.10.4-1_aarch64.deb
+Size: 115168
+MD5sum: b54440b14ae98cb620af84e213e0d4f1
+SHA1: d112e28147a6e3e3a1f602850eb2694393c8863d
+SHA256: 1fa4d7c40282495572c23caf70f2f8158fea083689155e74f22c2fbed79113db
 
 Package: roqet
 Architecture: aarch64
@@ -7362,6 +7436,19 @@ Size: 1531796
 MD5sum: 46048a5c7de38f08c57632e8547120d8
 SHA1: 97906a5e716a0d43bea086902a35e6b858ca0bb2
 SHA256: 56e6477c96800fba8dc43b397925743c5fe2e281e8376aa506adcff26829eb86
+
+Package: tomlplusplus
+Architecture: aarch64
+Installed-Size: 848
+Maintainer: @CosmyBeyondStars
+Version: 3.4.0-1
+Homepage: https://marzer.github.io/tomlplusplus/
+Description: Header-only TOML config file parser and serializer for C++ 17
+Filename: ./tomlplusplus_3.4.0-1_aarch64.deb
+Size: 91580
+MD5sum: 5c7a8074db2076a561684992722038b4
+SHA1: 9ad3b041b20f1906fafeddb5d6f14dfff713664f
+SHA256: 410ec1131e229391e0a260278cb784ca3574bfed91320522cb7319b4575a1c73
 
 Package: tor
 Architecture: aarch64
