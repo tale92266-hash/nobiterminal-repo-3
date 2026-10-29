@@ -1737,6 +1737,33 @@ MD5sum: 0cb0844cc688e5d75ca179baaa52db94
 SHA1: 2672db1d94a8da82e10bb604a3dd9127502fda72
 SHA256: df6e634c364730c1f86d717d0a8390e7c0864804c9e56d63225c6f66e94ec1aa
 
+Package: gumbo-parser-static
+Architecture: aarch64
+Installed-Size: 420
+Maintainer: @termux
+Version: 0.14.1-1
+Homepage: https://codeberg.org/gumbo-parser/gumbo-parser
+Depends: gumbo-parser (= 0.14.1-1)
+Description: Static libraries for gumbo-parser
+Filename: ./gumbo-parser-static_0.14.1-1_aarch64.deb
+Size: 67660
+MD5sum: 44ccdf200248c48a074e408010cab79e
+SHA1: 9efbceb10620f9f1caa57b7858fdd01838752d1e
+SHA256: 9f748c9798d2439e408678272dcd09420d52f7f251e6ca02b7601bb5172cb743
+
+Package: gumbo-parser
+Architecture: aarch64
+Installed-Size: 388
+Maintainer: @termux
+Version: 0.14.1-1
+Homepage: https://codeberg.org/gumbo-parser/gumbo-parser
+Description: An HTML5 parsing library
+Filename: ./gumbo-parser_0.14.1-1_aarch64.deb
+Size: 68996
+MD5sum: 9efe68a235b6e1b8afca91d2eadb0c13
+SHA1: aca5ef72b6343f0f2e05e167fc4999f87230dd22
+SHA256: 3c91a8e36912910d14d4f846860a591481781737d60062cd3f27f961a9fa2141
+
 Package: harfbuzz-icu
 Architecture: aarch64
 Installed-Size: 60
@@ -2806,6 +2833,19 @@ MD5sum: d6acc36285b57a5ceb816a07702dc654
 SHA1: e2176619907006df12e14864a622589382c9f4cc
 SHA256: 17f0f7e00d88a0cd1f86086fcbad8414aa618d8197ff8d0976690b9f945c52bf
 
+Package: libcpufeatures
+Architecture: aarch64
+Installed-Size: 328
+Maintainer: @termux
+Version: 0.11.0-1
+Homepage: https://github.com/google/cpu_features
+Description: A cross-platform C library to retrieve CPU features (such as available instructions) at runtime
+Filename: ./libcpufeatures_0.11.0-1_aarch64.deb
+Size: 28096
+MD5sum: 5e9432b19030bed8b640c9ae51273a19
+SHA1: 1fb35ce0c8c370dbd0d24564825fb470e2b9c1e4
+SHA256: 2f3b59d8504ec0c3334fb2fb9eee9b31cff9336a47ea2f45a0077ed1eb1f4a46
+
 Package: libdeflate-static
 Architecture: aarch64
 Installed-Size: 136
@@ -3278,6 +3318,22 @@ MD5sum: c9762d3d2f95db4273ce6b72393ede7f
 SHA1: bad6dc8f444064ac386250b4aa68ec9961d13558
 SHA256: cf9e008e7cc3db0dd3a2bb3a01c468114d5076546b4148e493f2a15a438b93f1
 
+Package: libgrpc
+Architecture: aarch64
+Installed-Size: 31036
+Maintainer: @termux
+Version: 1.85.0-1
+Homepage: https://grpc.io/
+Breaks: libgrpc-dev
+Depends: abseil-cpp, c-ares, ca-certificates, libc++, libprotobuf, libre2, openssl, protobuf, zlib
+Replaces: libgrpc-dev
+Description: High performance, open source, general RPC framework that puts mobile and HTTP/2 first
+Filename: ./libgrpc_1.85.0-1_aarch64.deb
+Size: 5940432
+MD5sum: c47e9f4112e96e821d4a1b841f1c3319
+SHA1: 69716ddd193d29d9ff7c20a1b557ad6f8ca3516b
+SHA256: 0a3bc790aee31ae2bdd7bad0a7e1cb12cb611e53a2164fee89f5b79b02774453
+
 Package: libgsf-static
 Architecture: aarch64
 Installed-Size: 604
@@ -3730,6 +3786,34 @@ Size: 645024
 MD5sum: 2bdaf462f8430608137a47962bfd209b
 SHA1: 7788616b5ac16fe2b40508c73ce8d759eb1353d5
 SHA256: a9c9d76534578c4f7b155e81188f7aa9ff47611fb7e66365b90584726b2d06d1
+
+Package: libkokkos-static
+Architecture: aarch64
+Installed-Size: 36
+Maintainer: @termux
+Version: 5.2.2-1
+Homepage: https://github.com/kokkos
+Depends: libkokkos (= 5.2.2-1)
+Description: Static libraries for libkokkos
+Filename: ./libkokkos-static_5.2.2-1_aarch64.deb
+Size: 1412
+MD5sum: 5188ce9d1a2eb890d0a87a9384837840
+SHA1: a0d60789f017bd00c4172dd04e55daa58ebb1cb0
+SHA256: 433d0af8844e9a82cf99648f4aaac824b70723ffaa674626729d1aa552665a86
+
+Package: libkokkos
+Architecture: aarch64
+Installed-Size: 7384
+Maintainer: @termux
+Version: 5.2.2-1
+Homepage: https://github.com/kokkos
+Depends: libandroid-execinfo, libc++
+Description: Implements a programming model in C++ for writing performance portable applications
+Filename: ./libkokkos_5.2.2-1_aarch64.deb
+Size: 613704
+MD5sum: e06363193358beb34c94d2cb463035fc
+SHA1: 88c238f72ceb4cea5bfa3764189b8693d7de6707
+SHA256: 490e6b3890aae66e66a2ed1baec864e267f3892e0726a741c7a06cf50843d240
 
 Package: liblangtag-static
 Architecture: aarch64
@@ -4925,6 +5009,20 @@ Size: 162116
 MD5sum: d1bfb5141a59842f5bb7f2371eb71fee
 SHA1: 285ad3f09497052ba94aaeb79af5b3f4fb3ee6f5
 SHA256: 22957f1afd389cf314eedcc2d06839958ea7f1e315e0994bcd673d31aea0f813
+
+Package: libre2
+Architecture: aarch64
+Installed-Size: 624
+Maintainer: @termux
+Version: 2025-11-05-4
+Homepage: https://github.com/google/re2
+Depends: abseil-cpp, libc++
+Description: A regular expression library
+Filename: ./libre2_2025-11-05-4_aarch64.deb
+Size: 166656
+MD5sum: 481be351faa98a6b0379aa35ac986636
+SHA1: e5f57840658ee82b1baeae267125f533fbc35bda
+SHA256: 34c21fd6b5306d4d07c883df88ac81cf5ec889c885ba1fccae492350c9a6544d
 
 Package: librevenge-static
 Architecture: aarch64
@@ -6890,6 +6988,34 @@ MD5sum: baf9b0b5410d7b0db7f93064bf0a559f
 SHA1: 0bc419c17bce9ff1d389567558bfbb414cac8788
 SHA256: d27e0069ff490044e4bbc4ba2b2e82b1ee90808caf09bca7afb518e214ee67e1
 
+Package: mupdf-tools
+Architecture: aarch64
+Installed-Size: 580
+Maintainer: @termux
+Version: 1.28.2-5
+Homepage: https://mupdf.com/
+Depends: openssl, mupdf (= 1.28.2-5)
+Description: Lightweight PDF and XPS viewer (utilities)
+Filename: ./mupdf-tools_1.28.2-5_aarch64.deb
+Size: 142748
+MD5sum: 7f2634b1edec75ed4ad7030cca88e283
+SHA1: d22e9641939f11a0f59d1a297fab5d286b1c4de0
+SHA256: e5cdc28bfd9a084c97fc7b7732a65f1e6ac6e280e0bc0f55efd81615cf9b32f3
+
+Package: mupdf
+Architecture: aarch64
+Installed-Size: 58928
+Maintainer: @termux
+Version: 1.28.2-5
+Homepage: https://mupdf.com/
+Depends: brotli, freetype, gumbo-parser, harfbuzz, jbig2dec, leptonica, libandroid-shmem, libc++, libjpeg-turbo, openjpeg, tesseract, zlib
+Description: Lightweight PDF and XPS viewer (library)
+Filename: ./mupdf_1.28.2-5_aarch64.deb
+Size: 28034892
+MD5sum: 120324a4584a2e4b2b6e562f6b0c7e6e
+SHA1: 94531aeafe80da59e8f0a929072a05757e4ea9cc
+SHA256: 8205af60fcda40b6f9e87ab79ddb2f4764b7b39ef25e628b0469f5d25628aa5f
+
 Package: nodejs
 Architecture: aarch64
 Installed-Size: 51744
@@ -7052,6 +7178,20 @@ MD5sum: 13921455a9ce2d425095857c2caba9cb
 SHA1: 0cb4312c274f8fc829279f9ea40664382319a6ad
 SHA256: 737ad6dc9ec6d31cffcf8870943fc12693adbcb9cb9976f8d537f661e25426f3
 
+Package: python-mupdf
+Architecture: aarch64
+Installed-Size: 16200
+Maintainer: @termux
+Version: 1.28.2-5
+Homepage: https://mupdf.com/
+Depends: python, mupdf (= 1.28.2-5)
+Description: Lightweight PDF and XPS viewer (Python bindings)
+Filename: ./python-mupdf_1.28.2-5_aarch64.deb
+Size: 1985060
+MD5sum: cd8096afd42331986bdab5166dd4c54a
+SHA1: b6b80d4f1cdaaf48cf6fd359a9af5fa86cb189b1
+SHA256: 693b2a157611b6928d32e42924f6866810e801adf2e673bf71ddee22c0aedaa9
+
 Package: pyunbound
 Architecture: aarch64
 Installed-Size: 24
@@ -7193,6 +7333,22 @@ Size: 472044
 MD5sum: 97f2b5a68333006bf3c4588eec27976f
 SHA1: bfb3629e75eac4440b7fe53378686adafe341ad1
 SHA256: 4fe059ca7aa5ca29ea6cec227e1b4190d50bf226d8361c1676b1ac8be2323fe0
+
+Package: tesseract
+Architecture: aarch64
+Installed-Size: 28500
+Maintainer: @termux
+Version: 5.5.4-1
+Homepage: https://github.com/tesseract-ocr/tesseract
+Breaks: tesseract-dev
+Depends: fontconfig, glib, harfbuzz, leptonica, libandroid-glob, libandroid-posix-semaphore, libarchive, libc++, libcairo, libcurl, libicu, pango
+Replaces: tesseract-dev
+Description: Tesseract is probably the most accurate open source OCR engine available
+Filename: ./tesseract_5.5.4-1_aarch64.deb
+Size: 9729556
+MD5sum: d5e884333be9b8c2a634837c78c63fe5
+SHA1: f7c715443d686a02aa11a51856552a6c300376d5
+SHA256: 06d9a0ad444e3deaa244204807b2156470adf8a3353dd09245ee958a148eb8ab
 
 Package: tex-gyre
 Architecture: all
