@@ -28,6 +28,20 @@ MD5sum: adf8e71c62381f2663970474917d8fba
 SHA1: 4729a8dfcfe1dd7ecb07fe4bc979dad10e7ad16d
 SHA256: e17556e8d1230b82222c91c12dcd5c2681ab30883229cb8ef8ac5864598701cc
 
+Package: byobu
+Architecture: all
+Installed-Size: 2164
+Maintainer: @termux
+Version: 7.23-1
+Homepage: https://www.byobu.org/
+Depends: gawk, tmux
+Description: Byobu is a GPLv3 open source text-based window manager and terminal multiplexer
+Filename: ./byobu_7.23-1_all.deb
+Size: 742200
+MD5sum: 0d7d571db6929b5cb529f97e834d188a
+SHA1: 9d8d5019e68180f024b97e0d23bf2fbe1fcf03a6
+SHA256: cf3842843012cc30d60de11711f132cd4f45cd682546a033c84da8a877c6c39a
+
 Package: cmatrix
 Architecture: aarch64
 Installed-Size: 68
@@ -5923,6 +5937,62 @@ MD5sum: 8bd90873b3044f7f60d466d4fc259b82
 SHA1: 5d7435ed17f5e3028f7c6a7d09526b70198f8621
 SHA256: 603351cc46afbc20aade710f25430a9d7a3e8d9790e96d24416018dc20219325
 
+Package: libxcursor-static
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: @termux
+Version: 1.2.3-2
+Homepage: https://xorg.freedesktop.org/
+Depends: libxcursor (= 1.2.3-2)
+Description: Static libraries for libxcursor
+Filename: ./libxcursor-static_1.2.3-2_aarch64.deb
+Size: 16940
+MD5sum: f005ca9dd2c0b598538986fab9738cfc
+SHA1: 5a0d7b5f48fe14ef865d9546faf0d80622e9194d
+SHA256: cf0c6abf727781541de2f7fe49331ffc06432a897b1f8254da463c9d0a113432
+
+Package: libxcursor
+Architecture: aarch64
+Installed-Size: 372
+Maintainer: @termux
+Version: 1.2.3-2
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxfixes, libxrender
+Description: X cursor management library
+Filename: ./libxcursor_1.2.3-2_aarch64.deb
+Size: 27512
+MD5sum: 28af47fbd0597c3ee740f31631890d4a
+SHA1: 5393891c6ef2680852203b745bdc964d4d5b8c90
+SHA256: de65c72f3884c99101e086017564966b85d267417e0370827f7f0b98404912ac
+
+Package: libxrandr-static
+Architecture: aarch64
+Installed-Size: 100
+Maintainer: @termux
+Version: 1.5.5-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libxrandr (= 1.5.5-1)
+Description: Static libraries for libxrandr
+Filename: ./libxrandr-static_1.5.5-1_aarch64.deb
+Size: 14784
+MD5sum: 12e0bf0646da98733b35ade00b70d57f
+SHA1: 879ac27c79e13a64b03242d1f8fa2faa8df8438c
+SHA256: 0322d816456e6f6dcba17c253ecf1d85f986dddffb1fcc12a6538c5700a86615
+
+Package: libxrandr
+Architecture: aarch64
+Installed-Size: 196
+Maintainer: @termux
+Version: 1.5.5-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext, libxrender
+Description: X11 RandR extension library
+Filename: ./libxrandr_1.5.5-1_aarch64.deb
+Size: 22336
+MD5sum: 64dacc19030f29b12b47fd879e8c775c
+SHA1: c588bde3afd4a8de6969a420fffbbff8dce36043
+SHA256: 4626853097138b37b0fc085d2b26e15dd8b17c684e2368737b92a691992ecbdf
+
 Package: libxss-static
 Architecture: aarch64
 Installed-Size: 44
@@ -6466,6 +6536,160 @@ Size: 99112
 MD5sum: 511176e156808f0426b46197a1664059
 SHA1: b4547c079af6d4330b496236613da693c3de2c69
 SHA256: 071a61559f25f88b589390229d9ada00249b928b249e82c125e75770b141c36e
+
+Package: lwjgl2
+Architecture: aarch64
+Installed-Size: 1576
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.9.3-1
+Homepage: https://legacy.lwjgl.org/
+Depends: libx11, libxcursor, libxext, libxrandr, libxxf86vm
+Recommends: openal-soft
+Description: Lightweight Java Game Library 2 (LWJGL 2)
+Filename: ./lwjgl2_2.9.3-1_aarch64.deb
+Size: 1087844
+MD5sum: affb54be07603b828c298038f2dfd47e
+SHA1: 209b826dcc520a1bd6c06994e1054b2744c8f994
+SHA256: 53daa0124446aecbb7b7c5bfa6578eec56b96cffe6cd397641ff148871a32173
+
+Package: lwjgl3-3.2.1
+Architecture: aarch64
+Installed-Size: 4788
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.4.3-1
+Homepage: https://www.lwjgl.org/
+Description: Lightweight Java Game Library 3.2.1 (LWJGL 3)
+Filename: ./lwjgl3-3.2.1_3.4.3-1_aarch64.deb
+Size: 3705720
+MD5sum: 42a72cdd24a435dcdf27ba5ee68e5661
+SHA1: b6d3fdfdec29f048d529b27ea2db8c1d789b82fa
+SHA256: 85a0a87b99310ebbc7b1c39b1258e9a4f33778b75e61704a270b76efa5c60bb7
+
+Package: lwjgl3-3.2.2
+Architecture: aarch64
+Installed-Size: 5060
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.4.3-1
+Homepage: https://www.lwjgl.org/
+Description: Lightweight Java Game Library 3.2.2 (LWJGL 3)
+Filename: ./lwjgl3-3.2.2_3.4.3-1_aarch64.deb
+Size: 3855244
+MD5sum: be62cec0f8a4d7d8932fb3f83b55dc05
+SHA1: ba77b35842e3a796dfb28006b5b4ca447be7a0bb
+SHA256: df5e695987a736d77f27091719075f3bcdb66ed30a90627cc0bb5f141beaf867
+
+Package: lwjgl3-3.3.1
+Architecture: aarch64
+Installed-Size: 7436
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.4.3-1
+Homepage: https://www.lwjgl.org/
+Depends: libffi
+Description: Lightweight Java Game Library 3.3.1 (LWJGL 3)
+Filename: ./lwjgl3-3.3.1_3.4.3-1_aarch64.deb
+Size: 6114572
+MD5sum: 555f9918232476914b0cd7ca99fc21dc
+SHA1: 4ab7f946a640119bf56c722e37dee3474c38bdd5
+SHA256: a9360b97c7c0fe8549849ce1d55d630717ec3ad00147f87f11fed815ba83424a
+
+Package: lwjgl3-3.3.2
+Architecture: aarch64
+Installed-Size: 8300
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.4.3-1
+Homepage: https://www.lwjgl.org/
+Depends: libffi
+Description: Lightweight Java Game Library 3.3.2 (LWJGL 3)
+Filename: ./lwjgl3-3.3.2_3.4.3-1_aarch64.deb
+Size: 6849708
+MD5sum: e2dc5e68b79b95abf6debfc9cbe7caa0
+SHA1: 370ca9d41bef6dff4e86e44b9aa02a1601d33111
+SHA256: c19622becaf04aa5b0cf224dd79cabc68aab4d40c38b90690f923f6972afee56
+
+Package: lwjgl3-3.3.3
+Architecture: aarch64
+Installed-Size: 8688
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.4.3-1
+Homepage: https://www.lwjgl.org/
+Depends: libffi
+Description: Lightweight Java Game Library 3.3.3 (LWJGL 3)
+Filename: ./lwjgl3-3.3.3_3.4.3-1_aarch64.deb
+Size: 7181072
+MD5sum: 217ea3b31934dc8b677d756f6bd0cd24
+SHA1: ca1e186d7192b1d4be178c5d8f37ddb60a7716bd
+SHA256: aa1473c7ce642cb33f19814aef2c6735992b861b13206ef6159f72bce0015a28
+
+Package: lwjgl3-3.3.6
+Architecture: aarch64
+Installed-Size: 9924
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.4.3-1
+Homepage: https://www.lwjgl.org/
+Depends: libffi
+Description: Lightweight Java Game Library 3.3.6 (LWJGL 3)
+Filename: ./lwjgl3-3.3.6_3.4.3-1_aarch64.deb
+Size: 8202644
+MD5sum: 39289803e077e1e7d32a894ce371114d
+SHA1: b993c8cb9cb9ab8f2453d45b2cfd773d0ac4ef44
+SHA256: a8728047d1b58c92951b5f5a2ae693f5492cf654137f6644efc2a011bf3ae97f
+
+Package: lwjgl3-3.4.1
+Architecture: aarch64
+Installed-Size: 10972
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.4.3-1
+Homepage: https://www.lwjgl.org/
+Depends: libffi
+Description: Lightweight Java Game Library 3.4.1 (LWJGL 3)
+Filename: ./lwjgl3-3.4.1_3.4.3-1_aarch64.deb
+Size: 8966772
+MD5sum: 2d98bef2f34039a2e198aa790a035e6b
+SHA1: f1067707bfcf617ab2cfe00f63d6c182ae212bea
+SHA256: 2d7ccd454e79269359593a578f9d7b285e52b2cb6126f9805a60328f349144f1
+
+Package: lwjgl3-3.4.2
+Architecture: aarch64
+Installed-Size: 11488
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.4.3-1
+Homepage: https://www.lwjgl.org/
+Depends: libffi
+Description: Lightweight Java Game Library 3.4.2 (LWJGL 3)
+Filename: ./lwjgl3-3.4.2_3.4.3-1_aarch64.deb
+Size: 9391304
+MD5sum: 335e4af5226246e4276af9c123f82bcb
+SHA1: f8ffd96ddae8f56c55639b7ac42dced8a49f80f4
+SHA256: 2ee515fb04d8dc5b45da0a149e00bff79c8cf72b351bb3437f41c759f2a48b81
+
+Package: lwjgl3-3.4.3
+Architecture: aarch64
+Installed-Size: 11512
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.4.3-1
+Homepage: https://www.lwjgl.org/
+Depends: libffi
+Description: Lightweight Java Game Library 3.4.3 (LWJGL 3)
+Filename: ./lwjgl3-3.4.3_3.4.3-1_aarch64.deb
+Size: 9410864
+MD5sum: 2c1d6de3725ff6422e6868c281bcf208
+SHA1: 55c51136161c9d1b8d62eadca3cb5bee97f67421
+SHA256: ab2a43803fda0c06b8496f707878cd52e081f04eca4e1753a6956268538bfda9
+
+Package: lwjgl3
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.4.3-1
+Homepage: https://www.lwjgl.org/
+Depends: lwjgl3-3.2.1, lwjgl3-3.2.2, lwjgl3-3.3.1, lwjgl3-3.3.2, lwjgl3-3.3.3, lwjgl3-3.3.6, lwjgl3-3.4.1, lwjgl3-3.4.2, lwjgl3-3.4.3
+Recommends: openal-soft
+Description: Lightweight Java Game Library 3 (LWJGL 3), all versions required by launchers
+Filename: ./lwjgl3_3.4.3-1_aarch64.deb
+Size: 1748
+MD5sum: 505ef3580caadaad4a36d9e267704207
+SHA1: b7c13c1a46a9921459e17a5b7a70eb4d06b9b0b7
+SHA256: 5b1f2f58617266a891163ca6fcae3131d1916c2fb9ef4a9870c32b006b7762e8
 
 Package: lychee
 Architecture: aarch64
