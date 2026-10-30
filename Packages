@@ -2453,6 +2453,101 @@ MD5sum: 1a365963bf3e33ac26c38b0a9690dfdc
 SHA1: cb0348b854895ecd9baf1d31631a3653042b187c
 SHA256: 42203a48b056d62102b9e5704aa6eff735d190d901f2a8f61fee344ef39b763d
 
+Package: jhead
+Architecture: aarch64
+Installed-Size: 148
+Maintainer: @termux
+Version: 3.08-2
+Homepage: http://www.sentex.net/~mwandel/jhead/
+Description: Exif Jpeg header manipulation tool
+Filename: ./jhead_3.08-2_aarch64.deb
+Size: 42252
+MD5sum: 9d50b55df9ae3aa529b9d7e193e35e19
+SHA1: 14ac3734c0461819d4f643b462da1bfc65fa6e87
+SHA256: 0863494261f055e83baa8f778b68fe8e00ac09aa6a09867b6d6b3d8d1de913bd
+
+Package: jigdo
+Architecture: aarch64
+Installed-Size: 416
+Maintainer: @termux
+Version: 0.8.2-2
+Homepage: http://atterer.org/jigdo/
+Depends: libbz2, libc++, libdb, wget, zlib
+Description: Distribute large images by sending and receiving the files that make them up
+Filename: ./jigdo_0.8.2-2_aarch64.deb
+Size: 121360
+MD5sum: 9587ef992a43fed6f7746f2bf9364167
+SHA1: 5938ccd773bb0457c705ccf144449c01189dbc2a
+SHA256: 0a4e599f0039e361eeaa3d076bb26ea634b1a8f431f0106b9edf087d82bdad2a
+
+Package: jira-go
+Architecture: aarch64
+Installed-Size: 11664
+Maintainer: @termux
+Version: 1.0.28-5
+Homepage: https://github.com/go-jira/jira
+Description: Simple jira command line client written in Go
+Filename: ./jira-go_1.0.28-5_aarch64.deb
+Size: 3136676
+MD5sum: 2440b7c517aea25a07ee77204124623c
+SHA1: 1b7f491b27d8e723ac78f7cf8044132af4dab059
+SHA256: e4728fb3115fb7310a42ec04c9c3a7334d77130c7195ebfe48d6873e61c9b4ad
+
+Package: jless
+Architecture: aarch64
+Installed-Size: 2428
+Maintainer: @termux
+Version: 0.9.0-2
+Homepage: https://jless.io
+Description: A command-line JSON viewer designed for reading, exploring, and searching through JSON data.
+Filename: ./jless_0.9.0-2_aarch64.deb
+Size: 681432
+MD5sum: 87f7e01e9e44e4ea63e7db0b07b06cd1
+SHA1: 16676e9faee1b9132794301a9e9699867d7744c8
+SHA256: d2a85a3477985f2d7b3869fc497ead42abfdcad3e2feb4fa5257e24c69490cae
+
+Package: jo
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 1.9-2
+Homepage: https://jpmens.net/2016/03/05/a-shell-command-to-create-json-jo/
+Description: JSON output from a shell
+Filename: ./jo_1.9-2_aarch64.deb
+Size: 17228
+MD5sum: 219572b3cff36e3c5853255332c72c2d
+SHA1: fb29ef196b30a9a373d2111a7652f10393f2d923
+SHA256: 426c02aaf2c6ba6caeef3731b7e3324345a930669a1f69efdd7a0692e1465f0a
+
+Package: joe
+Architecture: aarch64
+Installed-Size: 2420
+Maintainer: @termux
+Version: 4.8-1
+Homepage: http://joe-editor.sourceforge.net
+Depends: ncurses
+Conflicts: jupp
+Description: Wordstar like text editor
+Filename: ./joe_4.8-1_aarch64.deb
+Size: 474976
+MD5sum: 6d886daea36fc27cbe81cd1f0894eb7b
+SHA1: 4cf2500818c4ba3a932412a852955e2f66f5031c
+SHA256: 224f70a1259f5974b48e3c82305f7c9820f362176cfaf1750f3c98055e609f13
+
+Package: jove
+Architecture: aarch64
+Installed-Size: 1320
+Maintainer: @termux
+Version: 4.17.5.5-1
+Homepage: https://directory.fsf.org/wiki/Jove
+Depends: ncurses
+Description: Jove is a compact, powerful, Emacs-style text-editor.
+Filename: ./jove_4.17.5.5-1_aarch64.deb
+Size: 493020
+MD5sum: 360033b4e6bcd9b42829227910a1003f
+SHA1: f574eb415664a257da22aa758517861516b9d0f1
+SHA256: ddf4d4eb2e96c3e7e85357061b79427f588f6adff1eabd9036a849ff27129642
+
 Package: json-glib
 Architecture: aarch64
 Installed-Size: 772
@@ -2468,6 +2563,33 @@ Size: 92172
 MD5sum: 1511ef07e8117a17026c8e7a4b9db254
 SHA1: 41a84cf566c166c67e412ba6198755cafdf0fc2d
 SHA256: a779c78dd3830610a1642229c52076cc34f22675c71aa4d5bece4f65541a7aef
+
+Package: k2pdfopt
+Architecture: aarch64
+Installed-Size: 808
+Maintainer: @termux
+Version: 2.55-7
+Homepage: https://www.willus.com/k2pdfopt/
+Depends: djvulibre, gsl, leptonica, libjasper, libjpeg-turbo, libpng, mupdf, zlib
+Description: A tool that optimizes PDF files for viewing on mobile readers
+Filename: ./k2pdfopt_2.55-7_aarch64.deb
+Size: 349420
+MD5sum: c798d2b0295c39599a052ada29086786
+SHA1: aa469d5287baacdbc122a2b2237146dd5d88da8e
+SHA256: ba80e022d9488e031dfce48611b3f88050677c42aea9146af0db038061eeb543
+
+Package: k6
+Architecture: aarch64
+Installed-Size: 47420
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.3.0-2
+Homepage: https://k6.io
+Description: Modern load-testing tool for developers and testers
+Filename: ./k6_2.3.0-2_aarch64.deb
+Size: 11128848
+MD5sum: f07a8a895f7b59bc91277803d71cd6a7
+SHA1: 85f8e97073a927068e7667600066ec1a08e2bf99
+SHA256: f361bc493c3f5295d82fbe7b96129571e70b8c473638c430988a7e1d9ac99964
 
 Package: kainjow-mustache
 Architecture: all
